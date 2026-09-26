@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fbf2f3">
+<title>Log In | LashMatch</title>
+<style>
+:root{color-scheme:light;--rose:#ba657b;--deep:#963e59;--ink:#151922}
+*{box-sizing:border-box}body{margin:0;background:#fbf2f3;color:var(--ink);font-family:Arial,sans-serif}button,input,a{font:inherit}button,a{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:inherit;text-decoration:none}svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}button,a,input{transition:background-color .18s,color .18s,border-color .18s,box-shadow .18s}:focus-visible{outline:3px solid var(--deep);outline-offset:4px}
+.login-layout{display:grid;grid-template-columns:58% 42%;min-height:100vh;min-height:100dvh}.art-panel{position:relative;min-height:100vh;background:#f9eded;overflow:hidden}.reference-art{position:absolute;inset:0;width:100%;height:100%;stroke:none}.login-side{position:relative;display:flex;flex-direction:column;justify-content:center;padding:clamp(24px,2.65vw,44px) clamp(20px,2.65vw,44px);isolation:isolate;background:radial-gradient(ellipse at 50% 55%,#fffafa88,transparent 80%)}.flourish{position:absolute;right:0;top:0;width:31%;height:auto;stroke:none;z-index:-1}.back-link{display:inline-flex;align-items:center;gap:9px;align-self:flex-start;color:#9e6571;font-weight:600;padding:8px;border-radius:8px;margin:0 0 28px 4px}.back-link svg{width:20px;height:20px}.login-card{padding:clamp(25px,2.5vw,40px);background:#ffffffa8;border:1px solid #fff8;border-radius:30px;box-shadow:0 10px 35px #b2778610}.login-card h1{font:bold clamp(32px,3.15vw,51px)/1.12 Georgia,serif;letter-spacing:-1.6px;text-align:center;margin:14px 0 10px}.subtitle{text-align:center;color:#505764;font-size:clamp(14px,1.27vw,20px);line-height:1.5;margin:0 0 36px}.roles{border:0;padding:0;margin:0 0 29px;display:grid;grid-template-columns:1fr 1fr;gap:18px}.role{display:flex;align-items:center;justify-content:center;gap:13px;text-align:left;border:1px solid #ecdee2;border-radius:26px;padding:18px 10px;background:transparent;color:var(--ink)}.role svg{width:34px;height:34px}.role strong{display:block;font-size:16px;font-weight:600}.role small{display:block;color:#7c7d87;font-size:12px;margin-top:5px;white-space:nowrap}.role[aria-pressed=true]{background:#f9d6df;border-color:#f5bbc9;box-shadow:inset 0 0 0 1px #f5bbc944}.role[aria-pressed=true] small{color:#ad5b73}.field{margin-bottom:24px}.label-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px;font-size:14px}.input-wrap{display:flex;align-items:center;gap:12px;padding:0 14px;min-height:50px;border:1px solid #e9dfe2;border-radius:13px;background:#ffffff28;color:#797d86}.input-wrap:focus-within{border-color:var(--rose);box-shadow:0 0 0 3px #ba657b18}.input-wrap>svg{width:21px;height:21px}input{width:100%;min-width:0;border:0;outline:none;background:transparent;color:var(--ink);font-size:15px;padding:15px 0}input::placeholder{color:#91929b}input:focus-visible{outline:none}.text-action{background:transparent;border:0;padding:4px 0;color:#c45877;border-radius:4px;font-size:14px}.password-toggle{display:grid;place-items:center;border:0;background:transparent;color:#85818c;padding:6px;border-radius:6px}.password-toggle svg{width:22px;height:22px}.password-toggle[aria-pressed=true] .eye-slash{display:none}.submit{display:flex;align-items:center;justify-content:center;gap:16px;width:100%;padding:15px;border:0;border-radius:11px;background:linear-gradient(105deg,#c56e85,#ae6577 55%,#c46d83);color:white;font-size:21px;font-weight:500}.divider{display:flex;align-items:center;gap:15px;color:#7e838b;font-size:14px;margin:27px 0}.divider::before,.divider::after{content:"";height:1px;background:#e4dadd;flex:1}.signup{text-align:center;margin:0;font-size:14px;line-height:1.6}.signup a{display:inline-block;color:#c45877;font-weight:600;margin-left:12px;padding:3px 5px;border-radius:5px}.signature{display:block;align-self:flex-end;width:min(270px,70%);height:auto;stroke:none;margin-top:30px}.message{font-size:14px;line-height:1.5;color:#963e59;margin:14px 0}.message:empty{display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}.symbols{position:absolute;width:0;height:0;overflow:hidden}
+button:not(:disabled):hover,.submit:not(:disabled):hover{background:var(--deep);color:#fff}.role:hover small,.role[aria-pressed=true]:hover small{color:#fff}.back-link:hover,.signup a:hover,.text-action:hover{background:#f8d9e2;color:#963e59}.role:hover{border-color:var(--deep)}button:disabled{opacity:.65;cursor:wait}
+@media(min-width:1000px) and (max-height:850px){.login-side{padding-top:18px;padding-bottom:18px}.back-link{margin-bottom:20px}.login-card{padding:26px 30px}.login-card h1{margin-top:9px}.subtitle{margin-bottom:28px}.roles{margin-bottom:23px}.role{padding:15px 10px}.field{margin-bottom:20px}.divider{margin:22px 0}.signature{margin-top:20px;width:230px}}
+@media(max-width:1100px){.login-side{padding-left:22px;padding-right:22px}.login-card{padding:28px 22px}.roles{gap:10px}.role{gap:8px;padding:15px 7px}.role svg{width:27px;height:27px}.role small{font-size:10px}.subtitle{font-size:14px}.label-row,.text-action{font-size:13px}}
+@media(max-width:800px){.login-layout{grid-template-columns:42% 58%}.reference-art{object-position:center}.login-card h1{font-size:36px}.signature{width:220px}.login-side{padding:24px 20px}}
+@media(max-width:600px){.login-layout{display:flex;flex-direction:column}.art-panel{min-height:0;height:270px}.reference-art{height:auto;aspect-ratio:940/1080;top:0}.login-side{padding:18px 18px 26px}.login-card{padding:28px 22px;border-radius:24px}.back-link{margin-bottom:15px}.login-card h1{font-size:36px}.roles{gap:12px;margin-bottom:26px}.role{padding:16px 10px}.role small{font-size:11px}.subtitle{margin-bottom:28px}.signature{width:210px;margin-top:22px}.flourish{width:120px}}
+@media(prefers-reduced-motion:reduce){button,a,input{transition:none}}
+/* Fit desktop artwork and form to the available browser height. */
+@media(min-width:601px){
+ .login-layout{height:100vh;height:100dvh;min-height:0;grid-template-rows:minmax(0,1fr);grid-template-columns:minmax(0,58fr) minmax(0,42fr)}
+ .art-panel{min-height:0;height:100%;background:#fbf0f2}
+ .reference-art{height:100%;width:100%}
+ .login-side{min-width:0;min-height:0;padding:clamp(12px,2vh,24px) clamp(18px,2.4vw,40px);gap:clamp(8px,1.6vh,18px);align-items:center}
+ .back-link{flex-shrink:0;width:min(100%,540px);align-self:center;margin:0;padding:6px 8px;font-size:14px}
+ .login-card{flex-shrink:0;width:min(100%,540px);padding:clamp(18px,2.8vh,30px) clamp(18px,2vw,32px);border-radius:26px}
+ .login-card h1{font-size:clamp(30px,4.5vh,43px);margin:0 0 8px;letter-spacing:-1px}
+ .subtitle{font-size:clamp(13px,1.8vh,16px);margin:0 0 clamp(16px,2.8vh,26px)}
+ .roles{min-width:0;gap:12px;margin-bottom:clamp(14px,2.6vh,24px)}
+ .role{min-width:0;gap:10px;padding:clamp(10px,1.8vh,16px) 8px;border-radius:22px}
+ .role svg{width:28px;height:28px}.role strong{font-size:15px}.role small{font-size:11px;white-space:normal;line-height:1.3}
+ .field{margin-bottom:clamp(12px,2.3vh,21px)}
+ .label-row{font-size:13px;margin-bottom:7px}.text-action{font-size:12px}
+ .input-wrap{min-height:44px}.input-wrap input{padding:12px 0;font-size:14px}
+ .submit{font-size:18px;padding:12px}
+ .divider{margin:clamp(13px,2.4vh,23px) 0;font-size:12px}
+ .signup{font-size:13px}
+ .signature{flex-shrink:0;align-self:center;width:min(210px,48%);height:clamp(40px,8vh,80px);margin:0 0 0 auto}
+ .message{font-size:12px;line-height:1.4;margin:10px 0}
+}
+@media(min-width:601px) and (max-height:650px){
+ .login-side{gap:6px;padding-top:8px;padding-bottom:8px}.login-card{padding:15px 20px}
+ .login-card h1{font-size:29px}.subtitle{margin-bottom:12px}.roles{margin-bottom:12px}.role{padding:9px 8px}
+ .field{margin-bottom:11px}.divider{margin:12px 0}.signature{height:34px}.submit{padding:10px}
+}
+@media(min-width:601px) and (max-width:900px){
+ .login-layout{grid-template-columns:minmax(0,45fr) minmax(0,55fr)}
+ .login-side{padding-left:16px;padding-right:16px}.login-card{padding-left:18px;padding-right:18px}
+}
+/* Keep controls reachable on exceptionally short windows and mobile keyboards. */
+@media(min-width:601px) and (max-height:540px){.login-layout{height:auto;min-height:100dvh}.login-side{justify-content:flex-start}.art-panel{position:sticky;top:0;height:100dvh}}
+</style>
+<link rel="stylesheet" href="interaction-motion.css?v=1"><script src="interaction-motion.js?v=1" defer></script></head>
+<body>
+<main class="login-layout">
+<section class="art-panel" aria-label="LashMatch. Beauty meets you. Personalized recommendations, virtual try-on, and nearby studios. Confident eyes, brighter days.">
+<svg class="reference-art" viewBox="0 0 940 1080" preserveAspectRatio="xMidYMid meet" role="img" aria-label="LashMatch beauty campaign with a model and before and after lash inspiration"><defs><clipPath id="art-crop"><rect width="938" height="1080"/></clipPath></defs><image href="reference1.png" width="1620" height="1080" clip-path="url(#art-crop)"/></svg>
+</section>
+<section class="login-side" aria-labelledby="login-title">
+<svg class="flourish" viewBox="1400 0 220 142" aria-hidden="true"><defs><clipPath id="flourish-crop"><rect x="1400" width="220" height="142"/></clipPath></defs><image href="reference1.png" width="1620" height="1080" clip-path="url(#flourish-crop)"/></svg>
+<a class="back-link" href="landingpage.html"><svg aria-hidden="true"><use href="#arrow-left"/></svg>Back to Home</a>
+<div class="login-card">
+<h1 id="login-title">Welcome Back!</h1>
+<p class="subtitle">Log in to continue your LashMatch journey.</p>
+<form id="login-form">
+<fieldset class="roles"><legend class="sr-only">Account type</legend>
+<button class="role" type="button" data-role="user" aria-pressed="true"><svg aria-hidden="true"><use href="#person"/></svg><span><strong>User</strong><small>Client / Customer</small></span></button>
+<button class="role" type="button" data-role="admin" aria-pressed="false"><svg aria-hidden="true"><use href="#shield"/></svg><span><strong>Admin</strong><small>Staff / Administrator</small></span></button>
+</fieldset>
+<div class="field"><div class="label-row"><label for="email">Email</label></div><div class="input-wrap"><svg aria-hidden="true"><use href="#mail"/></svg><input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="username" maxlength="254" required></div></div>
+<div class="field"><div class="label-row"><label for="password">Password</label><button class="text-action" type="button" id="forgot-password">Forgot Password?</button></div><div class="input-wrap"><svg aria-hidden="true"><use href="#lock"/></svg><input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" minlength="8" maxlength="72" required><button class="password-toggle" type="button" id="toggle-password" aria-label="Show password" aria-pressed="false"><svg aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/><path class="eye-slash" d="m3 3 18 18"/></svg></button></div></div>
+<p id="login-message" class="message" role="status" aria-live="polite"></p>
+<button class="submit" type="submit" id="login-submit"><span>Log In</span><svg aria-hidden="true"><use href="#arrow-right"/></svg></button>
+</form>
+<div class="divider">OR</div>
+<p class="signup">Don&rsquo;t have an account? <a href="signup.html">Sign Up</a></p>
+</div>
+<svg class="signature" viewBox="1340 944 260 104" role="img" aria-label="Same you, prettier possibilities"><defs><clipPath id="signature-crop"><rect x="1340" y="944" width="260" height="104"/></clipPath></defs><image href="reference1.png" width="1620" height="1080" clip-path="url(#signature-crop)"/></svg>
+</section>
+</main>
+<svg class="symbols" aria-hidden="true"><defs>
+<symbol id="arrow-left" viewBox="0 0 24 24"><path d="M20 12H4m6-6-6 6 6 6"/></symbol>
+<symbol id="arrow-right" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+<symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="6" r="4"/><path d="M3 23v-3a9 9 0 0 1 18 0v3Z"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="m12 2 9 4v6c0 5-9 10-9 10S3 17 3 12V6Z"/><path d="m8 12 3 3 5-6"/></symbol>
+<symbol id="mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+<symbol id="lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="12" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3m-5 5v3"/></symbol>
+</defs></svg>
+<script>
+'use strict';
+const form=document.querySelector('#login-form'),message=document.querySelector('#login-message'),submit=document.querySelector('#login-submit'),password=document.querySelector('#password');
+let role='user';
+document.querySelectorAll('[data-role]').forEach(button=>button.addEventListener('click',()=>{
+ role=button.dataset.role;
+ document.querySelectorAll('[data-role]').forEach(option=>option.setAttribute('aria-pressed',String(option===button)));
+ message.textContent=role==='admin'?'Sign in with your administrator account.':'';
+}));
+document.querySelector('#toggle-password').addEventListener('click',event=>{
+ const visible=password.type==='password';password.type=visible?'text':'password';
+ event.currentTarget.setAttribute('aria-pressed',String(visible));event.currentTarget.setAttribute('aria-label',visible?'Hide password':'Show password');
+});
+document.querySelector('#forgot-password').addEventListener('click',()=>{message.textContent='Password reset is not available yet. Please contact your LashMatch administrator for help.';});
+async function request(action,data,csrf){
+ let response;
+ try{response=await fetch('api.php?action='+action,{method:data?'POST':'GET',credentials:'same-origin',headers:data?{'Content-Type':'application/json','X-CSRF-Token':csrf}:{},body:data?JSON.stringify(data):undefined});}catch{throw new Error('Unable to connect. Please open LashMatch through your local web server and try again.');}
+ let result;try{result=await response.json();}catch{throw new Error('The login service is unavailable. Please try again later.');}
+ if(!response.ok)throw new Error(result.error||'Unable to log in. Please try again.');return result;
+}
+form.addEventListener('submit',async event=>{
+ event.preventDefault();
+ submit.disabled=true;submit.querySelector('span').textContent='Logging in...';message.textContent='';
+ try{const session=await request('session');const result=await request('login',{email:form.elements.email.value.trim(),password:password.value,role},session.csrf);window.location.assign(result.user.role==='admin'?'admin/admin.html':'home.html');}
+ catch(error){message.textContent=error.message;}
+ finally{submit.disabled=false;submit.querySelector('span').textContent='Log In';}
+});
+if(new URLSearchParams(location.search).get('role')==='admin')document.querySelector('[data-role="admin"]').click();
+</script>
+</body>
+</html>

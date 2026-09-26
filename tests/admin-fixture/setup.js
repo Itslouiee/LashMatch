@@ -1,0 +1,6 @@
+window.__errors=[];addEventListener('error',e=>__errors.push(e.message));addEventListener('unhandledrejection',e=>__errors.push(String(e.reason)));const realFetch=fetch.bind(window);let fixtureCatalog;
+window.fetch=async(url,options)=>{const u=new URL(url,location.href),action=u.searchParams.get('action');if(!u.pathname.endsWith('/api.php'))return realFetch(url,options);if(action==='catalog')return realFetch(url,options);fixtureCatalog ||= await realFetch('../api.php?action=catalog').then(r=>r.json());let body;
+if(action==='session')body={user:{id:999999,name:'Criteria Test',role:'admin'},csrf:'fixture'};
+else if(action==='admin_data')body={user:{id:999999,name:'Criteria Test'},styles:fixtureCatalog.styles.map(s=>({...s,is_active:1})),rules:fixtureCatalog.rules,matches:[],users:[],studios:[],summary:{}};
+else if(action==='admin_quiz_scores_save'){const submitted=JSON.parse(options.body);window.submittedScores=submitted;fixtureCatalog.rules=fixtureCatalog.rules.map(r=>r.volume!==submitted.key?r:{...r,scores:submitted.scores,style_ids:Object.keys(submitted.scores).filter(id=>submitted.scores[id]>0).map(Number),styles:fixtureCatalog.styles.filter(s=>submitted.scores[s.id]>0).map(s=>({...s,style_id:s.id}))});body={success:true};}
+else body={};return new Response(JSON.stringify(body),{status:200});};

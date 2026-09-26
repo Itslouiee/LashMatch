@@ -1,0 +1,2314 @@
+[Tue Sep 22 10:15:42 2026] PHP 8.2.12 Development Server (http://localhost:8080) started
+[Tue Sep 22 10:16:10 2026] [::1]:55119 Accepted
+[Tue Sep 22 10:16:10 2026] [::1]:55119 [200]: GET /api.php?action=session
+[Tue Sep 22 10:16:10 2026] [::1]:55119 Closing
+[Tue Sep 22 10:16:10 2026] [::1]:55120 Accepted
+[Tue Sep 22 10:16:10 2026] [::1]:55120 [201]: POST /api.php?action=signup
+[Tue Sep 22 10:16:10 2026] [::1]:55120 Closing
+[Tue Sep 22 10:16:10 2026] [::1]:55122 Accepted
+[Tue Sep 22 10:16:10 2026] [::1]:55122 [201]: POST /api.php?action=save_match
+[Tue Sep 22 10:16:10 2026] [::1]:55122 Closing
+[Tue Sep 22 10:16:10 2026] [::1]:55124 Accepted
+[Tue Sep 22 10:16:10 2026] [::1]:55124 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:16:10 2026] [::1]:55124 Closing
+[Tue Sep 22 10:16:10 2026] [::1]:55126 Accepted
+[Tue Sep 22 10:16:10 2026] [::1]:55126 [200]: POST /api.php?action=logout
+[Tue Sep 22 10:16:10 2026] [::1]:55126 Closing
+[Tue Sep 22 10:16:10 2026] [::1]:55127 Accepted
+[Tue Sep 22 10:16:10 2026] [::1]:55127 [200]: GET /api.php?action=session
+[Tue Sep 22 10:16:10 2026] [::1]:55127 Closing
+[Tue Sep 22 10:16:10 2026] [::1]:55128 Accepted
+[Tue Sep 22 10:16:10 2026] [::1]:55128 [200]: POST /api.php?action=login
+[Tue Sep 22 10:16:10 2026] [::1]:55128 Closing
+[Tue Sep 22 10:16:11 2026] [::1]:55131 Accepted
+[Tue Sep 22 10:16:11 2026] [::1]:55131 [200]: POST /api.php?action=logout
+[Tue Sep 22 10:16:11 2026] [::1]:55131 Closing
+[Tue Sep 22 10:16:11 2026] [::1]:55132 Accepted
+[Tue Sep 22 10:16:11 2026] [::1]:55132 [302]: GET /
+[Tue Sep 22 10:16:11 2026] [::1]:55132 Closing
+[Tue Sep 22 10:16:11 2026] [::1]:55133 Accepted
+[Tue Sep 22 10:16:11 2026] [::1]:55133 [200]: GET /landingpage.html
+[Tue Sep 22 10:16:11 2026] [::1]:55133 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55139 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55139 [200]: GET /landingpage.html
+[Tue Sep 22 10:16:29 2026] [::1]:55139 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55140 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55140 [200]: GET /login.html
+[Tue Sep 22 10:16:29 2026] [::1]:55140 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55141 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55141 [200]: GET /signup.html
+[Tue Sep 22 10:16:29 2026] [::1]:55141 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55142 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55142 [200]: GET /home.html
+[Tue Sep 22 10:16:29 2026] [::1]:55142 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55143 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55143 [200]: GET /preference.html
+[Tue Sep 22 10:16:29 2026] [::1]:55143 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55144 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55144 [200]: GET /tryon.html
+[Tue Sep 22 10:16:29 2026] [::1]:55144 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55145 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55145 [200]: GET /Fstudios.html
+[Tue Sep 22 10:16:29 2026] [::1]:55145 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55146 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55146 [200]: GET /saved.html
+[Tue Sep 22 10:16:29 2026] [::1]:55146 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55147 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55147 [200]: GET /Userprofile.html
+[Tue Sep 22 10:16:29 2026] [::1]:55147 Closing
+[Tue Sep 22 10:16:29 2026] [::1]:55148 Accepted
+[Tue Sep 22 10:16:29 2026] [::1]:55148 [200]: GET /admin/admin.html
+[Tue Sep 22 10:16:29 2026] [::1]:55148 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:59243 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:59243 [302]: GET /
+[Tue Sep 22 10:17:19 2026] [::1]:59243 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:60476 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:60476 [200]: GET /landingpage.html
+[Tue Sep 22 10:17:19 2026] [::1]:60476 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:62267 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:62756 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:62267 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:17:19 2026] [::1]:62756 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:17:19 2026] [::1]:62267 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:62756 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:57568 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:57568 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:17:19 2026] [::1]:57568 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:58987 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:58987 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:17:19 2026] [::1]:58987 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:64505 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:64505 [200]: GET /reference.png
+[Tue Sep 22 10:17:19 2026] [::1]:64505 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:63795 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:56183 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:63795 [200]: GET /api.php?action=session
+[Tue Sep 22 10:17:19 2026] [::1]:63795 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:56183 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:17:19 2026] [::1]:56183 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:59234 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:59234 [404]: GET /favicon.ico - No such file or directory
+[Tue Sep 22 10:17:19 2026] [::1]:59234 Closing
+[Tue Sep 22 10:17:19 2026] [::1]:61657 Accepted
+[Tue Sep 22 10:17:19 2026] [::1]:61657 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:17:19 2026] [::1]:61657 Closing
+[Tue Sep 22 10:23:41 2026] [::1]:54960 Accepted
+[Tue Sep 22 10:23:41 2026] [::1]:50116 Accepted
+[Tue Sep 22 10:23:41 2026] [::1]:54960 [302]: GET /
+[Tue Sep 22 10:23:41 2026] [::1]:54960 Closing
+[Tue Sep 22 10:23:41 2026] [::1]:50116 [200]: GET /landingpage.html
+[Tue Sep 22 10:23:41 2026] [::1]:50116 Closing
+[Tue Sep 22 10:23:41 2026] [::1]:57584 Accepted
+[Tue Sep 22 10:23:41 2026] [::1]:63493 Accepted
+[Tue Sep 22 10:23:41 2026] [::1]:57584 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:23:41 2026] [::1]:63493 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:23:41 2026] [::1]:57584 Closing
+[Tue Sep 22 10:23:41 2026] [::1]:63493 Closing
+[Tue Sep 22 10:23:41 2026] [::1]:57896 Accepted
+[Tue Sep 22 10:23:41 2026] [::1]:57896 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:23:41 2026] [::1]:58426 Accepted
+[Tue Sep 22 10:23:41 2026] [::1]:62420 Accepted
+[Tue Sep 22 10:23:41 2026] [::1]:58426 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:23:41 2026] [::1]:62420 [200]: GET /reference.png
+[Tue Sep 22 10:23:41 2026] [::1]:57896 Closing
+[Tue Sep 22 10:23:41 2026] [::1]:58426 Closing
+[Tue Sep 22 10:23:41 2026] [::1]:62420 Closing
+[Tue Sep 22 10:23:42 2026] [::1]:52270 Accepted
+[Tue Sep 22 10:23:42 2026] [::1]:54380 Accepted
+[Tue Sep 22 10:23:42 2026] [::1]:52270 [200]: GET /api.php?action=session
+[Tue Sep 22 10:23:42 2026] [::1]:52270 Closing
+[Tue Sep 22 10:23:42 2026] [::1]:52007 Accepted
+[Tue Sep 22 10:23:42 2026] [::1]:54380 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:23:42 2026] [::1]:54380 Closing
+[Tue Sep 22 10:23:42 2026] [::1]:52007 [404]: GET /favicon.ico - No such file or directory
+[Tue Sep 22 10:23:42 2026] [::1]:52007 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:49338 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:49338 [200]: GET /Fstudios.html
+[Tue Sep 22 10:23:53 2026] [::1]:49338 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:58137 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:58137 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:23:53 2026] [::1]:56442 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:56442 [200]: GET /home.css?v=8
+[Tue Sep 22 10:23:53 2026] [::1]:63771 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:58137 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:52482 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:63771 [200]: GET /Fstudios.css?v=2
+[Tue Sep 22 10:23:53 2026] [::1]:56909 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:52482 [200]: GET /studio-detail.css?v=1
+[Tue Sep 22 10:23:53 2026] [::1]:56442 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:54133 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:56909 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:23:53 2026] [::1]:53459 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:54133 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:23:53 2026] [::1]:63771 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:50533 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:53459 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:23:53 2026] [::1]:52482 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:63968 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:50533 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:23:53 2026] [::1]:56909 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:56964 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:63968 [200]: GET /studio-detail.js?v=saved1
+[Tue Sep 22 10:23:53 2026] [::1]:54133 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:56964 [200]: GET /Fstudios.js?v=saved1
+[Tue Sep 22 10:23:53 2026] [::1]:53459 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:50533 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:63968 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:56964 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:62440 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:61973 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:62440 [200]: GET /api.php?action=session
+[Tue Sep 22 10:23:53 2026] [::1]:62440 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:61973 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:23:53 2026] [::1]:61973 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:56128 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:56128 [200]: GET /api.php?action=session
+[Tue Sep 22 10:23:53 2026] [::1]:56128 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:60357 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:64712 Accepted
+[Tue Sep 22 10:23:53 2026] [::1]:60357 [200]: GET /login.html
+[Tue Sep 22 10:23:53 2026] [::1]:60357 Closing
+[Tue Sep 22 10:23:53 2026] [::1]:64712 [200]: GET /reference1.png
+[Tue Sep 22 10:23:53 2026] [::1]:64712 Closing
+[Tue Sep 22 10:24:00 2026] [::1]:54574 Accepted
+[Tue Sep 22 10:24:00 2026] [::1]:57881 Accepted
+[Tue Sep 22 10:24:00 2026] [::1]:54574 [200]: GET /landingpage.html
+[Tue Sep 22 10:24:00 2026] [::1]:54574 Closing
+[Tue Sep 22 10:24:00 2026] [::1]:57881 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:24:00 2026] [::1]:62432 Accepted
+[Tue Sep 22 10:24:00 2026] [::1]:57881 Closing
+[Tue Sep 22 10:24:00 2026] [::1]:57793 Accepted
+[Tue Sep 22 10:24:00 2026] [::1]:54110 Accepted
+[Tue Sep 22 10:24:00 2026] [::1]:57016 Accepted
+[Tue Sep 22 10:24:00 2026] [::1]:62432 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:24:00 2026] [::1]:57793 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:24:00 2026] [::1]:54110 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:24:00 2026] [::1]:57016 [200]: GET /reference.png
+[Tue Sep 22 10:24:00 2026] [::1]:62432 Closing
+[Tue Sep 22 10:24:00 2026] [::1]:57793 Closing
+[Tue Sep 22 10:24:00 2026] [::1]:54110 Closing
+[Tue Sep 22 10:24:00 2026] [::1]:59544 Accepted
+[Tue Sep 22 10:24:00 2026] [::1]:59544 [200]: GET /api.php?action=session
+[Tue Sep 22 10:24:00 2026] [::1]:59544 Closing
+[Tue Sep 22 10:24:00 2026] [::1]:50155 Accepted
+[Tue Sep 22 10:24:00 2026] [::1]:50155 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:24:00 2026] [::1]:50155 Closing
+[Tue Sep 22 10:24:00 2026] [::1]:57016 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:51809 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:61754 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:51809 [200]: GET /tryon.html?v=5&style=Hybrid
+[Tue Sep 22 10:24:30 2026] [::1]:51809 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:61754 [200]: GET /preference.css?v=9
+[Tue Sep 22 10:24:30 2026] [::1]:63270 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:57797 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:62369 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:63270 [200]: GET /tryon.css?v=17
+[Tue Sep 22 10:24:30 2026] [::1]:57797 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:24:30 2026] [::1]:61754 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:54013 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:62369 [200]: GET /quiz-flow.css?v=preview-fit8
+[Tue Sep 22 10:24:30 2026] [::1]:51727 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:54013 [200]: GET /home.css?v=8
+[Tue Sep 22 10:24:30 2026] [::1]:61953 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:51727 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:24:30 2026] [::1]:63270 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:57797 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:50841 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:61953 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:24:30 2026] [::1]:62369 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:49554 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:50841 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:24:30 2026] [::1]:54013 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:62238 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:49554 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:24:30 2026] [::1]:51727 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:53384 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:62238 [200]: GET /tryon.js?v=saved1
+[Tue Sep 22 10:24:30 2026] [::1]:61953 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:53384 [200]: GET /eye-tryon.js?v=profile1
+[Tue Sep 22 10:24:30 2026] [::1]:50841 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:49554 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:62238 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:53384 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:60490 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:59675 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:60490 [200]: GET /api.php?action=session
+[Tue Sep 22 10:24:30 2026] [::1]:60490 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:59675 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:24:30 2026] [::1]:59675 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:52597 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:57241 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:52597 [200]: GET /ref7.png
+[Tue Sep 22 10:24:30 2026] [::1]:64575 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:57241 [200]: GET /api.php?action=session
+[Tue Sep 22 10:24:30 2026] [::1]:57241 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:54574 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:64575 [200]: GET /ref9.png
+[Tue Sep 22 10:24:30 2026] [::1]:54043 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:54574 [200]: GET /r1.png
+[Tue Sep 22 10:24:30 2026] [::1]:62309 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:54043 [200]: GET /r3.png
+[Tue Sep 22 10:24:30 2026] [::1]:62309 [200]: GET /login.html
+[Tue Sep 22 10:24:30 2026] [::1]:62309 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:52597 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:64575 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:54574 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:54043 Closing
+[Tue Sep 22 10:24:30 2026] [::1]:60717 Accepted
+[Tue Sep 22 10:24:30 2026] [::1]:60717 [200]: GET /reference1.png
+[Tue Sep 22 10:24:30 2026] [::1]:60717 Closing
+[Tue Sep 22 10:24:36 2026] [::1]:54448 Accepted
+[Tue Sep 22 10:24:37 2026] [::1]:55285 Accepted
+[Tue Sep 22 10:24:37 2026] [::1]:54448 [200]: GET /signup.html
+[Tue Sep 22 10:24:37 2026] [::1]:54448 Closing
+[Tue Sep 22 10:24:37 2026] [::1]:55285 [200]: GET /ref.png
+[Tue Sep 22 10:24:37 2026] [::1]:55285 Closing
+[Tue Sep 22 10:26:55 2026] [::1]:65395 Accepted
+[Tue Sep 22 10:26:55 2026] [::1]:64431 Accepted
+[Tue Sep 22 10:26:55 2026] [::1]:65395 [200]: GET /landingpage.html
+[Tue Sep 22 10:26:55 2026] [::1]:65395 Closing
+[Tue Sep 22 10:26:55 2026] [::1]:64431 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:26:55 2026] [::1]:64608 Accepted
+[Tue Sep 22 10:26:55 2026] [::1]:61514 Accepted
+[Tue Sep 22 10:26:55 2026] [::1]:64608 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:26:55 2026] [::1]:58175 Accepted
+[Tue Sep 22 10:26:55 2026] [::1]:61514 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:26:55 2026] [::1]:64431 Closing
+[Tue Sep 22 10:26:55 2026] [::1]:49684 Accepted
+[Tue Sep 22 10:26:55 2026] [::1]:58175 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:26:55 2026] [::1]:49684 [200]: GET /reference.png
+[Tue Sep 22 10:26:55 2026] [::1]:64608 Closing
+[Tue Sep 22 10:26:55 2026] [::1]:61514 Closing
+[Tue Sep 22 10:26:55 2026] [::1]:58175 Closing
+[Tue Sep 22 10:26:55 2026] [::1]:62229 Accepted
+[Tue Sep 22 10:26:55 2026] [::1]:62229 [200]: GET /api.php?action=session
+[Tue Sep 22 10:26:55 2026] [::1]:62229 Closing
+[Tue Sep 22 10:26:55 2026] [::1]:61578 Accepted
+[Tue Sep 22 10:26:55 2026] [::1]:61578 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:26:55 2026] [::1]:61578 Closing
+[Tue Sep 22 10:26:55 2026] [::1]:49684 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:51754 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:64658 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:51754 [200]: GET /tryon.html?v=5&style=Hybrid
+[Tue Sep 22 10:27:03 2026] [::1]:51754 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:64658 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:27:03 2026] [::1]:63630 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:55230 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:63630 [200]: GET /home.css?v=8
+[Tue Sep 22 10:27:03 2026] [::1]:55729 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:55230 [200]: GET /preference.css?v=9
+[Tue Sep 22 10:27:03 2026] [::1]:64658 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:57043 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:55729 [200]: GET /tryon.css?v=17
+[Tue Sep 22 10:27:03 2026] [::1]:63085 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:57043 [200]: GET /quiz-flow.css?v=preview-fit8
+[Tue Sep 22 10:27:03 2026] [::1]:63630 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:51176 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:63085 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:27:03 2026] [::1]:55230 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:59481 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:51176 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:27:03 2026] [::1]:55729 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:54986 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:59481 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:27:03 2026] [::1]:57043 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:61718 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:54986 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:27:03 2026] [::1]:63085 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:55482 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:61718 [200]: GET /tryon.js?v=saved1
+[Tue Sep 22 10:27:03 2026] [::1]:51176 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:55482 [200]: GET /eye-tryon.js?v=profile1
+[Tue Sep 22 10:27:03 2026] [::1]:59481 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:54986 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:61718 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:55482 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:49551 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:54227 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:49551 [200]: GET /api.php?action=session
+[Tue Sep 22 10:27:03 2026] [::1]:49551 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:63163 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:54227 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:27:03 2026] [::1]:54227 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:55916 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:63163 [200]: GET /ref7.png
+[Tue Sep 22 10:27:03 2026] [::1]:58897 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:55916 [200]: GET /ref9.png
+[Tue Sep 22 10:27:03 2026] [::1]:59076 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:58897 [200]: GET /r1.png
+[Tue Sep 22 10:27:03 2026] [::1]:55993 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:59076 [200]: GET /api.php?action=session
+[Tue Sep 22 10:27:03 2026] [::1]:59076 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:55993 [200]: GET /r3.png
+[Tue Sep 22 10:27:03 2026] [::1]:63163 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:55916 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:58897 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:55248 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:55248 [200]: GET /login.html
+[Tue Sep 22 10:27:03 2026] [::1]:55248 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:55993 Closing
+[Tue Sep 22 10:27:03 2026] [::1]:60832 Accepted
+[Tue Sep 22 10:27:03 2026] [::1]:60832 [200]: GET /reference1.png
+[Tue Sep 22 10:27:04 2026] [::1]:60832 Closing
+[Tue Sep 22 10:27:10 2026] [::1]:51086 Accepted
+[Tue Sep 22 10:27:10 2026] [::1]:54798 Accepted
+[Tue Sep 22 10:27:10 2026] [::1]:51086 [200]: GET /Fstudios.html
+[Tue Sep 22 10:27:10 2026] [::1]:51086 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:54798 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:27:11 2026] [::1]:56683 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:56449 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:54798 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:60684 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:56683 [200]: GET /home.css?v=8
+[Tue Sep 22 10:27:11 2026] [::1]:56449 [200]: GET /Fstudios.css?v=2
+[Tue Sep 22 10:27:11 2026] [::1]:53671 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:60684 [200]: GET /studio-detail.css?v=1
+[Tue Sep 22 10:27:11 2026] [::1]:62343 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:53671 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:27:11 2026] [::1]:64462 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:62343 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:27:11 2026] [::1]:56683 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:56449 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:64462 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:27:11 2026] [::1]:60684 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:51431 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:53671 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:59433 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:51431 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:27:11 2026] [::1]:62343 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:56864 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:59433 [200]: GET /studio-detail.js?v=saved1
+[Tue Sep 22 10:27:11 2026] [::1]:64462 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:56864 [200]: GET /Fstudios.js?v=saved1
+[Tue Sep 22 10:27:11 2026] [::1]:51431 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:59433 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:56864 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:61663 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:63041 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:61663 [200]: GET /api.php?action=session
+[Tue Sep 22 10:27:11 2026] [::1]:61663 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:63041 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:27:11 2026] [::1]:63041 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:56515 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:56515 [200]: GET /api.php?action=session
+[Tue Sep 22 10:27:11 2026] [::1]:56515 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:50628 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:54481 Accepted
+[Tue Sep 22 10:27:11 2026] [::1]:50628 [200]: GET /login.html
+[Tue Sep 22 10:27:11 2026] [::1]:50628 Closing
+[Tue Sep 22 10:27:11 2026] [::1]:54481 [200]: GET /reference1.png
+[Tue Sep 22 10:27:11 2026] [::1]:54481 Closing
+[Tue Sep 22 10:34:46 2026] [::1]:61155 Accepted
+[Tue Sep 22 10:34:46 2026] [::1]:61155 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:34:46 2026] [::1]:61155 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63303 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63303 [401]: GET /api.php?action=admin_data
+[Tue Sep 22 10:36:48 2026] [::1]:63303 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63304 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63304 [200]: GET /api.php?action=session
+[Tue Sep 22 10:36:48 2026] [::1]:63304 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63305 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63305 [201]: POST /api.php?action=signup
+[Tue Sep 22 10:36:48 2026] [::1]:63305 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63307 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63307 [403]: GET /api.php?action=admin_data
+[Tue Sep 22 10:36:48 2026] [::1]:63307 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63309 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63309 [403]: POST /api.php?action=admin_rules_save
+[Tue Sep 22 10:36:48 2026] [::1]:63309 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63311 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63311 [403]: POST /api.php?action=save_match
+[Tue Sep 22 10:36:48 2026] [::1]:63311 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63312 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63312 [200]: GET /api.php?action=session
+[Tue Sep 22 10:36:48 2026] [::1]:63312 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63313 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63313 [200]: POST /api.php?action=login
+[Tue Sep 22 10:36:48 2026] [::1]:63313 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63315 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63315 [200]: POST /api.php?action=admin_rules_save
+[Tue Sep 22 10:36:48 2026] [::1]:63315 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63317 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63317 [201]: POST /api.php?action=save_match
+[Tue Sep 22 10:36:48 2026] [::1]:63317 Closing
+[Tue Sep 22 10:36:48 2026] [::1]:63319 Accepted
+[Tue Sep 22 10:36:48 2026] [::1]:63319 [200]: POST /api.php?action=save_match
+[Tue Sep 22 10:36:48 2026] [::1]:63319 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63321 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63321 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:36:49 2026] [::1]:63321 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63323 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63323 [200]: POST /api.php?action=admin_studio_save
+[Tue Sep 22 10:36:49 2026] [::1]:63323 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63325 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63325 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:36:49 2026] [::1]:63325 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63327 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63327 [200]: POST /api.php?action=save_favorites
+[Tue Sep 22 10:36:49 2026] [::1]:63327 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63329 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63329 [200]: POST /api.php?action=save_favorites
+[Tue Sep 22 10:36:49 2026] [::1]:63329 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63331 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63331 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:36:49 2026] [::1]:63331 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63333 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63333 [200]: POST /api.php?action=admin_studio_save
+[Tue Sep 22 10:36:49 2026] [::1]:63333 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63335 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63335 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:36:49 2026] [::1]:63335 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63337 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63337 [200]: POST /api.php?action=admin_style_save
+[Tue Sep 22 10:36:49 2026] [::1]:63337 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63339 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63339 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:36:49 2026] [::1]:63339 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63341 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63341 [200]: POST /api.php?action=admin_user_status
+[Tue Sep 22 10:36:49 2026] [::1]:63341 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63343 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63343 [401]: GET /api.php?action=matches
+[Tue Sep 22 10:36:49 2026] [::1]:63343 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63345 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63345 [403]: POST /api.php?action=login
+[Tue Sep 22 10:36:49 2026] [::1]:63345 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63347 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63347 [200]: POST /api.php?action=admin_user_status
+[Tue Sep 22 10:36:49 2026] [::1]:63347 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63349 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63349 [200]: POST /api.php?action=login
+[Tue Sep 22 10:36:49 2026] [::1]:63349 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63351 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63351 [200]: GET /api.php?action=session
+[Tue Sep 22 10:36:49 2026] [::1]:63351 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63353 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63353 [200]: POST /api.php?action=logout
+[Tue Sep 22 10:36:49 2026] [::1]:63353 Closing
+[Tue Sep 22 10:36:49 2026] [::1]:63354 Accepted
+[Tue Sep 22 10:36:49 2026] [::1]:63354 [401]: GET /api.php?action=admin_data
+[Tue Sep 22 10:36:49 2026] [::1]:63354 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:60144 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:60144 [200]: GET /login.html?role=admin
+[Tue Sep 22 10:41:15 2026] [::1]:60144 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:57390 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:57390 [200]: GET /reference1.png
+[Tue Sep 22 10:41:15 2026] [::1]:57390 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:61719 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:61719 [404]: GET /favicon.ico - No such file or directory
+[Tue Sep 22 10:41:15 2026] [::1]:61719 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:60701 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:60701 [200]: GET /api.php?action=session
+[Tue Sep 22 10:41:15 2026] [::1]:60701 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:54633 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:54633 [200]: POST /api.php?action=login
+[Tue Sep 22 10:41:15 2026] [::1]:54633 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:56073 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:56073 [200]: GET /admin/admin.html
+[Tue Sep 22 10:41:15 2026] [::1]:56073 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:51180 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:51180 [200]: GET /admin/admin.css
+[Tue Sep 22 10:41:15 2026] [::1]:54105 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:55936 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:51633 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:54105 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:41:15 2026] [::1]:55936 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:41:15 2026] [::1]:51180 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:57498 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:51633 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:41:15 2026] [::1]:49553 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:57498 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:41:15 2026] [::1]:62387 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:49553 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:41:15 2026] [::1]:54105 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:55936 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:62387 [200]: GET /admin/ui-admin.png
+[Tue Sep 22 10:41:15 2026] [::1]:51633 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:57498 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:63073 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:63073 [200]: GET /api.php?action=session
+[Tue Sep 22 10:41:15 2026] [::1]:63073 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:62387 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:54357 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:54357 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:41:15 2026] [::1]:54357 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:49553 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:58627 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:58627 [200]: GET /admin/admin-users-results.html
+[Tue Sep 22 10:41:15 2026] [::1]:58627 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:62576 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:62576 [200]: GET /admin/admin.css
+[Tue Sep 22 10:41:15 2026] [::1]:63124 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:54509 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:54724 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:62576 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:63124 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:41:15 2026] [::1]:54509 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:41:15 2026] [::1]:54724 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:41:15 2026] [::1]:57338 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:55845 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:57338 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:41:15 2026] [::1]:58573 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:55845 [200]: GET /admin/users%20%26%20result.png
+[Tue Sep 22 10:41:15 2026] [::1]:63124 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:54509 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:54724 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:58573 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:41:15 2026] [::1]:57338 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:55845 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:58573 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:50640 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:50640 [200]: GET /api.php?action=session
+[Tue Sep 22 10:41:15 2026] [::1]:50640 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:57399 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:57399 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:41:15 2026] [::1]:57399 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:49489 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:49489 [200]: GET /admin/admin-studios.html
+[Tue Sep 22 10:41:15 2026] [::1]:49489 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:58032 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:58032 [200]: GET /admin/admin.css
+[Tue Sep 22 10:41:15 2026] [::1]:58662 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:59057 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:58662 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:41:15 2026] [::1]:52018 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:59057 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:41:15 2026] [::1]:58032 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:61342 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:52018 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:41:15 2026] [::1]:54212 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:61342 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:41:15 2026] [::1]:58662 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:54386 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:54212 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:41:15 2026] [::1]:59057 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:54386 [200]: GET /admin/studio.png
+[Tue Sep 22 10:41:15 2026] [::1]:52018 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:61342 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:54386 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:54212 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:52929 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:52929 [200]: GET /api.php?action=session
+[Tue Sep 22 10:41:15 2026] [::1]:52929 Closing
+[Tue Sep 22 10:41:15 2026] [::1]:52947 Accepted
+[Tue Sep 22 10:41:15 2026] [::1]:52947 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:41:15 2026] [::1]:52947 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:64600 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:64600 [200]: GET /admin/admin-studio-capabilities.html
+[Tue Sep 22 10:41:16 2026] [::1]:64600 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:64671 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:64671 [200]: GET /admin/admin.css
+[Tue Sep 22 10:41:16 2026] [::1]:64804 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:61736 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:60531 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:64671 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:64804 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:41:16 2026] [::1]:61736 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:41:16 2026] [::1]:60531 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:41:16 2026] [::1]:60612 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:58847 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:60612 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:41:16 2026] [::1]:55154 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:58847 [200]: GET /admin/studio-capabilities.png
+[Tue Sep 22 10:41:16 2026] [::1]:64804 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:61736 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:60531 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:55154 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:41:16 2026] [::1]:60612 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:58847 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:58608 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:58608 [200]: GET /api.php?action=session
+[Tue Sep 22 10:41:16 2026] [::1]:58608 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:55154 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:59508 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:59508 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:41:16 2026] [::1]:59508 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:52145 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:52145 [200]: GET /admin/admin-lash-styles.html
+[Tue Sep 22 10:41:16 2026] [::1]:52145 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:58861 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:58861 [200]: GET /admin/admin.css
+[Tue Sep 22 10:41:16 2026] [::1]:57772 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:57772 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:41:16 2026] [::1]:63439 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:58861 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:64304 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:63439 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:41:16 2026] [::1]:57772 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:53435 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:64304 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:41:16 2026] [::1]:54933 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:53435 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:41:16 2026] [::1]:60415 Accepted
+[Tue Sep 22 10:41:16 2026] [::1]:54933 [200]: GET /admin/lashstyles.png
+[Tue Sep 22 10:41:16 2026] [::1]:63439 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:60415 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:41:16 2026] [::1]:64304 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:53435 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:54933 Closing
+[Tue Sep 22 10:41:16 2026] [::1]:60415 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:58054 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:58054 [200]: GET /login.html?role=admin
+[Tue Sep 22 10:42:36 2026] [::1]:58054 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:51499 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:51499 [200]: GET /reference1.png
+[Tue Sep 22 10:42:36 2026] [::1]:51499 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:51494 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:51494 [404]: GET /favicon.ico - No such file or directory
+[Tue Sep 22 10:42:36 2026] [::1]:51494 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:59923 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:59923 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:36 2026] [::1]:59923 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:59877 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:59877 [200]: POST /api.php?action=login
+[Tue Sep 22 10:42:36 2026] [::1]:59877 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:61871 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:61871 [200]: GET /admin/admin.html
+[Tue Sep 22 10:42:36 2026] [::1]:61871 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:59834 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:59834 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:36 2026] [::1]:55296 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:59834 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:56880 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:49660 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:55296 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:36 2026] [::1]:56880 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:36 2026] [::1]:49660 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:36 2026] [::1]:50674 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:65207 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:50674 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:36 2026] [::1]:55296 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:53013 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:56880 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:49660 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:50674 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:65207 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:36 2026] [::1]:53013 [200]: GET /admin/ui-admin.png
+[Tue Sep 22 10:42:36 2026] [::1]:65207 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:51299 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:51299 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:36 2026] [::1]:51299 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:53013 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:63338 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:63338 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:36 2026] [::1]:63338 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:58446 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:58446 [200]: GET /admin/admin-users-results.html
+[Tue Sep 22 10:42:36 2026] [::1]:58446 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:54894 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:54894 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:36 2026] [::1]:53701 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:54894 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:53701 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:36 2026] [::1]:53701 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:61470 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:49658 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:61470 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:36 2026] [::1]:49658 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:36 2026] [::1]:61269 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:61109 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:61470 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:61269 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:36 2026] [::1]:61109 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:36 2026] [::1]:49658 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:55226 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:55226 [200]: GET /admin/users%20%26%20result.png
+[Tue Sep 22 10:42:36 2026] [::1]:61269 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:55226 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:61109 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:50436 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:50436 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:36 2026] [::1]:50436 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:54079 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:54079 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:36 2026] [::1]:54079 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:59407 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:59407 [200]: GET /admin/admin-studios.html
+[Tue Sep 22 10:42:36 2026] [::1]:59407 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:65031 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:63489 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:59015 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:65031 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:36 2026] [::1]:63489 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:36 2026] [::1]:59015 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:36 2026] [::1]:54619 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:53915 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:54619 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:36 2026] [::1]:65031 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:53915 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:36 2026] [::1]:63489 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:59015 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:60473 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:60473 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:36 2026] [::1]:54619 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:59912 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:53915 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:59912 [200]: GET /admin/studio.png
+[Tue Sep 22 10:42:36 2026] [::1]:59912 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:60473 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:61213 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:61213 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:36 2026] [::1]:61213 Closing
+[Tue Sep 22 10:42:36 2026] [::1]:57843 Accepted
+[Tue Sep 22 10:42:36 2026] [::1]:57843 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:36 2026] [::1]:57843 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:53958 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:53958 [200]: GET /admin/admin-studio-capabilities.html
+[Tue Sep 22 10:42:37 2026] [::1]:53958 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:54622 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:59233 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:57749 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:52525 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:54622 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:37 2026] [::1]:59233 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:37 2026] [::1]:57749 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:37 2026] [::1]:52525 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:37 2026] [::1]:53221 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:64468 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:53221 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:37 2026] [::1]:54622 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:64468 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:37 2026] [::1]:59233 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:57749 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:52525 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58395 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:53221 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58395 [200]: GET /admin/studio-capabilities.png
+[Tue Sep 22 10:42:37 2026] [::1]:64468 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58395 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:56434 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:56434 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:37 2026] [::1]:56434 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:60679 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:60679 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:37 2026] [::1]:60679 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58322 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:58322 [200]: GET /admin/admin-lash-styles.html
+[Tue Sep 22 10:42:37 2026] [::1]:58322 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:49616 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:53625 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:54018 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:51450 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:49616 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:37 2026] [::1]:53625 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:37 2026] [::1]:54018 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:37 2026] [::1]:51450 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:37 2026] [::1]:59132 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:55931 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:59132 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:37 2026] [::1]:49616 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:55931 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:37 2026] [::1]:53625 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:54018 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:51450 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:56875 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:56875 [200]: GET /admin/lashstyles.png
+[Tue Sep 22 10:42:37 2026] [::1]:59132 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:56875 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:55931 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:53103 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:53103 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:37 2026] [::1]:53103 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:61052 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:61052 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:37 2026] [::1]:61052 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:60316 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:60316 [200]: GET /admin/admin-recommendation-criteria.html
+[Tue Sep 22 10:42:37 2026] [::1]:60316 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:61013 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:61013 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:37 2026] [::1]:61013 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:57941 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:50426 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:58412 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:57941 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:37 2026] [::1]:50426 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:37 2026] [::1]:58412 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:37 2026] [::1]:56759 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:57681 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:56759 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:37 2026] [::1]:57941 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58635 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:57681 [200]: GET /admin/recommendation-criteria.png
+[Tue Sep 22 10:42:37 2026] [::1]:50426 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58412 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58635 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:37 2026] [::1]:56759 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58798 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:58798 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:37 2026] [::1]:58798 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:57681 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58635 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:52501 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:52501 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:37 2026] [::1]:52501 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:58533 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:58533 [200]: GET /admin/admin-settings.html
+[Tue Sep 22 10:42:37 2026] [::1]:58533 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:54350 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:54350 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:37 2026] [::1]:65196 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:54732 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:65196 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:37 2026] [::1]:55616 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:54732 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:37 2026] [::1]:54350 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:59074 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:55616 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:37 2026] [::1]:54812 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:59074 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:37 2026] [::1]:65196 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:56368 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:54812 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:37 2026] [::1]:54732 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:56368 [200]: GET /admin/settings%20(2).png
+[Tue Sep 22 10:42:37 2026] [::1]:55616 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:59074 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:56545 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:56545 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:37 2026] [::1]:56545 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:56368 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:63291 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:63291 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:37 2026] [::1]:63291 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:54812 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:65443 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:65443 [200]: GET /admin/admin-studios.html
+[Tue Sep 22 10:42:37 2026] [::1]:65443 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:60682 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:60682 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:37 2026] [::1]:59911 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:50360 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:59911 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:37 2026] [::1]:53712 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:50360 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:37 2026] [::1]:60682 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:60568 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:53712 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:37 2026] [::1]:60301 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:60568 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:37 2026] [::1]:59911 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:51344 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:60301 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:37 2026] [::1]:50360 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:51344 [200]: GET /admin/studio.png
+[Tue Sep 22 10:42:37 2026] [::1]:53712 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:60568 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:51344 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:60301 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:50516 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:50516 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:37 2026] [::1]:50516 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:60165 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:60165 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:37 2026] [::1]:60165 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:60145 Accepted
+[Tue Sep 22 10:42:37 2026] [::1]:60145 [200]: POST /api.php?action=admin_studio_save
+[Tue Sep 22 10:42:37 2026] [::1]:60145 Closing
+[Tue Sep 22 10:42:37 2026] [::1]:53963 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:53963 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:38 2026] [::1]:53963 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:63313 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:63313 [200]: GET /login.html
+[Tue Sep 22 10:42:38 2026] [::1]:63313 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:63263 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:63263 [200]: GET /reference1.png
+[Tue Sep 22 10:42:38 2026] [::1]:63263 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:56320 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:56320 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:38 2026] [::1]:56320 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:54168 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:54168 [200]: POST /api.php?action=login
+[Tue Sep 22 10:42:38 2026] [::1]:54168 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:51665 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:51665 [200]: GET /home.html
+[Tue Sep 22 10:42:38 2026] [::1]:51665 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:53657 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:53657 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:42:38 2026] [::1]:53846 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:53846 [200]: GET /home.css?v=8
+[Tue Sep 22 10:42:38 2026] [::1]:57140 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:53657 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:55595 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:57140 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:42:38 2026] [::1]:53058 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:53846 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:53928 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:57140 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:55595 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:42:38 2026] [::1]:53058 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:42:38 2026] [::1]:53928 [200]: GET /home.js?v=saved1
+[Tue Sep 22 10:42:38 2026] [::1]:55595 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:53058 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:53928 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:60921 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:60921 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:38 2026] [::1]:60921 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:64699 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:64299 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:64699 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:42:38 2026] [::1]:64699 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:62263 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:64299 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:42:38 2026] [::1]:64299 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:58890 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:62263 [200]: GET /ref2.png
+[Tue Sep 22 10:42:38 2026] [::1]:58890 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:38 2026] [::1]:58890 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:55341 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:55341 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:42:38 2026] [::1]:55341 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:62263 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:62469 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:62469 [200]: GET /preference.html
+[Tue Sep 22 10:42:38 2026] [::1]:62469 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:49292 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:49292 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:42:38 2026] [::1]:51162 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:51162 [200]: GET /home.css?v=8
+[Tue Sep 22 10:42:38 2026] [::1]:56069 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:49292 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:51894 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:51382 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:56069 [200]: GET /preference.css?v=9
+[Tue Sep 22 10:42:38 2026] [::1]:51162 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:59090 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:51894 [200]: GET /quiz-flow.css?v=complete6
+[Tue Sep 22 10:42:38 2026] [::1]:51382 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:42:38 2026] [::1]:56662 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:59090 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:42:38 2026] [::1]:53389 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:56662 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:42:38 2026] [::1]:56069 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:54525 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:53389 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:42:38 2026] [::1]:51894 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:51382 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:65067 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:54525 [200]: GET /preference-finish.js?v=1
+[Tue Sep 22 10:42:38 2026] [::1]:59090 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:65067 [200]: GET /preference.js?v=profile1
+[Tue Sep 22 10:42:38 2026] [::1]:56662 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:53389 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:54525 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:65067 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:57220 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:57220 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:38 2026] [::1]:57220 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:52417 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:57223 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:52417 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:42:38 2026] [::1]:52417 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:64369 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:57223 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:42:38 2026] [::1]:57223 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:56360 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:64369 [200]: GET /ref3.png
+[Tue Sep 22 10:42:38 2026] [::1]:64429 Accepted
+[Tue Sep 22 10:42:38 2026] [::1]:56360 [200]: GET /ref4.png
+[Tue Sep 22 10:42:38 2026] [::1]:64429 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:38 2026] [::1]:64429 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:56360 Closing
+[Tue Sep 22 10:42:38 2026] [::1]:64369 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:65455 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:65455 [200]: GET /ref5.png
+[Tue Sep 22 10:42:39 2026] [::1]:65455 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:49734 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:49734 [201]: POST /api.php?action=save_match
+[Tue Sep 22 10:42:39 2026] [::1]:49734 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:56472 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:56472 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:42:39 2026] [::1]:56472 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:61555 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:61555 [200]: GET /ref6.png
+[Tue Sep 22 10:42:39 2026] [::1]:61555 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:62557 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:62557 [200]: POST /api.php?action=save_favorites
+[Tue Sep 22 10:42:39 2026] [::1]:62557 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:58318 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:58318 [200]: GET /Fstudios.html
+[Tue Sep 22 10:42:39 2026] [::1]:58318 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:49763 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:49763 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:42:39 2026] [::1]:49763 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:60324 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:60324 [200]: GET /home.css?v=8
+[Tue Sep 22 10:42:39 2026] [::1]:60324 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:53329 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:54767 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:55178 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:53329 [200]: GET /Fstudios.css?v=2
+[Tue Sep 22 10:42:39 2026] [::1]:54767 [200]: GET /studio-detail.css?v=1
+[Tue Sep 22 10:42:39 2026] [::1]:55178 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:42:39 2026] [::1]:53329 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:54767 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:55178 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:50303 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:50303 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:42:39 2026] [::1]:50303 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:58357 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:51036 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:58357 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:42:39 2026] [::1]:51036 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:42:39 2026] [::1]:58357 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:52695 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:51036 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:61950 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:52695 [200]: GET /studio-detail.js?v=saved1
+[Tue Sep 22 10:42:39 2026] [::1]:61950 [200]: GET /Fstudios.js?v=saved1
+[Tue Sep 22 10:42:39 2026] [::1]:52695 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:61950 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:56304 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:50662 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:53020 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:56304 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:39 2026] [::1]:56304 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:50662 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:42:39 2026] [::1]:50662 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:53020 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:42:39 2026] [::1]:53020 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:49377 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:49377 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:39 2026] [::1]:49377 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:58024 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:58024 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:42:39 2026] [::1]:58024 Closing
+[Tue Sep 22 10:42:39 2026] [::1]:55668 Accepted
+[Tue Sep 22 10:42:39 2026] [::1]:55668 [200]: POST /api.php?action=save_favorites
+[Tue Sep 22 10:42:39 2026] [::1]:55668 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:50781 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:50781 [200]: GET /saved.html
+[Tue Sep 22 10:42:40 2026] [::1]:50781 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:56226 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:60094 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:56226 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:42:40 2026] [::1]:60094 [200]: GET /home.css?v=8
+[Tue Sep 22 10:42:40 2026] [::1]:58407 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:58407 [200]: GET /saved.css?v=1
+[Tue Sep 22 10:42:40 2026] [::1]:55812 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:56226 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:60094 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:55812 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:42:40 2026] [::1]:58407 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:55812 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:57311 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:57311 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:42:40 2026] [::1]:57311 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:50286 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:55933 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:50286 [200]: GET /saved.js?v=profile1
+[Tue Sep 22 10:42:40 2026] [::1]:55933 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:42:40 2026] [::1]:50286 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:55933 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:61881 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:50326 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:61881 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:40 2026] [::1]:61881 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:50222 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:50326 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:42:40 2026] [::1]:50326 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:59002 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:50222 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:42:40 2026] [::1]:50222 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:56895 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:59002 [200]: GET /r10.png
+[Tue Sep 22 10:42:40 2026] [::1]:56895 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:40 2026] [::1]:56895 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:53979 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:53979 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:42:40 2026] [::1]:53979 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:59002 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:60998 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:60998 [200]: GET /ref2.png
+[Tue Sep 22 10:42:40 2026] [::1]:60998 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:56196 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:56196 [200]: GET /admin/admin-users-results.html
+[Tue Sep 22 10:42:40 2026] [::1]:56196 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:53651 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:53651 [200]: GET /admin/admin.css
+[Tue Sep 22 10:42:40 2026] [::1]:50683 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:64222 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:53651 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:53354 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:50683 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:42:40 2026] [::1]:64222 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:42:40 2026] [::1]:53354 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:42:40 2026] [::1]:50683 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:64222 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:53354 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:57610 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:57610 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:42:40 2026] [::1]:57610 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:65286 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:50801 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:65286 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:42:40 2026] [::1]:50801 [200]: GET /admin/users%20%26%20result.png
+[Tue Sep 22 10:42:40 2026] [::1]:50801 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:56691 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:56691 [200]: GET /api.php?action=session
+[Tue Sep 22 10:42:40 2026] [::1]:56691 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:65286 Closing
+[Tue Sep 22 10:42:40 2026] [::1]:63227 Accepted
+[Tue Sep 22 10:42:40 2026] [::1]:63227 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:42:40 2026] [::1]:63227 Closing
+[Tue Sep 22 10:44:07 2026] [::1]:61850 Accepted
+[Tue Sep 22 10:44:07 2026] [::1]:61850 [200]: GET /setup-admin.php?token=ce4a7100be66d39c5cc314dfb9f22986b8bcbd77c398a28b4445231466dd39cf
+[Tue Sep 22 10:44:07 2026] [::1]:61850 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:55064 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:55064 [200]: GET /login.html?role=admin
+[Tue Sep 22 10:44:57 2026] [::1]:55064 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:61831 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:61831 [200]: GET /reference1.png
+[Tue Sep 22 10:44:57 2026] [::1]:61831 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:64247 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:64247 [404]: GET /favicon.ico - No such file or directory
+[Tue Sep 22 10:44:57 2026] [::1]:64247 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:57078 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:57078 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:57 2026] [::1]:57078 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:60244 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:60244 [200]: POST /api.php?action=login
+[Tue Sep 22 10:44:57 2026] [::1]:60244 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:50159 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:50159 [200]: GET /admin/admin.html
+[Tue Sep 22 10:44:57 2026] [::1]:50159 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:62110 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:62110 [200]: GET /admin/admin.css
+[Tue Sep 22 10:44:57 2026] [::1]:53740 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:62110 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:62973 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:64276 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:53740 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:44:57 2026] [::1]:62973 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:44:57 2026] [::1]:64276 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:44:57 2026] [::1]:49274 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:49274 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:44:57 2026] [::1]:53740 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:63916 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:62973 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:64276 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:63670 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:49274 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:63916 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:44:57 2026] [::1]:63670 [200]: GET /admin/ui-admin.png
+[Tue Sep 22 10:44:57 2026] [::1]:63670 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:63916 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:58786 Accepted
+[Tue Sep 22 10:44:57 2026] [::1]:58786 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:57 2026] [::1]:58786 Closing
+[Tue Sep 22 10:44:57 2026] [::1]:64254 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:64254 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:58 2026] [::1]:64254 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:53656 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:53656 [200]: GET /admin/admin-users-results.html
+[Tue Sep 22 10:44:58 2026] [::1]:53656 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:50781 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:50267 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:50781 [200]: GET /admin/admin.css
+[Tue Sep 22 10:44:58 2026] [::1]:50267 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:44:58 2026] [::1]:49397 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:60908 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:49397 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:44:58 2026] [::1]:60908 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:44:58 2026] [::1]:50781 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:50267 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:61040 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:61040 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:44:58 2026] [::1]:49397 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:55959 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:60908 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:58824 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:55959 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:44:58 2026] [::1]:58824 [200]: GET /admin/users%20%26%20result.png
+[Tue Sep 22 10:44:58 2026] [::1]:61040 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:55959 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:58824 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:62558 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:62558 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:58 2026] [::1]:62558 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:58840 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:58840 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:58 2026] [::1]:58840 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:59135 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:59135 [200]: GET /admin/admin-studios.html
+[Tue Sep 22 10:44:58 2026] [::1]:59135 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:61960 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:55045 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:55429 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:61960 [200]: GET /admin/admin.css
+[Tue Sep 22 10:44:58 2026] [::1]:55045 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:44:58 2026] [::1]:55429 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:44:58 2026] [::1]:62029 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:62029 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:44:58 2026] [::1]:61282 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:61960 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:55045 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:55429 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:60813 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:61282 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:44:58 2026] [::1]:60227 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:60813 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:44:58 2026] [::1]:62029 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:60227 [200]: GET /admin/studio.png
+[Tue Sep 22 10:44:58 2026] [::1]:61282 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:60227 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:59872 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:59872 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:58 2026] [::1]:59872 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:60813 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:57092 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:57092 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:58 2026] [::1]:57092 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:64555 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:64555 [200]: GET /admin/admin-studio-capabilities.html
+[Tue Sep 22 10:44:58 2026] [::1]:64555 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:50633 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:50633 [200]: GET /admin/admin.css
+[Tue Sep 22 10:44:58 2026] [::1]:50633 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:54249 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:63723 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:52043 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:54249 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:44:58 2026] [::1]:63723 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:44:58 2026] [::1]:52043 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:44:58 2026] [::1]:58705 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:50731 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:54249 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:50329 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:63723 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:52043 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:58705 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:44:58 2026] [::1]:50731 [200]: GET /admin/studio-capabilities.png
+[Tue Sep 22 10:44:58 2026] [::1]:50329 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:44:58 2026] [::1]:58705 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:50731 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:50329 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:58360 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:58360 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:58 2026] [::1]:58360 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:51526 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:51526 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:58 2026] [::1]:51526 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:51311 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:51311 [200]: GET /admin/admin-lash-styles.html
+[Tue Sep 22 10:44:58 2026] [::1]:51311 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:60175 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:60175 [200]: GET /admin/admin.css
+[Tue Sep 22 10:44:58 2026] [::1]:58565 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:60175 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:53222 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:51543 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:58565 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:44:58 2026] [::1]:53222 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:44:58 2026] [::1]:51543 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:44:58 2026] [::1]:58522 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:58522 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:44:58 2026] [::1]:58565 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:58209 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:53222 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:51543 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:59854 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:58209 [200]: GET /admin/lashstyles.png
+[Tue Sep 22 10:44:58 2026] [::1]:58522 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:59854 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:44:58 2026] [::1]:58209 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:57762 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:57762 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:58 2026] [::1]:57762 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:59854 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:54373 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:54373 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:58 2026] [::1]:54373 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:60752 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:60752 [200]: GET /admin/admin-recommendation-criteria.html
+[Tue Sep 22 10:44:58 2026] [::1]:60752 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:54435 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:55677 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:54203 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:59264 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:54435 [200]: GET /admin/admin.css
+[Tue Sep 22 10:44:58 2026] [::1]:55677 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:44:58 2026] [::1]:63987 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:54203 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:44:58 2026] [::1]:59264 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:44:58 2026] [::1]:49264 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:63987 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:44:58 2026] [::1]:49264 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:44:58 2026] [::1]:54435 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:55677 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:54203 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:59264 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:62659 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:63987 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:62659 [200]: GET /admin/recommendation-criteria.png
+[Tue Sep 22 10:44:58 2026] [::1]:62659 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:49264 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:60643 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:60643 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:58 2026] [::1]:60643 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:49303 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:49303 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:58 2026] [::1]:49303 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:62630 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:62630 [200]: GET /admin/admin-settings.html
+[Tue Sep 22 10:44:58 2026] [::1]:62630 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:50132 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:50132 [200]: GET /admin/admin.css
+[Tue Sep 22 10:44:58 2026] [::1]:51397 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:50132 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:51086 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:64042 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:51397 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:44:58 2026] [::1]:51086 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:44:58 2026] [::1]:64042 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:44:58 2026] [::1]:51397 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:54508 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:54508 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:44:58 2026] [::1]:51086 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:62664 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:64042 Closing
+[Tue Sep 22 10:44:58 2026] [::1]:62664 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:44:58 2026] [::1]:53795 Accepted
+[Tue Sep 22 10:44:58 2026] [::1]:54508 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:53795 [200]: GET /admin/settings%20(2).png
+[Tue Sep 22 10:44:59 2026] [::1]:53795 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:62664 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:51481 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:51481 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:59 2026] [::1]:51481 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:57198 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:57198 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:59 2026] [::1]:57198 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:51534 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:51534 [200]: GET /admin/admin-studios.html
+[Tue Sep 22 10:44:59 2026] [::1]:51534 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:58665 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:58665 [200]: GET /admin/admin.css
+[Tue Sep 22 10:44:59 2026] [::1]:55192 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:58665 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:52708 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:54152 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:55192 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:44:59 2026] [::1]:52708 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:44:59 2026] [::1]:54152 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:44:59 2026] [::1]:49545 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:49545 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:44:59 2026] [::1]:55192 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:52708 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:54152 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:63463 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:56060 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:49545 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:63463 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:44:59 2026] [::1]:56060 [200]: GET /admin/studio.png
+[Tue Sep 22 10:44:59 2026] [::1]:63419 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:63419 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:59 2026] [::1]:63419 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:58927 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:58927 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:59 2026] [::1]:58927 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:63463 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:56060 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:64720 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:64720 [200]: POST /api.php?action=admin_studio_save
+[Tue Sep 22 10:44:59 2026] [::1]:64720 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:55430 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:55430 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:44:59 2026] [::1]:55430 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:60658 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:60658 [200]: GET /login.html
+[Tue Sep 22 10:44:59 2026] [::1]:60658 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:61587 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:61587 [200]: GET /reference1.png
+[Tue Sep 22 10:44:59 2026] [::1]:61587 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:57506 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:57506 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:59 2026] [::1]:57506 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:64961 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:64961 [200]: POST /api.php?action=login
+[Tue Sep 22 10:44:59 2026] [::1]:64961 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:58315 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:58315 [200]: GET /home.html
+[Tue Sep 22 10:44:59 2026] [::1]:58315 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:64422 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:64422 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:44:59 2026] [::1]:53143 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:53143 [200]: GET /home.css?v=8
+[Tue Sep 22 10:44:59 2026] [::1]:62793 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:64422 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:53143 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:62793 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:44:59 2026] [::1]:62793 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:64579 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:63257 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:54269 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:64579 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:44:59 2026] [::1]:63257 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:44:59 2026] [::1]:54269 [200]: GET /home.js?v=saved1
+[Tue Sep 22 10:44:59 2026] [::1]:64579 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:63257 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:54269 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:56533 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:56533 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:59 2026] [::1]:56533 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:56338 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:53098 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:56338 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:44:59 2026] [::1]:56338 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:50100 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:53098 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:44:59 2026] [::1]:53098 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:53557 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:50100 [200]: GET /ref2.png
+[Tue Sep 22 10:44:59 2026] [::1]:53557 [200]: GET /api.php?action=session
+[Tue Sep 22 10:44:59 2026] [::1]:53557 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:61593 Accepted
+[Tue Sep 22 10:44:59 2026] [::1]:61593 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:44:59 2026] [::1]:61593 Closing
+[Tue Sep 22 10:44:59 2026] [::1]:50100 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:52590 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:52590 [200]: GET /preference.html
+[Tue Sep 22 10:45:00 2026] [::1]:52590 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:54031 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:54031 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:45:00 2026] [::1]:54031 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:53934 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:52566 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:53384 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:53934 [200]: GET /preference.css?v=9
+[Tue Sep 22 10:45:00 2026] [::1]:52566 [200]: GET /quiz-flow.css?v=complete6
+[Tue Sep 22 10:45:00 2026] [::1]:53384 [200]: GET /home.css?v=8
+[Tue Sep 22 10:45:00 2026] [::1]:54101 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:54101 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:45:00 2026] [::1]:53934 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:52566 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:53384 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:54101 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:65289 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:59095 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:52064 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:49629 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:65289 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:45:00 2026] [::1]:59095 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:45:00 2026] [::1]:52064 [200]: GET /preference-finish.js?v=1
+[Tue Sep 22 10:45:00 2026] [::1]:49629 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:45:00 2026] [::1]:50495 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:50495 [200]: GET /preference.js?v=profile1
+[Tue Sep 22 10:45:00 2026] [::1]:65289 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:59095 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:52064 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:49629 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:50495 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:62495 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:62495 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:00 2026] [::1]:62495 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:63011 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:60165 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:63011 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:45:00 2026] [::1]:63011 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:53538 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:60165 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:45:00 2026] [::1]:60165 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:49631 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:53538 [200]: GET /ref3.png
+[Tue Sep 22 10:45:00 2026] [::1]:53475 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:49631 [200]: GET /ref4.png
+[Tue Sep 22 10:45:00 2026] [::1]:53475 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:00 2026] [::1]:53475 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:49631 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:53538 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:58678 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:58678 [200]: GET /ref5.png
+[Tue Sep 22 10:45:00 2026] [::1]:58678 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:64558 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:64558 [201]: POST /api.php?action=save_match
+[Tue Sep 22 10:45:00 2026] [::1]:64558 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:50391 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:50391 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:45:00 2026] [::1]:50391 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:62857 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:62857 [200]: GET /ref6.png
+[Tue Sep 22 10:45:00 2026] [::1]:62857 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:64235 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:64235 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:45:00 2026] [::1]:64235 Closing
+[Tue Sep 22 10:45:00 2026] [::1]:56580 Accepted
+[Tue Sep 22 10:45:00 2026] [::1]:56580 [200]: POST /api.php?action=save_favorites
+[Tue Sep 22 10:45:00 2026] [::1]:56580 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:61381 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:61381 [200]: GET /Fstudios.html
+[Tue Sep 22 10:45:01 2026] [::1]:61381 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:52498 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:57228 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:51738 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:52498 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:45:01 2026] [::1]:57473 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:57228 [200]: GET /Fstudios.css?v=2
+[Tue Sep 22 10:45:01 2026] [::1]:51738 [200]: GET /home.css?v=8
+[Tue Sep 22 10:45:01 2026] [::1]:61620 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:57473 [200]: GET /studio-detail.css?v=1
+[Tue Sep 22 10:45:01 2026] [::1]:50369 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:61620 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:45:01 2026] [::1]:52498 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:50369 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:45:01 2026] [::1]:57228 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:51738 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:50463 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:57473 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:60849 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:61620 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:50211 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:50463 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:45:01 2026] [::1]:50369 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:64677 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:60849 [200]: GET /studio-detail.js?v=saved1
+[Tue Sep 22 10:45:01 2026] [::1]:50211 [200]: GET /Fstudios.js?v=saved1
+[Tue Sep 22 10:45:01 2026] [::1]:64677 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:45:01 2026] [::1]:50463 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:60849 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:50211 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:64677 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:63955 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:63955 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:01 2026] [::1]:63955 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:64011 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:58564 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:64011 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:45:01 2026] [::1]:64011 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:58564 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:45:01 2026] [::1]:58564 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:51041 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:51041 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:01 2026] [::1]:51041 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:63694 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:63694 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:45:01 2026] [::1]:63694 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:56334 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:56334 [200]: POST /api.php?action=save_favorites
+[Tue Sep 22 10:45:01 2026] [::1]:56334 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:57073 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:57073 [200]: GET /saved.html
+[Tue Sep 22 10:45:01 2026] [::1]:57073 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:53052 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:53052 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:45:01 2026] [::1]:53052 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:62546 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:56012 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:62546 [200]: GET /saved.css?v=1
+[Tue Sep 22 10:45:01 2026] [::1]:56012 [200]: GET /home.css?v=8
+[Tue Sep 22 10:45:01 2026] [::1]:64629 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:64629 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:45:01 2026] [::1]:62546 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:57718 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:56012 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:64629 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:53760 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:62072 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:57718 [200]: GET /saved.js?v=profile1
+[Tue Sep 22 10:45:01 2026] [::1]:53760 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:45:01 2026] [::1]:62072 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:45:01 2026] [::1]:57718 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:53760 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:62072 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:63337 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:63337 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:01 2026] [::1]:63337 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:63118 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:65024 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:63118 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:45:01 2026] [::1]:63118 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:57003 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:65024 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:45:01 2026] [::1]:65024 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:55659 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:57003 [200]: GET /r10.png
+[Tue Sep 22 10:45:01 2026] [::1]:55659 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:01 2026] [::1]:55659 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:56455 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:56455 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:45:01 2026] [::1]:56455 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:57003 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:50549 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:50549 [200]: GET /ref2.png
+[Tue Sep 22 10:45:01 2026] [::1]:50549 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:61869 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:61869 [200]: GET /Userprofile.html
+[Tue Sep 22 10:45:01 2026] [::1]:61869 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:55766 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:55766 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:45:01 2026] [::1]:55766 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:64210 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:53253 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:64210 [200]: GET /home.css?v=8
+[Tue Sep 22 10:45:01 2026] [::1]:53253 [200]: GET /saved.css?v=1
+[Tue Sep 22 10:45:01 2026] [::1]:50654 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:50654 [200]: GET /Userprofile.css?v=fit2
+[Tue Sep 22 10:45:01 2026] [::1]:64210 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:60278 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:53253 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:60502 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:56522 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:50654 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:60278 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:45:01 2026] [::1]:60502 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:45:01 2026] [::1]:56522 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:45:01 2026] [::1]:51780 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:60278 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:60502 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:56522 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:51780 [200]: GET /Userprofile.js?v=fit2
+[Tue Sep 22 10:45:01 2026] [::1]:51780 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:64309 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:63082 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:64309 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:01 2026] [::1]:64309 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:60781 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:63082 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:45:01 2026] [::1]:63082 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:49878 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:60781 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:45:01 2026] [::1]:60781 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:51496 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:49878 [200]: GET /r11.png
+[Tue Sep 22 10:45:01 2026] [::1]:51496 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:01 2026] [::1]:51496 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:54522 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:54522 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:45:01 2026] [::1]:54522 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:64903 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:64903 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:45:01 2026] [::1]:64903 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:49878 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:54056 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:54056 [200]: GET /admin/admin-users-results.html
+[Tue Sep 22 10:45:01 2026] [::1]:54056 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:57213 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:58523 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:58652 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:57213 [200]: GET /admin/admin.css
+[Tue Sep 22 10:45:01 2026] [::1]:58523 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:45:01 2026] [::1]:58652 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:45:01 2026] [::1]:62686 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:58282 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:62686 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:45:01 2026] [::1]:56385 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:58282 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:45:01 2026] [::1]:57213 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:58523 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:58652 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:57882 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:56385 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:45:01 2026] [::1]:57882 [200]: GET /admin/users%20%26%20result.png
+[Tue Sep 22 10:45:01 2026] [::1]:62686 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:58282 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:62297 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:62297 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:01 2026] [::1]:62297 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:60182 Accepted
+[Tue Sep 22 10:45:01 2026] [::1]:60182 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:45:01 2026] [::1]:60182 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:57882 Closing
+[Tue Sep 22 10:45:01 2026] [::1]:56385 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:64728 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:49271 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:64728 [200]: GET /Fstudios.html
+[Tue Sep 22 10:45:20 2026] [::1]:64728 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:49271 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:45:20 2026] [::1]:57332 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:62282 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:57332 [200]: GET /home.css?v=8
+[Tue Sep 22 10:45:20 2026] [::1]:51958 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:62282 [200]: GET /Fstudios.css?v=2
+[Tue Sep 22 10:45:20 2026] [::1]:49271 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:62452 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:51958 [200]: GET /studio-detail.css?v=1
+[Tue Sep 22 10:45:20 2026] [::1]:51610 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:62452 [200]: GET /journey-progress.css?v=2
+[Tue Sep 22 10:45:20 2026] [::1]:57332 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:58931 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:51610 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:45:20 2026] [::1]:62282 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:58931 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:45:20 2026] [::1]:51958 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:62565 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:62452 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:65324 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:62565 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:45:20 2026] [::1]:51610 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:65145 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:65324 [200]: GET /studio-detail.js?v=saved1
+[Tue Sep 22 10:45:20 2026] [::1]:58931 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:65145 [200]: GET /Fstudios.js?v=saved1
+[Tue Sep 22 10:45:20 2026] [::1]:62565 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:65324 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:65145 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:56333 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:56333 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:20 2026] [::1]:56333 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:54509 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:55267 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:54509 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:45:20 2026] [::1]:54509 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:60145 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:55267 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:45:20 2026] [::1]:55267 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:60145 [200]: GET /api.php?action=session
+[Tue Sep 22 10:45:20 2026] [::1]:60145 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:60689 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:55705 Accepted
+[Tue Sep 22 10:45:20 2026] [::1]:60689 [200]: GET /login.html
+[Tue Sep 22 10:45:20 2026] [::1]:60689 Closing
+[Tue Sep 22 10:45:20 2026] [::1]:55705 [200]: GET /reference1.png
+[Tue Sep 22 10:45:20 2026] [::1]:55705 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:63660 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:63260 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:63660 [200]: GET /landingpage.html
+[Tue Sep 22 10:48:22 2026] [::1]:63660 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:63260 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:48:22 2026] [::1]:55823 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:51978 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:55823 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:48:22 2026] [::1]:63788 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:51978 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:48:22 2026] [::1]:63260 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:54012 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:63788 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:48:22 2026] [::1]:54012 [200]: GET /reference.png
+[Tue Sep 22 10:48:22 2026] [::1]:55823 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:51978 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:63788 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:63776 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:60050 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:63776 [200]: GET /api.php?action=session
+[Tue Sep 22 10:48:22 2026] [::1]:63776 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:51172 Accepted
+[Tue Sep 22 10:48:22 2026] [::1]:60050 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:48:22 2026] [::1]:60050 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:51172 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:48:22 2026] [::1]:51172 Closing
+[Tue Sep 22 10:48:22 2026] [::1]:54012 Closing
+[Tue Sep 22 10:49:38 2026] [::1]:50534 Accepted
+[Tue Sep 22 10:49:38 2026] [::1]:50534 [200]: GET /api.php?action=session
+[Tue Sep 22 10:49:38 2026] [::1]:50534 Closing
+[Tue Sep 22 10:49:44 2026] [::1]:57109 Accepted
+[Tue Sep 22 10:49:44 2026] [::1]:56878 Accepted
+[Tue Sep 22 10:49:44 2026] [::1]:57109 [200]: GET /signup.html
+[Tue Sep 22 10:49:44 2026] [::1]:57109 Closing
+[Tue Sep 22 10:49:44 2026] [::1]:56878 [200]: GET /ref.png
+[Tue Sep 22 10:49:44 2026] [::1]:56878 Closing
+[Tue Sep 22 10:49:51 2026] [::1]:56881 Accepted
+[Tue Sep 22 10:49:51 2026] [::1]:56881 [200]: GET /api.php?action=session
+[Tue Sep 22 10:49:51 2026] [::1]:56881 Closing
+[Tue Sep 22 10:49:51 2026] [::1]:56882 Accepted
+[Tue Sep 22 10:49:52 2026] [::1]:56882 [200]: POST /api.php?action=login
+[Tue Sep 22 10:49:52 2026] [::1]:56882 Closing
+[Tue Sep 22 10:49:52 2026] [::1]:56884 Accepted
+[Tue Sep 22 10:49:52 2026] [::1]:56884 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:49:52 2026] [::1]:56884 Closing
+[Tue Sep 22 10:49:52 2026] [::1]:56886 Accepted
+[Tue Sep 22 10:49:52 2026] [::1]:56886 [200]: POST /api.php?action=logout
+[Tue Sep 22 10:49:52 2026] [::1]:56886 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:51207 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:51207 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:40 2026] [::1]:51207 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:51245 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:51245 [201]: POST /api.php?action=signup
+[Tue Sep 22 10:50:40 2026] [::1]:51245 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:58376 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:55134 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:58376 [200]: GET /home.html
+[Tue Sep 22 10:50:40 2026] [::1]:58376 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:55134 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:50:40 2026] [::1]:60534 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:60779 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:59578 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:60534 [200]: GET /home.css?v=8
+[Tue Sep 22 10:50:40 2026] [::1]:55134 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:59212 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:60779 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:50:40 2026] [::1]:59578 [200]: GET /home.js?v=saved1
+[Tue Sep 22 10:50:40 2026] [::1]:51563 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:59212 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:50:40 2026] [::1]:51563 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:50:40 2026] [::1]:60534 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:60779 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:59578 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:59212 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:51563 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:59198 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:49280 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:59198 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:40 2026] [::1]:59198 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:58758 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:49280 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:50:40 2026] [::1]:49280 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:56204 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:58758 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:50:40 2026] [::1]:58758 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:57881 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:56204 [200]: GET /ref2.png
+[Tue Sep 22 10:50:40 2026] [::1]:57881 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:40 2026] [::1]:57881 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:64265 Accepted
+[Tue Sep 22 10:50:40 2026] [::1]:64265 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:50:40 2026] [::1]:64265 Closing
+[Tue Sep 22 10:50:40 2026] [::1]:56204 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:59819 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:59343 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:59819 [200]: GET /Userprofile.html
+[Tue Sep 22 10:50:48 2026] [::1]:59819 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:59343 [200]: GET /saved.css?v=1
+[Tue Sep 22 10:50:48 2026] [::1]:54157 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:49651 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:54157 [200]: GET /Userprofile.css?v=fit2
+[Tue Sep 22 10:50:48 2026] [::1]:52355 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:49651 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:50:48 2026] [::1]:59343 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:55075 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:52355 [200]: GET /home.css?v=8
+[Tue Sep 22 10:50:48 2026] [::1]:55367 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:55075 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:50:48 2026] [::1]:54157 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:65035 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:55367 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:50:48 2026] [::1]:49651 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:55382 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:65035 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:50:48 2026] [::1]:52355 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:55382 [200]: GET /Userprofile.js?v=fit2
+[Tue Sep 22 10:50:48 2026] [::1]:55075 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:55367 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:65035 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:55382 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:58540 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:53279 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:51404 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:58540 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:48 2026] [::1]:58540 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:53279 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:50:48 2026] [::1]:53279 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:51404 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:50:48 2026] [::1]:51404 Closing
+[Tue Sep 22 10:50:48 2026] [::1]:49755 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:60076 Accepted
+[Tue Sep 22 10:50:48 2026] [::1]:49755 [200]: GET /r11.png
+[Tue Sep 22 10:50:48 2026] [::1]:60076 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:48 2026] [::1]:60076 Closing
+[Tue Sep 22 10:50:49 2026] [::1]:60212 Accepted
+[Tue Sep 22 10:50:49 2026] [::1]:60212 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:50:49 2026] [::1]:60212 Closing
+[Tue Sep 22 10:50:49 2026] [::1]:51522 Accepted
+[Tue Sep 22 10:50:49 2026] [::1]:51522 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:50:49 2026] [::1]:51522 Closing
+[Tue Sep 22 10:50:49 2026] [::1]:49755 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:49230 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:49230 [200]: GET /saved.html
+[Tue Sep 22 10:50:52 2026] [::1]:49230 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:53737 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:53737 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:50:52 2026] [::1]:51497 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:55834 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:50710 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:51497 [200]: GET /home.css?v=8
+[Tue Sep 22 10:50:52 2026] [::1]:55834 [200]: GET /saved.css?v=1
+[Tue Sep 22 10:50:52 2026] [::1]:53737 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:49547 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:50710 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:50:52 2026] [::1]:61906 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:49547 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:50:52 2026] [::1]:55492 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:61906 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:50:52 2026] [::1]:51497 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:55834 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:55492 [200]: GET /saved.js?v=profile1
+[Tue Sep 22 10:50:52 2026] [::1]:50710 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:49547 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:61906 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:55492 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:61231 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:59761 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:61231 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:52 2026] [::1]:61231 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:59761 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:50:52 2026] [::1]:59761 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:50792 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:60191 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:50792 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:50:52 2026] [::1]:50792 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:49599 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:60191 [200]: GET /r10.png
+[Tue Sep 22 10:50:52 2026] [::1]:49599 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:52 2026] [::1]:49599 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:59763 Accepted
+[Tue Sep 22 10:50:52 2026] [::1]:59763 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:50:52 2026] [::1]:59763 Closing
+[Tue Sep 22 10:50:52 2026] [::1]:60191 Closing
+[Tue Sep 22 10:50:55 2026] [::1]:62814 Accepted
+[Tue Sep 22 10:50:55 2026] [::1]:62814 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:55 2026] [::1]:62814 Closing
+[Tue Sep 22 10:50:55 2026] [::1]:61231 Accepted
+[Tue Sep 22 10:50:55 2026] [::1]:63905 Accepted
+[Tue Sep 22 10:50:55 2026] [::1]:61231 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:50:55 2026] [::1]:61231 Closing
+[Tue Sep 22 10:50:55 2026] [::1]:63905 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:50:55 2026] [::1]:63905 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:57418 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:56650 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:57418 [200]: GET /home.html
+[Tue Sep 22 10:50:58 2026] [::1]:57418 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:56650 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:50:58 2026] [::1]:51910 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:58930 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:51910 [200]: GET /home.css?v=8
+[Tue Sep 22 10:50:58 2026] [::1]:56793 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:58930 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:50:58 2026] [::1]:56650 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:55335 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:56793 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:50:58 2026] [::1]:62397 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:55335 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:50:58 2026] [::1]:51910 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:62397 [200]: GET /home.js?v=saved1
+[Tue Sep 22 10:50:58 2026] [::1]:58930 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:56793 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:55335 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:62397 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:65521 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:52669 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:65521 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:58 2026] [::1]:65521 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:52669 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:50:58 2026] [::1]:52669 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:62856 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:64820 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:62856 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:50:58 2026] [::1]:62856 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:63482 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:64820 [200]: GET /ref2.png
+[Tue Sep 22 10:50:58 2026] [::1]:63482 [200]: GET /api.php?action=session
+[Tue Sep 22 10:50:58 2026] [::1]:63482 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:57667 Accepted
+[Tue Sep 22 10:50:58 2026] [::1]:57667 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:50:58 2026] [::1]:57667 Closing
+[Tue Sep 22 10:50:58 2026] [::1]:64820 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:49252 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:49252 [200]: GET /Userprofile.html
+[Tue Sep 22 10:51:00 2026] [::1]:49252 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:56842 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:56842 [200]: GET /styles.css?v=home1
+[Tue Sep 22 10:51:00 2026] [::1]:61775 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:56842 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:64001 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:61775 [200]: GET /home.css?v=8
+[Tue Sep 22 10:51:00 2026] [::1]:54120 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:64001 [200]: GET /saved.css?v=1
+[Tue Sep 22 10:51:00 2026] [::1]:57041 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:54120 [200]: GET /Userprofile.css?v=fit2
+[Tue Sep 22 10:51:00 2026] [::1]:60163 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:57041 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:51:00 2026] [::1]:61775 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:52423 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:60163 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:51:00 2026] [::1]:64001 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:57903 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:52423 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:51:00 2026] [::1]:54120 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:57903 [200]: GET /Userprofile.js?v=fit2
+[Tue Sep 22 10:51:00 2026] [::1]:57041 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:60163 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:52423 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:57903 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:54539 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:54539 [200]: GET /api.php?action=session
+[Tue Sep 22 10:51:00 2026] [::1]:54539 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:63145 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:61004 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:63145 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:51:00 2026] [::1]:63145 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:57393 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:61004 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:51:00 2026] [::1]:61004 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:53531 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:57393 [200]: GET /r11.png
+[Tue Sep 22 10:51:00 2026] [::1]:53531 [200]: GET /api.php?action=session
+[Tue Sep 22 10:51:00 2026] [::1]:53531 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:54050 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:54050 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:51:00 2026] [::1]:54050 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:59679 Accepted
+[Tue Sep 22 10:51:00 2026] [::1]:59679 [200]: GET /api.php?action=matches
+[Tue Sep 22 10:51:00 2026] [::1]:59679 Closing
+[Tue Sep 22 10:51:00 2026] [::1]:57393 Closing
+[Tue Sep 22 10:51:14 2026] [::1]:50367 Accepted
+[Tue Sep 22 10:51:14 2026] [::1]:50367 [200]: POST /api.php?action=logout
+[Tue Sep 22 10:51:14 2026] [::1]:50367 Closing
+[Tue Sep 22 10:51:14 2026] [::1]:61263 Accepted
+[Tue Sep 22 10:51:14 2026] [::1]:52866 Accepted
+[Tue Sep 22 10:51:14 2026] [::1]:61263 [200]: GET /login.html
+[Tue Sep 22 10:51:14 2026] [::1]:61263 Closing
+[Tue Sep 22 10:51:14 2026] [::1]:52866 [200]: GET /reference1.png
+[Tue Sep 22 10:51:14 2026] [::1]:52866 Closing
+[Tue Sep 22 10:51:26 2026] [::1]:61434 Accepted
+[Tue Sep 22 10:51:26 2026] [::1]:61434 [200]: GET /api.php?action=session
+[Tue Sep 22 10:51:26 2026] [::1]:61434 Closing
+[Tue Sep 22 10:51:26 2026] [::1]:51909 Accepted
+[Tue Sep 22 10:51:26 2026] [::1]:51909 [401]: POST /api.php?action=login
+[Tue Sep 22 10:51:26 2026] [::1]:51909 Closing
+[Tue Sep 22 10:52:06 2026] [::1]:53530 Accepted
+[Tue Sep 22 10:52:06 2026] [::1]:51937 Accepted
+[Tue Sep 22 10:52:06 2026] [::1]:53530 [200]: GET /login.html
+[Tue Sep 22 10:52:06 2026] [::1]:53530 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:51937 [200]: GET /reference1.png
+[Tue Sep 22 10:52:07 2026] [::1]:51937 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:61198 Accepted
+[Tue Sep 22 10:52:07 2026] [::1]:56846 Accepted
+[Tue Sep 22 10:52:07 2026] [::1]:61198 [200]: GET /login.html
+[Tue Sep 22 10:52:07 2026] [::1]:61198 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:56846 [200]: GET /reference1.png
+[Tue Sep 22 10:52:07 2026] [::1]:56846 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:50425 Accepted
+[Tue Sep 22 10:52:07 2026] [::1]:64466 Accepted
+[Tue Sep 22 10:52:07 2026] [::1]:50425 [200]: GET /login.html
+[Tue Sep 22 10:52:07 2026] [::1]:50425 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:64466 [200]: GET /reference1.png
+[Tue Sep 22 10:52:07 2026] [::1]:64466 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:51525 Accepted
+[Tue Sep 22 10:52:07 2026] [::1]:60130 Accepted
+[Tue Sep 22 10:52:07 2026] [::1]:51525 [200]: GET /login.html
+[Tue Sep 22 10:52:07 2026] [::1]:51525 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:60130 [200]: GET /reference1.png
+[Tue Sep 22 10:52:07 2026] [::1]:60130 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:54488 Accepted
+[Tue Sep 22 10:52:07 2026] [::1]:54859 Accepted
+[Tue Sep 22 10:52:07 2026] [::1]:54488 [200]: GET /login.html
+[Tue Sep 22 10:52:07 2026] [::1]:54488 Closing
+[Tue Sep 22 10:52:07 2026] [::1]:54859 [200]: GET /reference1.png
+[Tue Sep 22 10:52:07 2026] [::1]:54859 Closing
+[Tue Sep 22 10:52:08 2026] [::1]:55827 Accepted
+[Tue Sep 22 10:52:08 2026] [::1]:55827 [200]: GET /login.html
+[Tue Sep 22 10:52:08 2026] [::1]:55827 Closing
+[Tue Sep 22 10:52:08 2026] [::1]:51280 Accepted
+[Tue Sep 22 10:52:08 2026] [::1]:51280 [200]: GET /reference1.png
+[Tue Sep 22 10:52:08 2026] [::1]:51280 Closing
+[Tue Sep 22 10:52:08 2026] [::1]:60443 Accepted
+[Tue Sep 22 10:52:08 2026] [::1]:60443 [200]: GET /login.html
+[Tue Sep 22 10:52:08 2026] [::1]:60443 Closing
+[Tue Sep 22 10:52:08 2026] [::1]:55632 Accepted
+[Tue Sep 22 10:52:08 2026] [::1]:55632 [200]: GET /reference1.png
+[Tue Sep 22 10:52:08 2026] [::1]:55632 Closing
+[Tue Sep 22 10:52:10 2026] [::1]:64940 Accepted
+[Tue Sep 22 10:52:10 2026] [::1]:64940 [200]: GET /login.html
+[Tue Sep 22 10:52:10 2026] [::1]:64940 Closing
+[Tue Sep 22 10:52:10 2026] [::1]:59273 Accepted
+[Tue Sep 22 10:52:10 2026] [::1]:59273 [200]: GET /reference1.png
+[Tue Sep 22 10:52:10 2026] [::1]:59273 Closing
+[Tue Sep 22 10:52:23 2026] [::1]:57385 Accepted
+[Tue Sep 22 10:52:23 2026] [::1]:57385 [200]: GET /api.php?action=session
+[Tue Sep 22 10:52:23 2026] [::1]:57385 Closing
+[Tue Sep 22 10:52:23 2026] [::1]:54011 Accepted
+[Tue Sep 22 10:52:23 2026] [::1]:54011 [401]: POST /api.php?action=login
+[Tue Sep 22 10:52:23 2026] [::1]:54011 Closing
+[Tue Sep 22 10:52:48 2026] [::1]:63433 Accepted
+[Tue Sep 22 10:52:48 2026] [::1]:63433 [200]: GET /api.php?action=session
+[Tue Sep 22 10:52:48 2026] [::1]:63433 Closing
+[Tue Sep 22 10:52:48 2026] [::1]:51758 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:51758 [200]: POST /api.php?action=login
+[Tue Sep 22 10:52:49 2026] [::1]:51758 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:59142 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:52615 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:59142 [200]: GET /admin/admin.html
+[Tue Sep 22 10:52:49 2026] [::1]:59142 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:52615 [200]: GET /admin/admin.css
+[Tue Sep 22 10:52:49 2026] [::1]:50087 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:61735 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:58906 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:52615 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:56014 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:50087 [200]: GET /admin/admin-interactions.css
+[Tue Sep 22 10:52:49 2026] [::1]:61735 [200]: GET /admin/admin-live.css
+[Tue Sep 22 10:52:49 2026] [::1]:58906 [200]: GET /admin/admin-preferences.css
+[Tue Sep 22 10:52:49 2026] [::1]:58315 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:56014 [200]: GET /admin/admin-live.js
+[Tue Sep 22 10:52:49 2026] [::1]:53423 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:58315 [200]: GET /admin/ref2.png
+[Tue Sep 22 10:52:49 2026] [::1]:53423 [200]: GET /admin/ui-admin.png
+[Tue Sep 22 10:52:49 2026] [::1]:50087 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:61735 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:58906 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:56014 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:53423 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:54636 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:54636 [200]: GET /api.php?action=session
+[Tue Sep 22 10:52:49 2026] [::1]:54636 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:49906 Accepted
+[Tue Sep 22 10:52:49 2026] [::1]:49906 [200]: GET /api.php?action=admin_data
+[Tue Sep 22 10:52:49 2026] [::1]:49906 Closing
+[Tue Sep 22 10:52:49 2026] [::1]:58315 Closing
+[Tue Sep 22 10:52:56 2026] [::1]:60455 Accepted
+[Tue Sep 22 10:52:57 2026] [::1]:60455 [200]: POST /api.php?action=logout
+[Tue Sep 22 10:52:57 2026] [::1]:60455 Closing
+[Tue Sep 22 10:52:57 2026] [::1]:62196 Accepted
+[Tue Sep 22 10:52:57 2026] [::1]:64856 Accepted
+[Tue Sep 22 10:52:57 2026] [::1]:62196 [200]: GET /login.html
+[Tue Sep 22 10:52:57 2026] [::1]:62196 Closing
+[Tue Sep 22 10:52:57 2026] [::1]:64856 [200]: GET /reference1.png
+[Tue Sep 22 10:52:57 2026] [::1]:64856 Closing
+[Tue Sep 22 10:53:09 2026] [::1]:57173 Accepted
+[Tue Sep 22 10:53:09 2026] [::1]:57173 [200]: GET /api.php?action=session
+[Tue Sep 22 10:53:09 2026] [::1]:57173 Closing
+[Tue Sep 22 10:53:09 2026] [::1]:55485 Accepted
+[Tue Sep 22 10:53:09 2026] [::1]:54193 Accepted
+[Tue Sep 22 10:53:09 2026] [::1]:55485 [200]: GET /login.html
+[Tue Sep 22 10:53:09 2026] [::1]:55485 Closing
+[Tue Sep 22 10:53:09 2026] [::1]:54193 [200]: GET /reference1.png
+[Tue Sep 22 10:53:09 2026] [::1]:54193 Closing
+[Tue Sep 22 10:53:09 2026] [::1]:60005 Accepted
+[Tue Sep 22 10:53:09 2026] [::1]:60005 [200]: GET /api.php?action=session
+[Tue Sep 22 10:53:10 2026] [::1]:60005 Closing
+[Tue Sep 22 10:53:10 2026] [::1]:53732 Accepted
+[Tue Sep 22 10:53:10 2026] [::1]:57108 Accepted
+[Tue Sep 22 10:53:10 2026] [::1]:53732 [200]: GET /login.html
+[Tue Sep 22 10:53:10 2026] [::1]:53732 Closing
+[Tue Sep 22 10:53:10 2026] [::1]:57108 [200]: GET /reference1.png
+[Tue Sep 22 10:53:10 2026] [::1]:57108 Closing
+[Tue Sep 22 10:53:10 2026] [::1]:53159 Accepted
+[Tue Sep 22 10:53:10 2026] [::1]:53159 [200]: GET /api.php?action=session
+[Tue Sep 22 10:53:10 2026] [::1]:53159 Closing
+[Tue Sep 22 10:53:10 2026] [::1]:50974 Accepted
+[Tue Sep 22 10:53:10 2026] [::1]:62635 Accepted
+[Tue Sep 22 10:53:10 2026] [::1]:50974 [200]: GET /login.html
+[Tue Sep 22 10:53:10 2026] [::1]:50974 Closing
+[Tue Sep 22 10:53:10 2026] [::1]:62635 [200]: GET /reference1.png
+[Tue Sep 22 10:53:10 2026] [::1]:62635 Closing
+[Tue Sep 22 10:53:11 2026] [::1]:63843 Accepted
+[Tue Sep 22 10:53:11 2026] [::1]:54355 Accepted
+[Tue Sep 22 10:53:11 2026] [::1]:63843 [200]: GET /api.php?action=session
+[Tue Sep 22 10:53:11 2026] [::1]:63843 Closing
+[Tue Sep 22 10:53:11 2026] [::1]:50974 Accepted
+[Tue Sep 22 10:53:11 2026] [::1]:54355 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:53:11 2026] [::1]:54355 Closing
+[Tue Sep 22 10:53:11 2026] [::1]:50974 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:53:11 2026] [::1]:50974 Closing
+[Tue Sep 22 10:53:11 2026] [::1]:62063 Accepted
+[Tue Sep 22 10:53:11 2026] [::1]:55567 Accepted
+[Tue Sep 22 10:54:01 2026] [::1]:62063 [200]: GET /landingpage.html
+[Tue Sep 22 10:54:01 2026] [::1]:62063 Closing
+[Tue Sep 22 10:54:01 2026] [::1]:55567 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:54:01 2026] [::1]:57111 Accepted
+[Tue Sep 22 10:54:01 2026] [::1]:64988 Accepted
+[Tue Sep 22 10:54:01 2026] [::1]:64794 Accepted
+[Tue Sep 22 10:54:01 2026] [::1]:55567 Closing
+[Tue Sep 22 10:54:01 2026] [::1]:56619 Accepted
+[Tue Sep 22 10:54:01 2026] [::1]:57111 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:54:01 2026] [::1]:64988 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:54:01 2026] [::1]:64794 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:54:01 2026] [::1]:56619 [200]: GET /reference.png
+[Tue Sep 22 10:54:01 2026] [::1]:57111 Closing
+[Tue Sep 22 10:54:01 2026] [::1]:64988 Closing
+[Tue Sep 22 10:54:01 2026] [::1]:64794 Closing
+[Tue Sep 22 10:54:01 2026] [::1]:58976 Accepted
+[Tue Sep 22 10:54:01 2026] [::1]:58976 [200]: GET /api.php?action=session
+[Tue Sep 22 10:54:01 2026] [::1]:58976 Closing
+[Tue Sep 22 10:54:01 2026] [::1]:57596 Accepted
+[Tue Sep 22 10:54:01 2026] [::1]:65067 Accepted
+[Tue Sep 22 10:54:01 2026] [::1]:57596 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:54:01 2026] [::1]:57596 Closing
+[Tue Sep 22 10:54:01 2026] [::1]:65067 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:54:01 2026] [::1]:65067 Closing
+[Tue Sep 22 10:54:01 2026] [::1]:56619 Closing
+[Tue Sep 22 10:56:00 2026] [::1]:63445 Accepted
+[Tue Sep 22 10:56:00 2026] [::1]:63445 [200]: GET /login.html
+[Tue Sep 22 10:56:00 2026] [::1]:63445 Closing
+[Tue Sep 22 10:56:59 2026] [::1]:56445 Accepted
+[Tue Sep 22 10:56:59 2026] [::1]:51428 Accepted
+[Tue Sep 22 10:56:59 2026] [::1]:56445 [200]: GET /login.html
+[Tue Sep 22 10:56:59 2026] [::1]:56445 Closing
+[Tue Sep 22 10:56:59 2026] [::1]:51428 [200]: GET /interaction-motion.css?v=1
+[Tue Sep 22 10:56:59 2026] [::1]:63428 Accepted
+[Tue Sep 22 10:56:59 2026] [::1]:63428 [200]: GET /interaction-motion.js?v=1
+[Tue Sep 22 10:56:59 2026] [::1]:51428 Closing
+[Tue Sep 22 10:56:59 2026] [::1]:63428 Closing
+[Tue Sep 22 10:56:59 2026] [::1]:64248 Accepted
+[Tue Sep 22 10:56:59 2026] [::1]:64248 [200]: GET /reference1.png
+[Tue Sep 22 10:56:59 2026] [::1]:64248 Closing
+[Tue Sep 22 10:56:59 2026] [::1]:62877 Accepted
+[Tue Sep 22 10:56:59 2026] [::1]:62877 [404]: GET /favicon.ico - No such file or directory
+[Tue Sep 22 10:56:59 2026] [::1]:62877 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:52982 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:59601 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:52982 [200]: GET /landingpage.html
+[Tue Sep 22 10:58:18 2026] [::1]:52982 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:59601 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:58:18 2026] [::1]:60794 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:60794 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:58:18 2026] [::1]:50728 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:59601 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:52491 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:50728 [200]: GET /interaction-motion.css?v=1
+[Tue Sep 22 10:58:18 2026] [::1]:53519 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:52491 [200]: GET /interaction-motion.js?v=1
+[Tue Sep 22 10:58:18 2026] [::1]:60794 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:54202 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:53519 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:58:18 2026] [::1]:61489 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:54202 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:58:18 2026] [::1]:50728 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:61489 [200]: GET /reference.png
+[Tue Sep 22 10:58:18 2026] [::1]:52491 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:53519 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:54202 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:63409 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:63409 [200]: GET /api.php?action=session
+[Tue Sep 22 10:58:18 2026] [::1]:63409 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:54379 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:52097 Accepted
+[Tue Sep 22 10:58:18 2026] [::1]:54379 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:58:18 2026] [::1]:54379 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:52097 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:58:18 2026] [::1]:52097 Closing
+[Tue Sep 22 10:58:18 2026] [::1]:61489 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:57947 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:57947 [200]: GET /landingpage.html
+[Tue Sep 22 10:58:21 2026] [::1]:57947 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:51253 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:51253 [200]: GET /styles.css?v=20260915-hover
+[Tue Sep 22 10:58:21 2026] [::1]:49496 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:50936 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:49496 [200]: GET /profile-shared.js?v=1
+[Tue Sep 22 10:58:21 2026] [::1]:53239 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:51253 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:60149 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:50936 [200]: GET /interaction-motion.css?v=1
+[Tue Sep 22 10:58:21 2026] [::1]:53239 [200]: GET /saved-store.js?v=profile1
+[Tue Sep 22 10:58:21 2026] [::1]:49609 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:60149 [200]: GET /app.js?v=saved1
+[Tue Sep 22 10:58:21 2026] [::1]:49496 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:53144 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:49609 [200]: GET /interaction-motion.js?v=1
+[Tue Sep 22 10:58:21 2026] [::1]:53144 [200]: GET /reference.png
+[Tue Sep 22 10:58:21 2026] [::1]:50936 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:53239 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:60149 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:49609 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:59916 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:62889 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:59916 [200]: GET /api.php?action=session
+[Tue Sep 22 10:58:21 2026] [::1]:59916 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:62889 [200]: GET /api.php?action=catalog
+[Tue Sep 22 10:58:21 2026] [::1]:62889 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:60698 Accepted
+[Tue Sep 22 10:58:21 2026] [::1]:60698 [200]: GET /api.php?action=studios
+[Tue Sep 22 10:58:21 2026] [::1]:60698 Closing
+[Tue Sep 22 10:58:21 2026] [::1]:53144 Closing
+[Tue Sep 22 10:58:35 2026] [::1]:61853 Accepted
+[Tue Sep 22 10:58:35 2026] [::1]:64856 Accepted
+[Tue Sep 22 10:58:35 2026] [::1]:61853 [200]: GET /login.html
+[Tue Sep 22 10:58:35 2026] [::1]:61853 Closing
+[Tue Sep 22 10:58:35 2026] [::1]:64856 [200]: GET /interaction-motion.css?v=1
+[Tue Sep 22 10:58:35 2026] [::1]:52470 Accepted
+[Tue Sep 22 10:58:35 2026] [::1]:64349 Accepted
+[Tue Sep 22 10:58:35 2026] [::1]:52470 [200]: GET /interaction-motion.js?v=1
+[Tue Sep 22 10:58:35 2026] [::1]:64349 [200]: GET /reference1.png
+[Tue Sep 22 10:58:35 2026] [::1]:64856 Closing
+[Tue Sep 22 10:58:35 2026] [::1]:52470 Closing
+[Tue Sep 22 10:58:35 2026] [::1]:64349 Closing

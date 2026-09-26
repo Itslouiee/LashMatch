@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Users &amp; Results | LashMatch Admin</title>
+<link rel="stylesheet" href="admin.css"><link rel="stylesheet" href="admin-interactions.css"><link rel="stylesheet" href="admin-live.css"><script src="admin-live.js?v=native-backend-3" defer></script>
+<link rel="stylesheet" href="admin-preferences.css">
+<link rel="stylesheet" href="../interaction-motion.css?v=1"><script src="../interaction-motion.js?v=1" defer></script><link rel="stylesheet" href="admin-lash-styles.css?v=native1"><link rel="stylesheet" href="admin-users-results.css?v=native1"></head>
+<body class="admin-page lash-styles-page users-page">
+<div class="admin-shell">
+<aside class="sidebar">
+<a class="brand" href="admin.html" aria-label="LashMatch dashboard"><svg viewBox="25 20 250 65" role="img" aria-label="LashMatch — Beauty meets you"><image href="ref2.png" width="1833" height="1031"/></svg></a>
+<nav aria-label="Admin navigation">
+<a class="nav-item" href="admin.html" aria-label="Dashboard"><svg><use href="#home"/></svg><span>Dashboard</span></a>
+<a class="nav-item" href="admin-lash-styles.html" aria-label="Lash Styles"><svg><use href="#lashes"/></svg><span>Lash Styles</span></a>
+<a class="nav-item criteria-nav" href="admin-recommendation-criteria.html" aria-label="Recommendation Criteria"><svg><use href="#criteria"/></svg><span>Recommendation<br>Criteria</span></a>
+<a class="nav-item" href="admin-studios.html" aria-label="Studios"><svg><use href="#pin"/></svg><span>Studios</span></a>
+<a class="nav-item" href="admin-studio-capabilities.html" aria-label="Studio Capabilities"><svg><use href="#shop"/></svg><span>Studio Capabilities</span></a>
+<a class="nav-item active" aria-current="page" href="admin-users-results.html" aria-label="Users &amp; Results"><svg><use href="#users"/></svg><span>Users &amp; Results</span></a>
+<a class="nav-item" href="admin-settings.html" aria-label="Settings"><svg><use href="#settings"/></svg><span>Settings</span></a>
+</nav>
+<div class="logout-wrap"><a class="nav-item" href="login.html" aria-label="Logout"><svg><use href="#logout"/></svg><span>Logout</span></a></div>
+<div class="sidebar-art"><svg viewBox="166 775 249 263" role="img" aria-label="More than lashes, more confidence."><image href="users%20%26%20result.png" width="1920" height="1080"/></svg></div>
+</aside>
+<main class="workspace">
+<header class="topbar">
+<form id="admin-search-form" role="search"><svg><use href="#search"/></svg><input id="admin-search" type="search" placeholder="Search users, emails, or lash styles..." aria-label="Search users, emails, or lash styles"></form>
+<div class="top-actions"><button class="notification-button" id="notifications" aria-label="View notifications"><svg><use href="#bell"/></svg><span class="notification-dot"></span></button><button class="profile-button" id="profile"><span class="avatar">A</span><span class="profile-copy"><strong>Admin</strong><small>System Administrator</small></span><svg><use href="#chevron"/></svg></button></div>
+</header>
+
+
+<section class="users-heading"><div><h1>Users &amp; Results</h1><p>View registered users and their quiz results, recommended styles, and final looks.</p></div><svg class="users-signature" viewBox="1320 89 427 106" role="img" aria-label="Real People, Real Beauty Stories"><image href="users%20%26%20result.png" width="1920" height="1080"/></svg></section>
+<section class="stats users-stats" aria-label="User activity totals">
+<article class="stat-card"><span class="stat-icon"><svg aria-hidden="true"><use href="#users"/></svg></span><div><h2>Total Users</h2><strong id="total-users">152</strong><p>↗ +12% this month</p></div></article>
+<article class="stat-card"><span class="stat-icon"><svg aria-hidden="true"><use href="#completed"/></svg></span><div><h2>Completed Quiz</h2><strong id="completed-users">124</strong><p>↗ +18% this month</p></div></article>
+<article class="stat-card"><span class="stat-icon"><svg aria-hidden="true"><use href="#lashes"/></svg></span><div><h2>Generated Try-Ons</h2><strong id="generated-users">118</strong><p>↗ +15% this month</p></div></article>
+<article class="stat-card"><span class="stat-icon"><svg aria-hidden="true"><use href="#heart"/></svg></span><div><h2>Saved Looks</h2><strong id="saved-users">96</strong><p>↗ +20% this month</p></div></article>
+</section>
+<form class="style-filters users-filters" id="users-filters"><label class="style-search"><svg aria-hidden="true"><use href="#search"/></svg><input id="users-search" type="search" placeholder="Search name or email..." aria-label="Search users"></label><select id="status-filter" aria-label="Filter by quiz status"><option value="">All Status</option><option>Completed</option><option>In Progress</option><option>Registered</option><option>Inactive</option></select><select id="lash-filter" aria-label="Filter by lash style"><option value="">All Lash Styles</option></select><details class="users-date-filter" id="date-filter"><summary><svg aria-hidden="true"><use href="#calendar"/></svg><span id="date-label">Select date range</span></summary><div class="date-fields"><label>From<input type="date" id="date-from"></label><label>To<input type="date" id="date-to"></label><p id="date-error" role="alert"></p><button type="button" id="apply-dates" class="pink-button">Apply</button><button type="button" id="clear-dates" class="cancel-button">Clear</button></div></details><button type="reset" class="reset-button">Reset</button></form>
+<div class="users-layout">
+<section class="users-catalog" aria-label="Users and quiz results"><div class="styles-table-card"><div class="table-scroll" tabindex="0" role="region" aria-label="Users and results table"><table class="styles-table users-table"><thead><tr><th class="check-cell"><input id="select-all" type="checkbox" aria-label="Select all users on this page"></th><th>User</th><th>Quiz Result</th><th>Final Look</th><th>Preferred Studios</th><th>Date</th><th>Status</th><th>Actions</th></tr></thead><tbody id="users-body"></tbody></table></div><footer class="table-footer"><span id="entry-count" role="status"></span><nav id="user-pagination" class="pagination" aria-label="Users pagination"></nav></footer></div><p class="local-data-note">Reference figures and demo users · Browser preview only.</p></section>
+<aside class="user-details" id="user-details" aria-labelledby="details-title"><div class="editor-heading"><h2 id="details-title">User Details</h2><button id="close-details" aria-label="Close user details">×</button></div><div id="user-profile"></div><div class="user-tabs" role="tablist" aria-label="User result details"><button id="tab-quiz" type="button" role="tab" aria-selected="true" aria-controls="user-tab-panel" data-tab="quiz">Quiz Result</button><button id="tab-look" type="button" role="tab" aria-selected="false" aria-controls="user-tab-panel" data-tab="look" tabindex="-1">Final Look</button><button id="tab-studios" type="button" role="tab" aria-selected="false" aria-controls="user-tab-panel" data-tab="studios" tabindex="-1">Nearby Studios</button></div><section id="user-tab-panel" role="tabpanel" aria-labelledby="tab-quiz"></section><button class="pink-button full-result-button" id="full-result">View Full Result</button></aside>
+</div>
+<div class="styles-toast" id="users-toast" role="status" hidden></div>
+</main>
+</div>
+<dialog id="admin-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close dialog">×</button><h2 id="dialog-title"></h2><div id="dialog-content"></div></dialog>
+<svg class="icon-library" aria-hidden="true"><defs>
+<symbol id="home" viewBox="0 0 24 24"><path d="m2 10 10-8 10 8v12h-7v-8H9v8H2Z"/></symbol>
+<symbol id="lashes" viewBox="0 0 24 24"><path d="M2 7c4 7 16 7 20 0M3 9l-2 2m5 1-2 3m5-2-1 4m4-3v4m3-5 1 4m2-5 2 3m1-6 2 2"/></symbol>
+<symbol id="criteria" viewBox="0 0 24 24"><path d="m6 2 1.5 3L10 7 7.5 9 6 12 4.5 9 2 7l2.5-2ZM6 14l1 2 2 1-2 2-1 3-1-3-2-2 2-1ZM14 7h8m-8 10h8m-8-5h4"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="shop" viewBox="0 0 24 24"><path d="m3 3-2 7c0 4 5 4 5 0 0 4 6 4 6 0 0 4 6 4 6 0 0 4 5 4 5 0l-2-7ZM3 13v9h7v-7h5v7h6v-9M7 3l-1 7m12 0-1-7"/></symbol>
+<symbol id="users" viewBox="0 0 24 24"><circle cx="9" cy="6" r="4"/><path d="M2 22v-3a7 7 0 0 1 14 0v3Zm15-7a6 6 0 0 1 6 6v1M17 3a4 4 0 0 1 0 8"/></symbol>
+<symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="6" r="4"/><path d="M3 22v-3a9 9 0 0 1 18 0v3Z"/></symbol>
+<symbol id="settings" viewBox="0 0 24 24"><path d="m9 2-1 3-3-1-2 3 2 3-3 1v3l3 1-1 3 3 2 3-2 1 4h3l1-3 3 1 2-3-2-3 3-1v-3l-3-1 1-3-3-2-3 2-1-4Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="logout" viewBox="0 0 24 24"><path d="M14 3H3v18h11m-5-9h14m-5-5 5 5-5 5"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 7 7"/></symbol>
+<symbol id="bell" viewBox="0 0 24 24"><path d="M3 18h18l-3-5V8A6 6 0 0 0 6 8v5Zm6 3a3 3 0 0 0 6 0M12 2V0"/></symbol>
+<symbol id="chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="document" viewBox="0 0 24 24"><path d="M3 2h12l6 6v14H3Zm12 0v7h6M7 7h3m-3 6h10M7 17h10m-10 3h6"/></symbol>
+<symbol id="edit" viewBox="0 0 24 24"><path d="m15 3 5 5M4 16 17 3a2 2 0 0 1 3 3L7 19l-4 1Zm-1 6h18"/></symbol><symbol id="trash" viewBox="0 0 24 24"><path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/></symbol><symbol id="upload" viewBox="0 0 24 24"><path d="M12 16V2m-6 6 6-6 6 6M3 15v7h18v-7"/></symbol><symbol id="eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol><symbol id="heart" viewBox="0 0 24 24"><path d="M12 21 3 12C-3 5 6-2 12 5c6-7 15 0 9 7Z"/></symbol><symbol id="completed" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><rect x="8" y="1" width="8" height="5" rx="1"/><path d="m7 13 3 3 7-7"/></symbol><symbol id="calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M7 2v5m10-5v5M3 10h18M7 13v2m5-2v2m5-2v2M7 18h1m4 0h1"/></symbol></defs></svg>
+</body></html>

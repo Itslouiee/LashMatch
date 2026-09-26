@@ -1,0 +1,46 @@
+/* Recommendation Criteria overrides are scoped to this admin page. */
+.criteria-page .styles-heading,.criteria-page .styles-layout{grid-template-columns:minmax(0,2.44fr) minmax(0,1fr)}
+.criteria-page .styles-heading-main{padding-left:calc(18 * var(--u));padding-right:calc(14 * var(--u));transform:translateY(calc(9 * var(--u)))}
+.criteria-page h1{font-family:'Times New Roman',Georgia,serif;font-size:calc(48 * var(--u));letter-spacing:-1px}
+.criteria-page #add-criteria{position:absolute;right:calc(28 * var(--u));top:calc(17 * var(--u))}
+.criteria-page .styles-heading p{font-size:calc(20 * var(--u))}
+.criteria-page .styles-signature{width:110%;max-width:110%;margin-left:-10%}
+.criteria-page .style-filters{border:1px solid var(--border);border-bottom:0;padding-bottom:calc(25 * var(--u));border-radius:calc(12 * var(--u)) calc(12 * var(--u)) 0 0}
+.criteria-page .style-search{width:41%}.criteria-page .style-filters select{width:20%}
+.criteria-page .styles-table{font-size:calc(14 * var(--u))}.criteria-page .styles-table th{height:calc(52 * var(--u))}
+.criteria-page .styles-table th:nth-child(1){width:7.5%}.criteria-page .styles-table th:nth-child(2){width:21%}.criteria-page .styles-table th:nth-child(3){width:13.5%}.criteria-page .styles-table th:nth-child(4){width:12%}.criteria-page .styles-table th:nth-child(5){width:23%}.criteria-page .styles-table th:nth-child(6){width:12%}.criteria-page .styles-table th:nth-child(7){width:11%}
+.criteria-page .styles-table td{height:calc(70 * var(--u));padding-top:calc(10 * var(--u));padding-bottom:calc(10 * var(--u))}
+.criteria-name strong{font-weight:600;display:block}.criteria-name small{display:block;color:#647792;font-size:calc(13 * var(--u));margin-top:calc(3 * var(--u))}
+.criteria-page .type-pill{font-size:calc(14 * var(--u));min-width:calc(89 * var(--u));padding:calc(7 * var(--u)) calc(8 * var(--u));border-radius:calc(6 * var(--u))}
+.category-physical{color:#d82358;background:#ffe4ed}.category-preference{color:#5634d5;background:#eee6fc}.category-lifestyle{color:#226ac5;background:#e2efff}
+.criteria-page .row-actions{gap:calc(10 * var(--u))}.criteria-page .row-actions button{width:calc(39 * var(--u));height:calc(39 * var(--u))}
+.criteria-page .table-footer{min-height:calc(85 * var(--u));font-size:calc(15 * var(--u))}
+.criteria-page .style-editor{padding:calc(20 * var(--u));border-color:#f7dde7}.criteria-page .editor-heading{margin-bottom:calc(18 * var(--u))}
+.criteria-page .editor-heading h2{font-size:calc(22 * var(--u))}
+.criteria-page .editor-field{font-size:calc(15 * var(--u));margin-bottom:calc(12 * var(--u))}
+.criteria-page .editor-field input,.criteria-page .editor-field select{height:calc(38 * var(--u));min-height:calc(38 * var(--u));padding:calc(8 * var(--u)) calc(11 * var(--u));margin-top:calc(5 * var(--u))}
+.criteria-page .editor-field textarea{height:calc(64 * var(--u));min-height:calc(64 * var(--u));margin-top:calc(5 * var(--u));padding:calc(9 * var(--u)) calc(11 * var(--u))}
+.option-field{border:0;padding:0;margin:calc(15 * var(--u)) 0 calc(15 * var(--u));min-width:0;font-size:calc(15 * var(--u))}
+.option-field legend{padding:0;margin-bottom:calc(6 * var(--u))}
+#option-list{display:grid;gap:calc(5 * var(--u))}.option-row{display:grid;grid-template-columns:calc(25 * var(--u)) minmax(0,1fr) calc(75 * var(--u));align-items:center;gap:calc(10 * var(--u))}
+.option-row input{height:calc(35 * var(--u));width:100%;min-width:0;border:1px solid #e1dfe5;border-radius:calc(6 * var(--u));background:#fffdfd;padding:calc(7 * var(--u)) calc(10 * var(--u));color:var(--ink);font:inherit}
+.option-row input::placeholder{color:#8796ac}.option-grip{padding:0;display:grid;place-items:center;border:0;background:none;color:#8997a9!important;cursor:grab!important}.criteria-page .option-grip svg{width:calc(18 * var(--u));height:calc(21 * var(--u));stroke:none;fill:currentColor}
+.option-row.dragging{opacity:.4}.score-button{border:1px solid #ffe0ec;border-radius:calc(6 * var(--u));background:#fff0f6;color:var(--pink)!important;height:calc(34 * var(--u));padding:0;font-size:calc(14 * var(--u))}.score-button.has-scores{background:#ffdeed}
+#add-option{width:100%;height:calc(36 * var(--u));margin-top:calc(7 * var(--u));font-size:calc(15 * var(--u))}
+.linked-picker{position:relative;margin-top:calc(5 * var(--u));font-weight:400}.linked-picker summary{display:flex;align-items:center;justify-content:space-between;list-style:none;cursor:pointer;height:calc(38 * var(--u));padding:0 calc(11 * var(--u));background:#fffdfd;border:1px solid #e1dfe5;border-radius:calc(8 * var(--u));font-size:calc(15 * var(--u))}
+.linked-picker summary::-webkit-details-marker{display:none}.linked-picker summary svg{width:calc(20 * var(--u));height:calc(20 * var(--u))}#linked-summary{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#linked-options{position:absolute;z-index:3;top:calc(100% + 5px);left:0;right:0;background:#fffafb;border:1px solid #efcedb;box-shadow:0 8px 20px #57334b20;border-radius:8px;padding:8px}#linked-options label{display:flex;align-items:center;gap:10px;padding:7px;cursor:pointer}#linked-options input{width:16px;height:16px;min-height:0;margin:0;accent-color:var(--pink)}
+.criteria-page .linked-field small{display:block;color:#647792;font-size:calc(12 * var(--u));margin-top:calc(7 * var(--u));line-height:1.4;white-space:nowrap}
+.criteria-page .status-field{margin-top:calc(20 * var(--u));margin-bottom:0}
+.criteria-page .editor-buttons{margin-top:calc(28 * var(--u));gap:calc(16 * var(--u))}.criteria-page .editor-buttons button{height:calc(49 * var(--u))}
+.score-fields{display:grid;gap:10px;margin-top:16px}.score-fields label{display:flex;align-items:center;justify-content:space-between;gap:20px}.score-fields input{width:90px;padding:8px;border:1px solid #e7d3de;border-radius:7px;color:var(--ink);background:#fff}.score-actions{display:flex;justify-content:flex-end;gap:12px;margin-top:20px}.score-actions button{padding:10px 18px}.option-menu{display:flex;gap:10px;flex-wrap:wrap}.option-menu button{padding:10px;border:1px solid #f2ccd9;background:#fff0f6;border-radius:8px}
+.criteria-page .styles-layout.editor-closed{grid-template-columns:1fr}
+.criteria-page #linked-options label{display:grid;grid-template-columns:minmax(0,1fr);gap:6px}
+.criteria-page #linked-options select{width:100%;min-width:0;padding:8px;border:1px solid #e6c9d5;background:#fff;font:inherit}
+.criteria-page #linked-options .quiz-score-row{grid-template-columns:minmax(0,1fr) 64px 20px;align-items:center}
+.criteria-page #linked-options .quiz-score-row input{width:64px;height:34px;min-width:0;margin:0;padding:5px;border:1px solid #e6c9d5;border-radius:4px;background:#fff;font:inherit}
+.criteria-page .quiz-score-row strong{font-size:12px;white-space:nowrap}
+.criteria-page #linked-options{position:static;max-height:280px;overflow-y:auto;margin-top:6px;box-shadow:none}
+@media(max-width:1450px) and (min-width:1000px){.criteria-page h1{font-size:calc(43 * var(--u))}.criteria-page .styles-heading p{font-size:calc(18 * var(--u))}}
+@media(max-width:999px){.criteria-page .styles-heading,.criteria-page .styles-layout{grid-template-columns:1fr}.criteria-page h1{font-size:30px}.criteria-page .styles-heading p{font-size:14px}.criteria-page #add-criteria{position:static;margin-top:15px}.criteria-page .styles-heading-main{padding-left:0}.criteria-page .style-filters{padding-left:10px;padding-right:10px}.criteria-page .style-search{flex:1}.criteria-page .styles-table{min-width:690px;font-size:12px}.criteria-page .editor-field,.option-field{font-size:14px}.criteria-page .editor-field input,.criteria-page .editor-field select,.linked-picker summary{height:40px;min-height:40px}.criteria-page .editor-field textarea{height:80px}.option-row{grid-template-columns:24px minmax(0,1fr) 70px}.option-row input,.score-button{height:35px}.criteria-page .style-editor{padding:18px}.criteria-page .linked-field small{font-size:11px;white-space:normal}.criteria-page .status-field{margin-top:20px}.criteria-page .editor-field{margin-bottom:15px}}
+@media(max-width:600px){.criteria-page h1{font-size:25px;letter-spacing:-1px}.criteria-page .styles-heading p{font-size:12px}.criteria-page .style-search{width:100%}.criteria-page .style-filters select{width:100%}.criteria-page .style-filters{padding:10px}.criteria-page .table-footer{font-size:10px}.criteria-page .style-editor{padding:14px}.criteria-page .editor-heading h2{font-size:19px}.criteria-page .editor-buttons button{font-size:14px;height:42px}.criteria-page .linked-picker summary{font-size:13px}.score-fields label{font-size:14px}}

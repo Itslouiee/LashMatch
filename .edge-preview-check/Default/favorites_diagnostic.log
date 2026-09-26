@@ -1,0 +1,51 @@
+2026-09-17 12:08:16.891: [INFO] CurrentProfilePath: C:\xampp\htdocs\LashMatch\.edge-preview-check\Default
+2026-09-17 12:08:16.891: [INFO] Profiles total count: 1
+2026-09-17 12:08:16.891: [INFO] Profile: name=Profile 1 path=C:\xampp\htdocs\LashMatch\.edge-preview-check\Default lastActive=null
+2026-09-17 12:08:16.891: [INFO] LastUsedProfileDir: C:\xampp\htdocs\LashMatch\.edge-preview-check\Default
+2026-09-17 12:08:16.891: [INFO] VisibilityChanged: 0
+2026-09-17 12:08:16.920: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.921: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.922: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.924: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.925: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.926: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.927: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.928: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.930: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.930: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:16.947: [INFO] OnDoneLoading sync enabled: 0
+2026-09-17 12:08:16.947: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-17 12:08:16.947: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-17 12:08:16.947: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 12:08:17.045: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:20.248: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-17 12:08:20.255: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-17 12:08:20.261: [INFO] Primary account changed.
+2026-09-17 12:08:20.261: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-09-17 12:08:20.275: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-17 12:08:24.738: [INFO] Sync initialization duration: 4315ms
+2026-09-17 12:09:56.770: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 12:52:28.903: [INFO] CurrentProfilePath: C:\xampp\htdocs\LashMatch\.edge-preview-check\Default
+2026-09-17 12:52:28.903: [INFO] Profiles total count: 1
+2026-09-17 12:52:28.903: [INFO] Profile: name=Personal path=C:\xampp\htdocs\LashMatch\.edge-preview-check\Default lastActive=2026-09-17T12:37:29.344Z
+2026-09-17 12:52:28.903: [INFO] LastUsedProfileDir: C:\xampp\htdocs\LashMatch\.edge-preview-check\Default
+2026-09-17 12:52:28.903: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\xampp\htdocs\LashMatch\.edge-preview-check\Default lastActive=2026-09-17T12:37:29.344Z
+2026-09-17 12:52:28.903: [INFO] VisibilityChanged: 0
+2026-09-17 12:52:28.949: [INFO] OnDoneLoading sync enabled: 1
+2026-09-17 12:52:28.949: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-17 12:52:28.949: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-17 12:52:28.949: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 12:52:29.083: [INFO] Sync initialization duration: 43ms
+2026-09-17 12:52:36.140: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 12:57:45.132: [INFO] CurrentProfilePath: C:\xampp\htdocs\LashMatch\.edge-preview-check\Default
+2026-09-17 12:57:45.132: [INFO] Profiles total count: 1
+2026-09-17 12:57:45.132: [INFO] Profile: name=Personal path=C:\xampp\htdocs\LashMatch\.edge-preview-check\Default lastActive=2026-09-17T12:52:28.917Z
+2026-09-17 12:57:45.132: [INFO] LastUsedProfileDir: C:\xampp\htdocs\LashMatch\.edge-preview-check\Default
+2026-09-17 12:57:45.132: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\xampp\htdocs\LashMatch\.edge-preview-check\Default lastActive=2026-09-17T12:52:28.917Z
+2026-09-17 12:57:45.132: [INFO] VisibilityChanged: 0
+2026-09-17 12:57:45.168: [INFO] OnDoneLoading sync enabled: 1
+2026-09-17 12:57:45.168: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-17 12:57:45.168: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-17 12:57:45.168: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 12:57:45.316: [INFO] Sync initialization duration: 42ms
+2026-09-17 12:57:49.899: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

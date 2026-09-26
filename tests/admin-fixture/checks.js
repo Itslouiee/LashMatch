@@ -1,0 +1,22 @@
+(async()=>{
+ const wait=()=>new Promise(r=>setTimeout(r,40));
+ for(let i=0;i<200&&!document.querySelector('[data-style-score]');i++)await wait();
+ const boxes=[...document.querySelectorAll('[data-style-score]')];
+ if(boxes.length!==17)throw Error('Expected all 17 lash styles');
+ if(document.querySelector('#criteria-name').value!=='First Time')throw Error('Expected First Time editor');
+ const classic=boxes.find(b=>b.closest('label').textContent.includes('Classic'));
+ if(Number(classic.value)!==3)throw Error('First Time defaults to 3 points');
+ boxes.forEach(b=>b.value=b===classic?'8':'0');
+ document.querySelector('#criteria-form').requestSubmit();
+ for(let i=0;i<200&&!window.submittedScores;i++)await wait();
+ if(submittedScores.key!=='experience:first-time'||submittedScores.scores[classic.dataset.styleScore]!==8)throw Error('Custom points must be submitted exactly');
+ if(Object.values(submittedScores.scores).filter(n=>n>0).length!==1)throw Error('Zero-point styles must stay zero');
+ for(let i=0;i<200&&document.querySelector('#criteria-form [type=submit]').disabled;i++)await wait();
+ if(Number(document.querySelector('[data-style-score="'+classic.dataset.styleScore+'"]').value)!==8)throw Error('Custom points lost after refresh');
+ document.querySelector('#category-filter').value='Lifestyle';document.querySelector('#category-filter').dispatchEvent(new Event('change'));
+ if(document.querySelectorAll('[data-rule]').length!==4)throw Error('Expected four occasions');
+ document.querySelector('[data-rule="occasion:night"]').click();
+ if(![...document.querySelectorAll('[data-style-score]')].some(input=>Number(input.value)>0))throw Error('Occasion needs initial points');
+ if(__errors.length)throw Error(__errors.join(';'));
+ return 'PASS: default points, custom numeric points, save, reload, occasion entries.';
+})().then(result=>{const p=document.createElement('p');p.id='test-result';p.textContent=result;document.body.prepend(p);}).catch(e=>{const p=document.createElement('p');p.id='test-result';p.textContent='FAIL: '+e.message;document.body.prepend(p);});

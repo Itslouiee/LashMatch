@@ -1,0 +1,18 @@
+/* Display preferences apply only to admin pages and only when explicitly selected. */
+.admin-page .avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.admin-page[data-admin-density=compact] .styles-table td{height:auto;padding-top:6px;padding-bottom:6px}
+.admin-page[data-admin-theme=dark]{--ink:#f6eaf2;--muted:#c9b9c8;--border:#4b3548;background:#19151e;color:#f6eaf2}
+.admin-page[data-admin-theme=dark] .admin-shell,.admin-page[data-admin-theme=dark] .workspace{background:#211c28;color:#f6eaf2}
+.admin-page[data-admin-theme=dark] .sidebar{background:#2c202d}
+.admin-page[data-admin-theme=dark] :is(.panel,.settings-card,.stat-card,.styles-table-card,.style-editor,.user-details,.settings-tabs,dialog,.settings-extra-panel,.date-fields,#linked-options){background:#2b2332;color:#f6eaf2;border-color:#4b3548}
+.admin-page[data-admin-theme=dark] :is(p,small,.user-muted,.style-description,.activity-time,.activity-copy small,.match-count,.quiz-details,.table-user small,.nearby-studio small,.settings-heading p,.welcome p,.users-heading p,.styles-heading p,.studio-heading p,.capability-heading p){color:#c9b9c8}
+.admin-page[data-admin-theme=dark] :is(input,select,textarea,.password-field,.social-field,.linked-picker summary,.users-date-filter summary,#admin-search-form){background:#352c3d;color:#f6eaf2;border-color:#68506a}
+.admin-page[data-admin-theme=dark] input::placeholder,.admin-page[data-admin-theme=dark] textarea::placeholder{color:#c5b4c6}
+.admin-page[data-admin-theme=dark] .styles-table th{background:#472c42;color:#ffe3f1}
+.admin-page[data-admin-theme=dark] :is(.style-filters,.users-filters,.manager-note,.preview-note,.password-requirements,.storage-summary){background:#352837;color:#e8cddd}
+.admin-page[data-admin-theme=dark] :is(.nav-item.active,.nav-item:hover,.settings-tabs button[aria-selected=true]){background:#57263f;color:#ff86b4}
+.admin-page[data-admin-theme=dark] :is(h1,h2,h3,.stat-card strong,.profile-button,.nav-item,.settings-form label,.user-tabs button){color:#f6eaf2}
+.admin-page[data-admin-theme=dark] .settings-tabs button[aria-selected=true],.admin-page[data-admin-theme=dark] .user-tabs button[aria-selected=true]{color:#ff86b4}
+.admin-page[data-admin-theme=dark] .quick-grid button{background:#392839;color:#f6eaf2}
+.admin-page[data-admin-theme=dark] .styles-table tr.selected{background:#452b40}
+.admin-page[data-admin-theme=dark] :is(.manager-form fieldset,.manager-record,.styles-table td,.topbar){border-color:#4b3548}

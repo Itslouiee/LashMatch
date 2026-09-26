@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff6f6">
+<meta name="description" content="LashMatch: a personalized lash recommendation, virtual try-on, and studio locater system. Beauty meets you.">
+<title>LashMatch — Beauty Meets You</title>
+<link rel="stylesheet" href="styles.css?v=20260915-hover">
+<script src="profile-shared.js?v=account-cavite-1" defer></script><script src="saved-store.js?v=profile1" defer></script><script src="app.js?v=admin-catalog-3" defer></script>
+<link rel="stylesheet" href="interaction-motion.css?v=1"><script src="interaction-motion.js?v=1" defer></script></head>
+<body>
+<main id="home" class="landing" aria-labelledby="page-title">
+<header class="site-header">
+<a class="brand" href="#home" aria-label="LashMatch home">Lash<span>Match</span><small>BEAUTY MEETS YOU</small></a>
+<nav aria-label="Main navigation"><a class="active" href="#home">Home</a><button data-panel="features">Features</button><button data-panel="how">How It Works</button><button data-studios>Studios</button><button data-panel="about">About</button></nav>
+<div class="account-actions"><a class="button outline" href="login.html">Login</a><a class="button" href="signup.html">Sign Up</a></div>
+</header>
+<section class="hero">
+<div class="hero-copy"><p class="eyebrow">MORE THAN LASHES. IT&#8217;S A MATCH.</p><h1 id="page-title">Find Your<br><em>Perfect</em> Lash Look</h1><p class="intro">A personalized lash recommendation,<br class="desktop-break"> virtual try-on, and studio locator. Made for you.</p>
+<div class="hero-actions"><button class="button" data-quiz>Get Started <svg><use href="#arrow"/></svg></button><button class="button outline" data-panel="how">How It Works <svg aria-hidden="true"><use href="#arrow"/></svg></button></div>
+<div class="benefits"><button data-quiz><span class="benefit-icon">&#10023;</span><span>Personalized<br>Recommendations</span></button><button data-preview><span class="benefit-icon">&#9678;</span><span>Virtual<br>Try-On</span></button><button data-studios><span class="benefit-icon"><svg><use href="#pin"/></svg></span><span>Find Nearby<br>Studios</span></button></div></div>
+<div class="hero-art"><svg class="photo-crop" viewBox="790 105 962 485" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Lash inspiration and a preview of a hybrid lash look"><image href="reference.png" width="1752" height="986"/></svg><button class="button photo-cta" data-preview>Try a Lash Look <svg><use href="#arrow"/></svg></button></div>
+</section>
+<section class="studio-section" aria-labelledby="studio-title"><div class="studio-copy"><p class="eyebrow">FIND LASH STUDIOS NEAR YOU</p><h2 id="studio-title">Beauty, <em>Closer</em> to You</h2><p>Discover lash studios in your area<br class="desktop-break"> for your customized lash look.</p><button class="button" data-studios>Explore Nearby Studios <svg><use href="#arrow"/></svg></button></div>
+<button class="image-card map-card" data-studios aria-label="Explore lash studios on the map"><svg class="photo-crop" viewBox="655 607 630 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="reference.png" width="1752" height="986"/></svg><span class="card-label"><svg><use href="#pin"/></svg> Find your nearby studio</span></button>
+<button class="image-card studio-card" data-studios aria-label="Browse lash studios"><svg class="photo-crop" viewBox="1310 610 380 235" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><image href="reference.png" width="1752" height="986"/></svg><span class="card-label">Your next beauty destination <span aria-hidden="true">&#10023;</span></span></button></section>
+<footer class="site-footer"><span>A little lash. A lot of confidence.</span><span>BEAUTY MEETS YOU <span aria-hidden="true">&#10023;</span></span></footer>
+</main>
+<dialog id="modal" aria-label="LashMatch"><button id="close" aria-label="Close dialog">×</button><div id="modal-content"></div></dialog>
+<div id="toast" role="status"></div>
+<svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+</defs></svg>
+</body>
+</html>

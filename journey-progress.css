@@ -1,0 +1,17 @@
+
+/* One numbered journey across quiz, try-on, and studio results. */
+body.client-home .journey-progress.journey-progress.journey-progress{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));list-style:none;width:100%;min-width:0;min-height:0;margin:0;padding:0;align-self:start}
+body.client-home .journey-progress.journey-progress.journey-progress li{position:relative;display:flex;flex-direction:column;align-items:center;gap:7px;min-width:0;color:#7d8290;font-size:11px;font-weight:400;text-align:center}
+body.client-home .journey-progress.journey-progress.journey-progress li>span{display:grid;place-items:center;width:34px;height:34px;flex-shrink:0;border-radius:50%;background:#f0edf0;color:#7d8290;font-size:18px;font-weight:400;z-index:1}
+body.client-home .journey-progress.journey-progress.journey-progress li:not(:last-child)::after{content:'';position:absolute;top:17px;left:calc(50% + 22px);width:calc(100% - 44px);height:1px;background:#e5e0e5}
+body.client-home .journey-progress.journey-progress.journey-progress li[aria-current=step]{color:#18283c;font-weight:600}
+@media(max-width:800px){
+ body.client-home .journey-progress.journey-progress.journey-progress li{font-size:7px;gap:5px}
+ body.client-home .journey-progress.journey-progress.journey-progress li>span{width:24px;height:24px;font-size:12px}
+ body.client-home .journey-progress.journey-progress.journey-progress li:not(:last-child)::after{top:12px;left:calc(50% + 14px);width:calc(100% - 28px)}
+}
+
+/* Only started or completed steps use the accent color. */
+body.client-home .journey-progress.journey-progress.journey-progress li.done{color:#d92768}
+body.client-home .journey-progress.journey-progress.journey-progress li.done>span,body.client-home .journey-progress.journey-progress.journey-progress li[aria-current=step]>span{background:#d92768;color:white}
+body.client-home .journey-progress.journey-progress.journey-progress li.done:not(:last-child)::after{background:#eb82a8}

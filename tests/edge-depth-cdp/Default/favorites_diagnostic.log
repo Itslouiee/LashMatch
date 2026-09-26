@@ -1,0 +1,82 @@
+2026-09-25 21:45:41.849: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 21:45:41.849: [INFO] Profiles total count: 1
+2026-09-25 21:45:41.849: [INFO] Profile: name=Profile 1 path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=null
+2026-09-25 21:45:41.849: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 21:45:41.849: [INFO] VisibilityChanged: 0
+2026-09-25 21:45:41.865: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.866: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.867: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.868: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.870: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.871: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.872: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.873: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.875: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.876: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:41.895: [INFO] OnDoneLoading sync enabled: 0
+2026-09-25 21:45:41.895: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 21:45:41.895: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 21:45:41.895: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 21:45:41.899: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:42.860: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 21:45:42.866: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 21:45:42.870: [INFO] Primary account changed.
+2026-09-25 21:45:42.870: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-09-25 21:45:42.881: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 21:45:42.904: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 21:45:45.973: [INFO] Sync initialization duration: 2949ms
+2026-09-25 22:07:12.998: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:07:12.998: [INFO] Profiles total count: 1
+2026-09-25 22:07:12.998: [INFO] Profile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T21:45:41.861Z
+2026-09-25 22:07:12.998: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:07:12.998: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T21:45:41.861Z
+2026-09-25 22:07:12.998: [INFO] VisibilityChanged: 0
+2026-09-25 22:07:13.030: [INFO] OnDoneLoading sync enabled: 1
+2026-09-25 22:07:13.030: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 22:07:13.030: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 22:07:13.030: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 22:07:13.196: [INFO] Sync initialization duration: 27ms
+2026-09-25 22:08:23.987: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:08:23.987: [INFO] Profiles total count: 1
+2026-09-25 22:08:23.987: [INFO] Profile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T22:07:13.015Z
+2026-09-25 22:08:23.987: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:08:23.987: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T22:07:13.015Z
+2026-09-25 22:08:23.987: [INFO] VisibilityChanged: 0
+2026-09-25 22:08:24.036: [INFO] OnDoneLoading sync enabled: 1
+2026-09-25 22:08:24.036: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 22:08:24.036: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 22:08:24.036: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 22:08:24.189: [INFO] Sync initialization duration: 50ms
+2026-09-25 22:23:24.119: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:23:24.119: [INFO] Profiles total count: 1
+2026-09-25 22:23:24.120: [INFO] Profile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T22:08:24.006Z
+2026-09-25 22:23:24.120: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:23:24.120: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T22:08:24.006Z
+2026-09-25 22:23:24.120: [INFO] VisibilityChanged: 0
+2026-09-25 22:23:24.164: [INFO] OnDoneLoading sync enabled: 1
+2026-09-25 22:23:24.165: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 22:23:24.165: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 22:23:24.165: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 22:23:24.293: [INFO] Sync initialization duration: 26ms
+2026-09-25 22:24:44.494: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:24:44.494: [INFO] Profiles total count: 1
+2026-09-25 22:24:44.494: [INFO] Profile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T22:23:24.135Z
+2026-09-25 22:24:44.494: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:24:44.494: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T22:23:24.135Z
+2026-09-25 22:24:44.494: [INFO] VisibilityChanged: 0
+2026-09-25 22:24:44.534: [INFO] OnDoneLoading sync enabled: 1
+2026-09-25 22:24:44.534: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 22:24:44.534: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 22:24:44.534: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 22:24:44.665: [INFO] Sync initialization duration: 33ms
+2026-09-25 22:26:01.080: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:26:01.080: [INFO] Profiles total count: 1
+2026-09-25 22:26:01.080: [INFO] Profile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T22:24:44.510Z
+2026-09-25 22:26:01.080: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default
+2026-09-25 22:26:01.080: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default lastActive=2026-09-25T22:24:44.510Z
+2026-09-25 22:26:01.080: [INFO] VisibilityChanged: 0
+2026-09-25 22:26:01.119: [INFO] OnDoneLoading sync enabled: 1
+2026-09-25 22:26:01.119: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 22:26:01.119: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 22:26:01.119: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 22:26:01.263: [INFO] Sync initialization duration: 46ms

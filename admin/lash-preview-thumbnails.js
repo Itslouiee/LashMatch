@@ -1,0 +1,2 @@
+'use strict';
+(()=>{const render=()=>document.querySelectorAll('[data-lash-preview]').forEach(el=>{const name=el.dataset.lashPreview;el.removeAttribute('data-lash-preview');if(LashStyleProfiles.resolve(name))el.replaceWith(LashThumbnails.image(name));else el.textContent='No preview';});new MutationObserver(render).observe(document.body,{childList:true,subtree:true});render();})();

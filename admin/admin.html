@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin Dashboard | LashMatch</title>
+<link rel="stylesheet" href="admin.css"><link rel="stylesheet" href="admin-interactions.css"><link rel="stylesheet" href="admin-live.css"><script src="admin-live.js?v=native-backend-3" defer></script>
+<link rel="stylesheet" href="admin-preferences.css">
+<link rel="stylesheet" href="../interaction-motion.css?v=1"><script src="../interaction-motion.js?v=1" defer></script></head>
+<body class="admin-page">
+<div class="admin-shell">
+<aside class="sidebar">
+<a class="brand" href="admin.html" aria-label="LashMatch dashboard"><svg viewBox="25 20 250 65" role="img" aria-label="LashMatch — Beauty meets you"><image href="ref2.png" width="1833" height="1031"/></svg></a>
+<nav aria-label="Admin navigation">
+<a class="nav-item active" href="admin.html" aria-current="page" aria-label="Dashboard"><svg><use href="#home"/></svg><span>Dashboard</span></a>
+<a class="nav-item" href="admin-lash-styles.html" aria-label="Lash Styles"><svg><use href="#lashes"/></svg><span>Lash Styles</span></a>
+<a class="nav-item criteria-nav" href="admin-recommendation-criteria.html" aria-label="Recommendation Criteria"><svg><use href="#criteria"/></svg><span>Recommendation<br>Criteria</span></a>
+<a class="nav-item" href="admin-studios.html" aria-label="Studios"><svg><use href="#pin"/></svg><span>Studios</span></a>
+<a class="nav-item" href="admin-studio-capabilities.html" aria-label="Studio Capabilities"><svg><use href="#shop"/></svg><span>Studio Capabilities</span></a>
+<a class="nav-item" href="admin-users-results.html" aria-label="Users &amp; Results"><svg><use href="#users"/></svg><span>Users &amp; Results</span></a>
+<a class="nav-item" href="admin-settings.html" aria-label="Settings"><svg><use href="#settings"/></svg><span>Settings</span></a>
+</nav>
+<div class="logout-wrap"><a class="nav-item" href="login.html" aria-label="Logout"><svg><use href="#logout"/></svg><span>Logout</span></a></div>
+<div class="sidebar-art"><svg viewBox="164 775 250 275" role="img" aria-label="Behind Beautiful Choices"><image href="ui-admin.png" width="1920" height="1080"/></svg></div>
+</aside>
+<main class="workspace">
+<header class="topbar">
+<form id="admin-search-form" role="search"><svg><use href="#search"/></svg><input id="admin-search" type="search" placeholder="Search anything..." aria-label="Search dashboard"></form>
+<div class="top-actions"><button class="notification-button" id="notifications" aria-label="View notifications"><svg><use href="#bell"/></svg><span class="notification-dot"></span></button><button class="profile-button" id="profile"><span class="avatar">A</span><span class="profile-copy"><strong>Admin</strong><small>System Administrator</small></span><svg><use href="#chevron"/></svg></button></div>
+</header>
+<section class="welcome"><div><h1>Welcome, Admin! <span>♡</span></h1><p>Manage lash styles, studios, and recommendations all in one place.</p></div><svg class="welcome-art" viewBox="1308 91 425 106" role="img" aria-label="More than lashes, more confidence."><image href="ui-admin.png" width="1920" height="1080"/></svg></section>
+<section class="stats" aria-label="Dashboard totals">
+<article class="stat-card"><span class="stat-icon"><svg><use href="#users"/></svg></span><div><h2>Total Clients</h2><strong>152</strong><p>↗ +12% this month</p></div></article>
+<article class="stat-card"><span class="stat-icon"><svg><use href="#lashes"/></svg></span><div><h2>Total Lash Styles</h2><strong>12</strong><p>↗ +2 new this month</p></div></article>
+<article class="stat-card"><span class="stat-icon"><svg><use href="#shop"/></svg></span><div><h2>Total Studios</h2><strong>28</strong><p>↗ +5 new this month</p></div></article>
+<article class="stat-card"><span class="stat-icon"><svg><use href="#document"/></svg></span><div><h2>Quiz Completed</h2><strong>124</strong><p>↗ +18% this month</p></div></article>
+</section>
+<div class="dashboard-grid">
+<div class="primary-column">
+<section class="panel activity-panel"><div class="panel-heading"><div><h2>Client Activity</h2><p>New users, quiz completions, and studio searches over time.</p></div><label class="range-label"><span class="sr-only">Activity date range</span><select id="activity-range"><option value="7">Last 7 Days</option><option value="14">Last 14 Days</option><option value="30">Last 30 Days</option></select></label></div><div class="chart-legend"><span><i class="new-users"></i>New Users</span><span><i class="quiz-completions"></i>Quiz Completions</span><span><i class="studio-searches"></i>Studio Searches</span></div><div class="chart-wrap"><svg id="activity-chart" viewBox="0 0 790 226" role="img" aria-label="Sample client activity from September 8 to September 14"></svg></div></section>
+<div class="ranking-grid">
+<section class="panel lash-panel"><h2>Top Lash Styles</h2><p>Most recommended based on quiz results.</p><div id="lash-rankings" class="ranking-list"></div></section>
+<section class="panel studio-panel"><h2>Top Performing Studios</h2><p>Most matched with client looks.</p><div id="studio-rankings" class="ranking-list"></div></section>
+</div>
+</div>
+<div class="secondary-column">
+<section class="panel recent-panel"><div class="panel-heading"><h2>Recent Activities</h2><button class="text-link" id="all-activities">View All</button></div><div id="recent-activities"></div></section>
+<section class="panel quick-panel"><h2>Quick Actions</h2><p>Manage your data quickly.</p><div class="quick-grid"><button data-section="Add Lash Style"><svg><use href="#lashes"/></svg><span>+ Add Lash Style</span></button><button data-section="Add Studio"><svg><use href="#shop"/></svg><span>+ Add Studio</span></button><button data-section="Recommendation Criteria"><svg><use href="#criteria"/></svg><span>Edit Quiz Criteria</span></button><button data-section="Users &amp; Results"><svg><use href="#users"/></svg><span>View Users</span></button></div></section>
+</div>
+</div>
+</main>
+</div>
+<dialog id="admin-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close dialog">×</button><h2 id="dialog-title"></h2><div id="dialog-content"></div></dialog>
+<svg class="icon-library" aria-hidden="true"><defs>
+<symbol id="home" viewBox="0 0 24 24"><path d="m2 10 10-8 10 8v12h-7v-8H9v8H2Z"/></symbol>
+<symbol id="lashes" viewBox="0 0 24 24"><path d="M2 7c4 7 16 7 20 0M3 9l-2 2m5 1-2 3m5-2-1 4m4-3v4m3-5 1 4m2-5 2 3m1-6 2 2"/></symbol>
+<symbol id="criteria" viewBox="0 0 24 24"><path d="m6 2 1.5 3L10 7 7.5 9 6 12 4.5 9 2 7l2.5-2ZM6 14l1 2 2 1-2 2-1 3-1-3-2-2 2-1ZM14 7h8m-8 10h8m-8-5h4"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="shop" viewBox="0 0 24 24"><path d="m3 3-2 7c0 4 5 4 5 0 0 4 6 4 6 0 0 4 6 4 6 0 0 4 5 4 5 0l-2-7ZM3 13v9h7v-7h5v7h6v-9M7 3l-1 7m12 0-1-7"/></symbol>
+<symbol id="users" viewBox="0 0 24 24"><circle cx="9" cy="6" r="4"/><path d="M2 22v-3a7 7 0 0 1 14 0v3Zm15-7a6 6 0 0 1 6 6v1M17 3a4 4 0 0 1 0 8"/></symbol>
+<symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="6" r="4"/><path d="M3 22v-3a9 9 0 0 1 18 0v3Z"/></symbol>
+<symbol id="settings" viewBox="0 0 24 24"><path d="m9 2-1 3-3-1-2 3 2 3-3 1v3l3 1-1 3 3 2 3-2 1 4h3l1-3 3 1 2-3-2-3 3-1v-3l-3-1 1-3-3-2-3 2-1-4Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="logout" viewBox="0 0 24 24"><path d="M14 3H3v18h11m-5-9h14m-5-5 5 5-5 5"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 7 7"/></symbol>
+<symbol id="bell" viewBox="0 0 24 24"><path d="M3 18h18l-3-5V8A6 6 0 0 0 6 8v5Zm6 3a3 3 0 0 0 6 0M12 2V0"/></symbol>
+<symbol id="chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="document" viewBox="0 0 24 24"><path d="M3 2h12l6 6v14H3Zm12 0v7h6M7 7h3m-3 6h10M7 17h10m-10 3h6"/></symbol>
+</defs></svg>
+</body></html>

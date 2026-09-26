@@ -1,0 +1,92 @@
+2026-09-25 13:25:44.215: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default
+2026-09-25 13:25:44.215: [INFO] Profiles total count: 1
+2026-09-25 13:25:44.215: [INFO] Profile: name=Profile 1 path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default lastActive=null
+2026-09-25 13:25:44.215: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default
+2026-09-25 13:25:44.215: [INFO] VisibilityChanged: 0
+2026-09-25 13:25:44.231: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.232: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.234: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.235: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.236: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.237: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.239: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.241: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.243: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.244: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:44.262: [INFO] OnDoneLoading sync enabled: 0
+2026-09-25 13:25:44.262: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 13:25:44.262: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 13:25:44.262: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 13:25:44.267: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:45.415: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-09-25 13:25:45.421: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:25:45.427: [INFO] Primary account changed.
+2026-09-25 13:25:45.427: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-09-25 13:25:45.447: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:25:45.468: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:05.940: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default
+2026-09-25 13:52:05.940: [INFO] Profiles total count: 1
+2026-09-25 13:52:05.940: [INFO] Profile: name=Profile 1 path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default lastActive=null
+2026-09-25 13:52:05.940: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default
+2026-09-25 13:52:05.940: [INFO] VisibilityChanged: 0
+2026-09-25 13:52:05.983: [INFO] OnDoneLoading sync enabled: 0
+2026-09-25 13:52:05.983: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 13:52:05.983: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 13:52:05.983: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 13:52:06.006: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:06.054: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:06.495: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:06.499: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:06.501: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:06.509: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:06.510: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:06.513: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:06.515: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:06.518: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:07.183: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:07.184: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:07.595: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:07.861: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:07.862: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 13:52:07.864: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 13:52:08.725: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 13:52:08.726: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 13:52:08.938: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 13:52:17.400: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default
+2026-09-25 13:52:17.400: [INFO] Profiles total count: 1
+2026-09-25 13:52:17.400: [INFO] Profile: name=Profile 1 path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default lastActive=2026-09-25T13:52:05.957Z
+2026-09-25 13:52:17.400: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default
+2026-09-25 13:52:17.400: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default lastActive=2026-09-25T13:52:05.957Z
+2026-09-25 13:52:17.400: [INFO] VisibilityChanged: 0
+2026-09-25 13:52:17.446: [INFO] OnDoneLoading sync enabled: 0
+2026-09-25 13:52:17.446: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 13:52:17.446: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 13:52:17.446: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 13:52:27.382: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:27.384: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 13:52:27.386: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:27.388: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:27.389: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 13:52:27.395: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 13:52:27.396: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 13:52:27.632: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 13:52:27.636: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 21:44:32.024: [INFO] CurrentProfilePath: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default
+2026-09-25 21:44:32.024: [INFO] Profiles total count: 1
+2026-09-25 21:44:32.024: [INFO] Profile: name=Profile 1 path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default lastActive=2026-09-25T13:52:17.417Z
+2026-09-25 21:44:32.024: [INFO] LastUsedProfileDir: C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default
+2026-09-25 21:44:32.025: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\xampp\htdocs\Lash-Match-main-main\tests\edge-catalog-cdp\Default lastActive=2026-09-25T13:52:17.417Z
+2026-09-25 21:44:32.025: [INFO] VisibilityChanged: 0
+2026-09-25 21:44:32.069: [INFO] OnDoneLoading sync enabled: 0
+2026-09-25 21:44:32.069: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-25 21:44:32.069: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-25 21:44:32.069: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-25 21:44:41.995: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 21:44:41.998: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 21:44:41.999: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-09-25 21:44:42.002: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 21:44:42.003: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 5
+2026-09-25 21:44:42.011: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 21:44:42.013: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 21:44:42.325: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6
+2026-09-25 21:44:42.337: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 6

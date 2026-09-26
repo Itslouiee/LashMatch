@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lash Styles | LashMatch Admin</title>
+<link rel="stylesheet" href="admin.css"><link rel="stylesheet" href="admin-interactions.css"><link rel="stylesheet" href="admin-live.css"><script src="admin-live.js?v=criteria-menu-1" defer></script>
+<link rel="stylesheet" href="admin-preferences.css">
+<link rel="stylesheet" href="../interaction-motion.css?v=1"><script src="../interaction-motion.js?v=1" defer></script><link rel="stylesheet" href="admin-lash-styles.css?v=native1"><script src="../lash-profiles.js?v=all-styles-1" defer></script><script src="../classic-asset.js?v=depth-fibers-1" defer></script><script src="../lash-thumbnails.js?v=all-styles-1" defer></script><script src="lash-preview-thumbnails.js?v=all-styles-1" defer></script></head>
+<body class="admin-page lash-styles-page">
+<div class="admin-shell">
+<aside class="sidebar">
+<a class="brand" href="admin.html" aria-label="LashMatch dashboard"><svg viewBox="25 20 250 65" role="img" aria-label="LashMatch — Beauty meets you"><image href="ref2.png" width="1833" height="1031"/></svg></a>
+<nav aria-label="Admin navigation">
+<a class="nav-item" href="admin.html" aria-label="Dashboard"><svg><use href="#home"/></svg><span>Dashboard</span></a>
+<a class="nav-item active" aria-current="page" href="admin-lash-styles.html" aria-label="Lash Styles"><svg><use href="#lashes"/></svg><span>Lash Styles</span></a>
+<a class="nav-item criteria-nav" href="admin-recommendation-criteria.html" aria-label="Recommendation Criteria"><svg><use href="#criteria"/></svg><span>Recommendation<br>Criteria</span></a>
+<a class="nav-item" href="admin-studios.html" aria-label="Studios"><svg><use href="#pin"/></svg><span>Studios</span></a>
+<a class="nav-item" href="admin-studio-capabilities.html" aria-label="Studio Capabilities"><svg><use href="#shop"/></svg><span>Studio Capabilities</span></a>
+<a class="nav-item" href="admin-users-results.html" aria-label="Users &amp; Results"><svg><use href="#users"/></svg><span>Users &amp; Results</span></a>
+<a class="nav-item" href="admin-settings.html" aria-label="Settings"><svg><use href="#settings"/></svg><span>Settings</span></a>
+</nav>
+<div class="logout-wrap"><a class="nav-item" href="../login.html" aria-label="Logout"><svg><use href="#logout"/></svg><span>Logout</span></a></div>
+<div class="sidebar-art"><svg viewBox="125 779 254 250" role="img" aria-label="More than lashes, more confidence."><image href="lashstyles.png" width="1920" height="1080"/></svg></div>
+</aside>
+<main class="workspace">
+<header class="topbar">
+<form id="admin-search-form" role="search"><svg><use href="#search"/></svg><input id="admin-search" type="search" placeholder="Search lash styles, descriptions..." aria-label="Search lash styles and descriptions"></form>
+<div class="top-actions"><button class="notification-button" id="notifications" aria-label="View notifications"><svg><use href="#bell"/></svg><span class="notification-dot"></span></button><button class="profile-button" id="profile"><span class="avatar">A</span><span class="profile-copy"><strong>Admin</strong><small>System Administrator</small></span><svg><use href="#chevron"/></svg></button></div>
+</header>
+
+<section class="styles-heading"><div class="styles-heading-main"><div><h1>Manage Lash Styles</h1><p>Add, edit, or remove lash styles used in recommendations and try-on.</p></div><button class="pink-button" id="add-style"><span aria-hidden="true">＋</span> Add Lash Style</button></div><svg class="styles-signature" viewBox="1285 110 423 114" role="img" aria-label="Different styles, endless possibilities."><image href="lashstyles.png" width="1920" height="1080"/></svg></section>
+<div class="styles-layout">
+<section class="styles-catalog" aria-label="Lash style catalog">
+<form class="style-filters" id="style-filters"><label class="style-search"><svg aria-hidden="true"><use href="#search"/></svg><input id="style-search" type="search" placeholder="Search lash styles..." aria-label="Search lash styles"></label><select id="type-filter" aria-label="Filter by type"><option value="">All Types</option><option>Classic</option><option>Hybrid</option><option>Volume</option><option>Wispy</option><option>Mega Volume</option><option>Colored</option></select><select id="status-filter" aria-label="Filter by status"><option value="">All Status</option><option>Active</option><option>Inactive</option></select><button type="reset" class="reset-button">Reset</button></form>
+<div class="styles-table-card"><div class="table-scroll" tabindex="0" role="region" aria-label="Lash styles table"><table class="styles-table"><thead><tr><th class="check-cell"><input id="select-all" type="checkbox" aria-label="Select all styles on this page"></th><th>Image</th><th>Style Name</th><th>Type</th><th>Description</th><th>Status</th><th>Actions</th></tr></thead><tbody id="styles-body"></tbody></table></div><footer class="table-footer"><span id="entry-count" role="status"></span><div class="pagination" aria-label="Table pagination"><button id="previous-page" aria-label="Previous page">‹</button><span id="current-page" aria-current="page">1</span><button id="next-page" aria-label="Next page">›</button></div></footer></div>
+<p class="local-data-note">Preview catalog · Changes are saved in this browser only.</p>
+</section>
+<aside class="style-editor" id="style-editor" aria-labelledby="editor-title"><div class="editor-heading"><h2 id="editor-title">Add New Lash Style</h2><button id="close-editor" aria-label="Close lash style form">×</button></div>
+<form id="style-form">
+<label class="editor-field">Style Name <span class="required">*</span><input name="name" id="style-name" placeholder="e.g. Classic Lash" required maxlength="80"></label>
+<label class="editor-field">Type <span class="required">*</span><select name="type" id="style-type" required><option value="">Select type</option><option>Classic</option><option>Hybrid</option><option>Volume</option><option>Wispy</option><option>Mega Volume</option><option>Colored</option></select></label>
+<label class="editor-field">Description <span class="required">*</span><textarea name="description" id="style-description" placeholder="Enter a short description..." required maxlength="300"></textarea></label>
+<div class="editor-field"><label for="style-image">Upload Image <span class="required">*</span></label><div class="upload-layout"><label class="upload-zone" id="upload-zone" for="style-image"><svg aria-hidden="true"><use href="#upload"/></svg><span>Click to upload an image<small>or drag and drop<br>(PNG, JPG - Max 2MB)</small></span><input id="style-image" type="file" accept="image/png,image/jpeg" aria-label="Upload lash image, PNG or JPG, maximum 2 MB"></label><div class="upload-preview" id="upload-preview"><svg viewBox="1564 665 124 128" role="img" aria-label="Example lash image"><image href="lashstyles.png" width="1920" height="1080"/></svg></div></div></div>
+<label class="editor-field status-field">Status <span class="required">*</span><select name="status" id="style-status" required><option>Active</option><option>Inactive</option></select></label>
+<p id="form-message" role="alert"></p><div class="editor-buttons"><button class="cancel-button" type="button" id="cancel-style">Cancel</button><button class="pink-button" type="submit" id="save-style">Save</button></div>
+</form></aside>
+</div><div class="styles-toast" id="styles-toast" role="status" hidden></div>
+</main>
+</div>
+<dialog id="admin-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close dialog">×</button><h2 id="dialog-title"></h2><div id="dialog-content"></div></dialog>
+<svg class="icon-library" aria-hidden="true"><defs>
+<symbol id="home" viewBox="0 0 24 24"><path d="m2 10 10-8 10 8v12h-7v-8H9v8H2Z"/></symbol>
+<symbol id="lashes" viewBox="0 0 24 24"><path d="M2 7c4 7 16 7 20 0M3 9l-2 2m5 1-2 3m5-2-1 4m4-3v4m3-5 1 4m2-5 2 3m1-6 2 2"/></symbol>
+<symbol id="criteria" viewBox="0 0 24 24"><path d="m6 2 1.5 3L10 7 7.5 9 6 12 4.5 9 2 7l2.5-2ZM6 14l1 2 2 1-2 2-1 3-1-3-2-2 2-1ZM14 7h8m-8 10h8m-8-5h4"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="shop" viewBox="0 0 24 24"><path d="m3 3-2 7c0 4 5 4 5 0 0 4 6 4 6 0 0 4 6 4 6 0 0 4 5 4 5 0l-2-7ZM3 13v9h7v-7h5v7h6v-9M7 3l-1 7m12 0-1-7"/></symbol>
+<symbol id="users" viewBox="0 0 24 24"><circle cx="9" cy="6" r="4"/><path d="M2 22v-3a7 7 0 0 1 14 0v3Zm15-7a6 6 0 0 1 6 6v1M17 3a4 4 0 0 1 0 8"/></symbol>
+<symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="6" r="4"/><path d="M3 22v-3a9 9 0 0 1 18 0v3Z"/></symbol>
+<symbol id="settings" viewBox="0 0 24 24"><path d="m9 2-1 3-3-1-2 3 2 3-3 1v3l3 1-1 3 3 2 3-2 1 4h3l1-3 3 1 2-3-2-3 3-1v-3l-3-1 1-3-3-2-3 2-1-4Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="logout" viewBox="0 0 24 24"><path d="M14 3H3v18h11m-5-9h14m-5-5 5 5-5 5"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 7 7"/></symbol>
+<symbol id="bell" viewBox="0 0 24 24"><path d="M3 18h18l-3-5V8A6 6 0 0 0 6 8v5Zm6 3a3 3 0 0 0 6 0M12 2V0"/></symbol>
+<symbol id="chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="document" viewBox="0 0 24 24"><path d="M3 2h12l6 6v14H3Zm12 0v7h6M7 7h3m-3 6h10M7 17h10m-10 3h6"/></symbol>
+<symbol id="edit" viewBox="0 0 24 24"><path d="m15 3 5 5M4 16 17 3a2 2 0 0 1 3 3L7 19l-4 1Zm-1 6h18"/></symbol><symbol id="trash" viewBox="0 0 24 24"><path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/></symbol><symbol id="upload" viewBox="0 0 24 24"><path d="M12 16V2m-6 6 6-6 6 6M3 15v7h18v-7"/></symbol></defs></svg>
+</body></html>

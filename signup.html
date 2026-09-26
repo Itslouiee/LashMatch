@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fcf2f4">
+<title>Create Your Account | LashMatch</title>
+<style>
+:root{color-scheme:light;--rose:#bd647d;--deep:#963e59;--ink:#151922}*{box-sizing:border-box}html,body{margin:0;height:100%;background:#fcf2f4;color:var(--ink);font-family:Arial,sans-serif}button,input,a{font:inherit}a{text-decoration:none;color:inherit}button{cursor:pointer}svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}a,button{transition:background-color .18s,color .18s}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--deep);outline-offset:3px}
+.layout{height:100vh;height:100dvh;display:grid;grid-template-columns:minmax(0,57.4fr) minmax(0,42.6fr);grid-template-rows:minmax(0,1fr)}.art{position:relative;min-width:0;min-height:0;background:#fcf0f2;overflow:hidden}.art>svg{width:100%;height:100%;stroke:none}.side{position:relative;min-width:0;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(10px,2.2vh,24px);padding:clamp(12px,2.5vh,28px) clamp(20px,2.5vw,42px);isolation:isolate}.decoration{position:absolute;right:0;top:0;width:clamp(130px,15vw,220px);height:auto;stroke:none;z-index:-1}.bottom{top:auto;bottom:0;width:40%}.back{width:min(100%,570px);flex-shrink:0;display:flex;align-items:center;gap:8px;padding:7px 8px;font-size:14px;font-weight:600;color:#a46374;border-radius:8px}.card{width:min(100%,570px);flex-shrink:0;padding:clamp(22px,3.5vh,38px) clamp(22px,2.5vw,38px);border-radius:28px;background:#ffffffb8;box-shadow:0 12px 36px #b77d8910}h1{font:bold clamp(28px,4.1vh,43px)/1.1 Georgia,serif;letter-spacing:-1px;text-align:center;margin:0 0 10px}.subtitle{text-align:center;color:#505764;font-size:clamp(13px,1.7vh,16px);line-height:1.45;margin:0 0 clamp(18px,3.5vh,34px)}.field{margin-bottom:clamp(12px,2.3vh,24px)}.field>label{display:block;font-size:14px;margin-bottom:8px}.input-wrap{display:flex;align-items:center;gap:12px;min-height:46px;padding:0 14px;border:1px solid #e9dfe3;border-radius:12px;color:#80818c;background:#fff4}.input-wrap:focus-within{border-color:var(--rose);box-shadow:0 0 0 3px #bd647d14}input:not([type=checkbox]){min-width:0;width:100%;padding:13px 0;border:0;outline:none;background:transparent;color:var(--ink);font-size:14px}input::placeholder{color:#8a8d98}.toggle{display:grid;place-items:center;padding:5px;border:0;border-radius:6px;background:transparent;color:#85818d}.toggle[aria-pressed=true] .slash{display:none}.agreement{display:flex;align-items:flex-start;gap:8px;font-size:12px;line-height:1.5;margin:3px 0 18px}.agreement input{margin:2px 0 0;width:16px;height:16px;accent-color:var(--rose);flex-shrink:0}.text-link{border:0;padding:0;background:transparent;color:#c65a79;border-radius:3px;font-size:inherit}.submit{display:flex;align-items:center;justify-content:center;gap:14px;width:100%;padding:14px;border:0;border-radius:10px;background:linear-gradient(100deg,#c76c85,#b2677b 55%,#c76c85);color:#fff;font-size:20px}.footer{border-top:1px solid #eadfe3;text-align:center;margin:24px 0 0;padding-top:20px;font-size:13px}.footer a{display:inline-block;margin-left:10px;color:#c45877;font-weight:600;padding:4px;border-radius:4px}.message{color:var(--deep);font-size:12px;line-height:1.4;margin:0 0 12px}.message:empty{display:none}button:not(:disabled):hover{background:var(--deep);color:white}.back:hover,.footer a:hover,.text-link:hover{background:#f8d9e2;color:var(--deep)}button:disabled{opacity:.65;cursor:wait}.symbols{position:absolute;width:0;height:0;overflow:hidden}dialog{width:min(420px,90%);border:1px solid #ead5dc;border-radius:20px;background:#fff9fa;padding:28px;color:var(--ink)}dialog::backdrop{background:#29192177}dialog h2{font:600 27px Georgia,serif;margin:0 0 15px}dialog p{font-size:14px;line-height:1.6}dialog button{border:0;border-radius:8px;background:var(--rose);color:white;padding:10px 22px}
+@media(max-height:740px){.side{gap:10px;padding-top:12px;padding-bottom:12px}.card{padding:22px 26px}h1{font-size:31px}.subtitle{margin-bottom:20px}.field{margin-bottom:14px}.field>label{margin-bottom:6px;font-size:13px}.input-wrap{min-height:42px}input:not([type=checkbox]){padding:11px 0}.agreement{margin-bottom:13px}.submit{padding:11px;font-size:18px}.footer{margin-top:17px;padding-top:13px}}
+@media(max-width:1000px){.layout{grid-template-columns:minmax(0,46fr) minmax(0,54fr)}.side{padding-left:20px;padding-right:20px}h1{font-size:32px}.card{padding-left:24px;padding-right:24px}}
+@media(max-width:600px){.layout{display:block}.art{display:none}.side{height:100%;padding:12px 16px;gap:10px}.card{padding:22px;width:100%;max-width:440px}.back{max-width:440px}h1{font-size:30px}.subtitle{font-size:13px;margin-bottom:20px}.field{margin-bottom:14px}.input-wrap{min-height:44px}input:not([type=checkbox]){font-size:16px;padding:11px 0}.agreement{font-size:11px}.decoration{width:130px}.footer{margin-top:18px;padding-top:14px}}
+@media(max-height:620px){.side{padding-top:6px;padding-bottom:6px;gap:5px}.card{padding-top:14px;padding-bottom:14px}h1{font-size:27px;margin-bottom:6px}.subtitle{margin-bottom:12px}.field{margin-bottom:9px}.field>label{margin-bottom:4px}.input-wrap{min-height:36px}input:not([type=checkbox]){padding:8px 0}.agreement{margin-bottom:9px}.submit{padding:9px}.footer{margin-top:10px;padding-top:9px}}
+@media(prefers-reduced-motion:reduce){a,button{transition:none}}
+@media(max-width:600px) and (max-height:740px){.card{padding:16px 20px}.subtitle{margin-bottom:14px}.field{margin-bottom:10px}.footer{margin-top:12px;padding-top:10px}.side{padding-top:8px;padding-bottom:8px}}
+</style>
+<link rel="stylesheet" href="interaction-motion.css?v=1"><script src="interaction-motion.js?v=1" defer></script></head>
+<body>
+<main class="layout">
+<section class="art" aria-label="LashMatch. Your lashes, your story. Personalized recommendations, virtual try-on, and nearby studios.">
+<svg viewBox="0 0 929 1080" preserveAspectRatio="xMidYMid meet" role="img" aria-label="LashMatch model with before and after lash inspiration"><defs><clipPath id="art-crop"><rect width="929" height="1080"/></clipPath></defs><image href="ref.png" width="1620" height="1080" clip-path="url(#art-crop)"/></svg>
+</section>
+<section class="side" aria-labelledby="title">
+<svg class="decoration" viewBox="1390 0 230 115" role="img" aria-label="Better lashes, brighter days"><defs><clipPath id="top-crop"><rect x="1390" width="230" height="115"/></clipPath></defs><image href="ref.png" width="1620" height="1080" clip-path="url(#top-crop)"/></svg>
+<svg class="decoration bottom" viewBox="1370 1005 250 75" aria-hidden="true"><defs><clipPath id="bottom-crop"><rect x="1370" y="1005" width="250" height="75"/></clipPath></defs><image href="ref.png" width="1620" height="1080" clip-path="url(#bottom-crop)"/></svg>
+<a class="back" href="landingpage.html"><svg aria-hidden="true"><use href="#back"/></svg>Back to Home</a>
+<div class="card">
+<h1 id="title">Create Your Account</h1>
+<p class="subtitle">Join LashMatch and start your personalized lash journey.</p>
+<form id="signup-form">
+<div class="field"><label for="name">Full Name</label><div class="input-wrap"><svg aria-hidden="true"><use href="#person"/></svg><input id="name" name="name" placeholder="Enter your full name" autocomplete="name" maxlength="100" required></div></div>
+<div class="field"><label for="email">Email Address</label><div class="input-wrap"><svg aria-hidden="true"><use href="#mail"/></svg><input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="email" maxlength="254" required></div></div>
+<div class="field"><label for="password">Password</label><div class="input-wrap"><svg aria-hidden="true"><use href="#lock"/></svg><input type="password" id="password" name="password" placeholder="Create a password" autocomplete="new-password" minlength="8" maxlength="72" title="Use at least 8 characters" required><button class="toggle" type="button" data-password="password" aria-label="Show password" aria-pressed="false"><svg aria-hidden="true"><use href="#eye"/><path class="slash" d="m3 3 18 18"/></svg></button></div></div>
+<div class="field"><label for="confirm">Confirm Password</label><div class="input-wrap"><svg aria-hidden="true"><use href="#lock"/></svg><input type="password" id="confirm" name="confirm" placeholder="Confirm your password" autocomplete="new-password" minlength="8" maxlength="72" required><button class="toggle" type="button" data-password="confirm" aria-label="Show confirm password" aria-pressed="false"><svg aria-hidden="true"><use href="#eye"/><path class="slash" d="m3 3 18 18"/></svg></button></div></div>
+<div class="agreement"><input type="checkbox" id="agreement" required><div><label for="agreement">I agree to the </label><button class="text-link" type="button" data-policy="Terms and Conditions">Terms and Conditions</button> and <button class="text-link" type="button" data-policy="Privacy Policy">Privacy Policy.</button></div></div>
+<p id="message" class="message" role="status" aria-live="polite"></p>
+<button class="submit" type="submit" id="submit"><span>Sign Up</span><svg aria-hidden="true"><use href="#arrow"/></svg></button>
+</form>
+<p class="footer">Already have an account? <a href="login.html">Log In</a></p>
+</div>
+</section>
+</main>
+<dialog id="policy"><h2 id="policy-title"></h2><p>This document has not been published yet. Please contact the LashMatch administrator for details.</p><form method="dialog"><button>Close</button></form></dialog>
+<svg class="symbols" aria-hidden="true"><defs>
+<symbol id="back" viewBox="0 0 24 24"><path d="M20 12H4m6-6-6 6 6 6"/></symbol><symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+<symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="6" r="4"/><path d="M3 22v-2a9 9 0 0 1 18 0v2Z"/></symbol>
+<symbol id="mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+<symbol id="lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="12" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3m-5 5v3"/></symbol>
+<symbol id="eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+</defs></svg>
+<script>
+'use strict';
+const form=document.querySelector('#signup-form'),password=document.querySelector('#password'),confirmPassword=document.querySelector('#confirm'),message=document.querySelector('#message'),submit=document.querySelector('#submit');
+function validatePasswords(){confirmPassword.setCustomValidity(confirmPassword.value!==password.value?'Your passwords do not match.':'');}
+password.addEventListener('input',validatePasswords);confirmPassword.addEventListener('input',validatePasswords);
+document.querySelectorAll('[data-password]').forEach(button=>button.addEventListener('click',()=>{const input=document.getElementById(button.dataset.password),visible=input.type==='password';input.type=visible?'text':'password';button.setAttribute('aria-pressed',String(visible));button.setAttribute('aria-label',(visible?'Hide ':'Show ')+(input.id==='confirm'?'confirm password':'password'));}));
+document.querySelectorAll('[data-policy]').forEach(button=>button.addEventListener('click',()=>{document.querySelector('#policy-title').textContent=button.dataset.policy;document.querySelector('#policy').showModal();}));
+async function request(action,data,csrf){
+ let response;try{response=await fetch('api.php?action='+action,{method:data?'POST':'GET',credentials:'same-origin',headers:data?{'Content-Type':'application/json','X-CSRF-Token':csrf}:{},body:data?JSON.stringify(data):undefined});}catch{throw new Error('Unable to connect. Please try again.');}
+ let result;try{result=await response.json();}catch{throw new Error('Account creation is unavailable. Please try again later.');}if(!response.ok)throw new Error(result.error||'Unable to create your account.');return result;
+}
+form.addEventListener('submit',async event=>{
+ event.preventDefault();validatePasswords();if(!form.reportValidity())return;
+ const name=form.elements.name.value.trim();if(!name){message.textContent='Please enter your full name.';form.elements.name.focus();return;}
+ submit.disabled=true;submit.querySelector('span').textContent='Creating account...';message.textContent='';
+ try{const session=await request('session');await request('signup',{name,email:form.elements.email.value.trim(),password:password.value},session.csrf);location.assign('home.html');}
+ catch(error){message.textContent=error.message;}
+ finally{submit.disabled=false;submit.querySelector('span').textContent='Sign Up';}
+});
+</script>
+</body>
+</html>

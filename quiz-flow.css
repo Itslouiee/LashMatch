@@ -1,0 +1,109 @@
+/* The shell stays in the viewport; only the central quiz panel can scroll. */
+html:has(body.preference-page),body.preference-page{height:100%;overflow:hidden}
+body.client-home.preference-page .dashboard{height:100dvh;min-height:0;overflow:hidden}
+body.client-home.preference-page .workspace{min-height:0;overflow:hidden;grid-template-rows:clamp(62px,9vh,78px) minmax(0,1fr)}
+body.client-home.preference-page .preference-layout{min-height:0;overflow:hidden;grid-template-rows:minmax(0,1fr) 48px;align-content:stretch}
+body.client-home.preference-page .quiz-panel{min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#df9bb1 transparent}
+body.client-home.preference-page .sidebar{min-height:0}
+body.client-home.preference-page .quiz-steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));width:100%;min-width:0}
+body.client-home.preference-page .quiz-steps li{min-width:0;text-align:center}
+body.tryon-page.finished-mode .quiz-panel{height:100%;align-self:stretch;align-content:start;grid-template-rows:72px max-content max-content 50px}
+@media(max-width:800px){
+ body.client-home.preference-page .workspace{grid-template-rows:62px minmax(0,1fr)}
+ body.client-home.preference-page .preference-layout{grid-template-rows:minmax(0,1fr) 42px}
+ body.client-home.preference-page .quiz-steps{padding:0;flex-shrink:0}
+ body.client-home.preference-page .quiz-steps li{font-size:8px;gap:7px}
+ body.client-home.preference-page .quiz-steps li>span{width:28px;height:28px;font-size:14px}
+ body.client-home.preference-page .quiz-steps li:not(:last-child)::after{top:14px;left:calc(50% + 17px);width:calc(100% - 34px)}
+ body.tryon-page.finished-mode .quiz-panel{display:flex}
+ body.tryon-page.finished-mode .quiz-panel>.question-copy,body.tryon-page.finished-mode .finished-preview{flex-shrink:0}
+}
+
+/* Final look after Finish. */
+body.client-home.preference-page.complete-mode .quiz-steps{grid-template-columns:repeat(6,minmax(0,1fr));padding:0}
+body.tryon-page.finished-mode.complete-mode .quiz-panel{grid-template-rows:72px max-content max-content 60px}
+.complete-mode .question-copy{grid-column:1/-1;grid-row:2}
+.tryon-page.complete-mode .question-copy h1{font-size:clamp(28px,3.4vw,44px)}
+.complete-mode .question-copy h1::after{content:' \2661';color:#e94379;font-weight:400}
+.complete-mode .finished-details{grid-row:3;padding:12px;gap:10px}.complete-mode .finished-details h2{font-size:19px}
+.complete-mode #finished-edit{border:1px solid #ef9bb7;background:transparent;font-size:12px;padding:5px 8px}
+.complete-mode #finished-settings{gap:8px}.complete-mode .finished-setting{grid-template-columns:36px minmax(68px,.75fr) minmax(0,1.25fr);gap:8px}.complete-mode .finished-setting-icon{width:36px;height:36px}.complete-mode .finished-setting dt,.complete-mode .finished-setting dd{font-size:11px}
+.complete-mode .finished-closeup{display:grid;grid-template-columns:minmax(0,2.15fr) minmax(0,1fr);gap:6px 12px}.complete-mode .finished-closeup>p:first-child{grid-column:1/-1;margin:0}.complete-mode #finished-eye{grid-column:1;aspect-ratio:2.15;object-fit:cover}
+.client-home .finished-closeup .final-match-note{align-self:center;margin:0;color:#d7507c;font:italic 22px/1.15 'Brush Script MT',cursive;text-align:center;transform:rotate(-9deg)}
+.final-look-badge{position:absolute;bottom:9px;left:9px;display:flex;align-items:center;gap:10px;max-width:65%;padding:9px;background:#fff4f3de;backdrop-filter:blur(8px);border-radius:10px;color:#242630}.final-look-badge .finished-setting-icon{background:transparent;flex-shrink:0}.final-look-badge strong{display:block;font-size:12px}.final-look-badge small{display:block;font-size:10px;line-height:1.35;margin-top:3px}
+.complete-mode .finished-actions{grid-template-columns:1fr 1.3fr;gap:15px}.complete-mode .finished-actions button{font-size:16px;min-height:60px}.complete-mode #finished-finish{background:linear-gradient(110deg,#d53568,#c95779);gap:12px}.complete-mode #finished-finish>span{text-align:left}.complete-mode #finished-finish small{display:block;font-size:10px;font-weight:400;line-height:1.4;margin-top:4px}.complete-mode #finished-finish svg{flex-shrink:0}
+@media(max-width:1100px) and (min-width:801px){.complete-mode .finished-setting{grid-template-columns:30px minmax(0,1fr)}.complete-mode .finished-setting-icon{width:30px;height:30px}.complete-mode .finished-details h2{font-size:16px}.complete-mode .finished-closeup{grid-template-columns:1fr}.complete-mode .final-match-note{display:none}}
+@media(max-width:800px){.complete-mode .finished-details{grid-row:2}.complete-mode .finished-actions{grid-template-columns:1fr}.complete-mode .quiz-steps li{font-size:7px}.complete-mode .final-look-badge{max-width:80%}.client-home .finished-closeup .final-match-note{font-size:18px}.complete-mode .finished-setting{grid-template-columns:32px minmax(65px,.75fr) minmax(0,1.25fr)}.complete-mode .finished-actions button{font-size:15px}.complete-mode #finished-finish small{font-size:9px}}
+
+/* Keep the entire final look, including actions, inside the available viewport. */
+body.client-home.tryon-page.finished-mode.complete-mode .quiz-panel{overflow:hidden;display:grid;grid-template-rows:56px auto minmax(0,1fr) 52px;gap:10px;padding:10px 24px 12px 32px;align-content:stretch}
+.complete-mode .finished-preview{display:contents}
+.complete-mode .finished-portrait{aspect-ratio:auto;height:100%;min-height:0}
+.complete-mode #finished-face{object-fit:contain}
+.complete-mode .finished-details{min-height:0;gap:8px;padding:10px}
+.complete-mode #finished-settings{gap:6px}
+.complete-mode .finished-setting{grid-template-columns:32px minmax(68px,.75fr) minmax(0,1.25fr);gap:7px}
+.complete-mode .finished-setting-icon{width:32px;height:32px}
+.complete-mode .finished-closeup{flex:1;min-height:0;margin-top:0;grid-template-rows:18px minmax(0,1fr);padding-top:7px}
+.complete-mode #finished-eye{width:100%;height:100%;min-height:0;aspect-ratio:auto;object-fit:contain}
+.complete-mode .finished-actions button{min-height:0;height:100%;padding:8px}
+.tryon-page.finished-mode.complete-mode .question-copy h1{font-size:clamp(27px,3.2vw,40px)}
+.tryon-page.finished-mode.complete-mode .question-copy>p:last-child{font-size:14px;margin-top:3px}
+.complete-mode .quiz-steps li{gap:5px;font-size:11px}
+.complete-mode .quiz-steps li>span{width:34px;height:34px;font-size:17px}
+.complete-mode .quiz-steps li:not(:last-child)::after{top:17px}
+@media(max-height:720px) and (min-width:801px){
+ body.client-home.tryon-page.finished-mode.complete-mode .quiz-panel{grid-template-rows:48px auto minmax(0,1fr) 46px;gap:7px;padding-top:6px;padding-bottom:6px}
+ .tryon-page.finished-mode.complete-mode .question-copy h1{font-size:30px}.tryon-page.finished-mode.complete-mode .question-copy .eyebrow{font-size:10px}
+ .complete-mode .finished-details{gap:6px;padding:8px}.complete-mode #finished-settings{gap:4px}.complete-mode .finished-setting-icon{width:26px;height:26px}.complete-mode .finished-setting{grid-template-columns:26px minmax(65px,.75fr) minmax(0,1.25fr)}.complete-mode .finished-setting dd small{font-size:9px;line-height:1.2}.complete-mode .finished-details h2{font-size:17px}
+}
+@media(max-width:800px){
+ body.client-home.tryon-page.finished-mode.complete-mode .quiz-panel{grid-template-columns:minmax(0,1fr);grid-template-rows:46px auto minmax(80px,.65fr) minmax(210px,1fr) 80px;padding:8px;gap:7px}
+ .complete-mode .quiz-steps{grid-row:1;min-height:0}.complete-mode .quiz-steps li{font-size:7px}.complete-mode .quiz-steps li>span{width:25px;height:25px;font-size:12px}.complete-mode .quiz-steps li:not(:last-child)::after{top:12px}
+ .complete-mode .question-copy{grid-column:1;grid-row:2}.tryon-page.finished-mode.complete-mode .question-copy h1{font-size:24px}.tryon-page.finished-mode.complete-mode .question-copy .eyebrow{font-size:9px}.tryon-page.finished-mode.complete-mode .question-copy>p:last-child{font-size:11px}
+ .complete-mode .finished-portrait{grid-column:1;grid-row:3}.complete-mode .finished-details{grid-column:1;grid-row:4;padding:7px;gap:4px}.complete-mode .finished-details h2{font-size:16px}
+ .complete-mode #finished-settings{gap:3px}.complete-mode .finished-setting{grid-template-columns:23px 70px minmax(0,1fr);gap:5px}.complete-mode .finished-setting-icon{width:23px;height:23px}.complete-mode .finished-setting-icon svg{width:17px;height:17px}.complete-mode .finished-setting dt,.complete-mode .finished-setting dd{font-size:10px}.complete-mode .finished-setting dd small{display:none}.complete-mode .finished-swatches span{width:17px;height:17px}.complete-mode .finished-closeup{grid-template-rows:14px minmax(0,1fr);gap:3px;padding-top:4px}.complete-mode .finished-closeup>p:first-child{font-size:11px}
+ .complete-mode .finished-actions{grid-column:1;grid-row:5;gap:5px}.complete-mode .finished-actions button{font-size:12px;padding:4px}.complete-mode .final-look-badge{padding:5px;gap:5px;max-width:75%;bottom:5px;left:5px}.complete-mode .final-look-badge small{display:none}.complete-mode .final-look-badge strong{font-size:10px}.complete-mode #finished-finish small{font-size:8px;margin-top:1px}
+}
+
+/* Fit the preview to the viewport as well, keeping both action buttons visible. */
+body.client-home.tryon-page.finished-mode.finished-mode:not(.complete-mode) .quiz-panel{overflow:hidden;display:grid;grid-template-rows:56px auto minmax(0,1fr) 52px;gap:10px;padding:10px 24px 12px 32px;align-content:stretch}
+.finished-mode:not(.complete-mode) .finished-preview{display:contents}
+.finished-mode:not(.complete-mode) .finished-portrait{aspect-ratio:auto;height:100%;min-height:0}
+.finished-mode:not(.complete-mode) #finished-face{object-fit:contain}
+.finished-mode:not(.complete-mode) .finished-details{min-height:0;gap:8px;padding:10px}
+.finished-mode:not(.complete-mode) #finished-settings{gap:6px}
+.finished-mode:not(.complete-mode) .finished-setting{grid-template-columns:32px minmax(68px,.75fr) minmax(0,1.25fr);gap:7px}
+.finished-mode:not(.complete-mode) .finished-setting-icon{width:32px;height:32px}
+.finished-mode:not(.complete-mode) .finished-closeup{flex:1;min-height:0;margin-top:0;grid-template-rows:18px minmax(0,1fr);padding-top:7px}
+.finished-mode:not(.complete-mode) #finished-eye{width:100%;height:100%;min-height:0;aspect-ratio:auto;object-fit:contain}
+.finished-mode:not(.complete-mode) .finished-actions button{min-height:0;height:100%;padding:8px}
+.tryon-page.finished-mode.finished-mode:not(.complete-mode) .question-copy h1{font-size:clamp(27px,3.2vw,40px)}
+.tryon-page.finished-mode.finished-mode:not(.complete-mode) .question-copy>p:last-child{font-size:14px;margin-top:3px}
+.finished-mode:not(.complete-mode) .quiz-steps li{gap:5px;font-size:11px}
+.finished-mode:not(.complete-mode) .quiz-steps li>span{width:34px;height:34px;font-size:17px}
+.finished-mode:not(.complete-mode) .quiz-steps li:not(:last-child)::after{top:17px}
+@media(max-height:720px) and (min-width:801px){
+ body.client-home.tryon-page.finished-mode.finished-mode:not(.complete-mode) .quiz-panel{grid-template-rows:48px auto minmax(0,1fr) 46px;gap:7px;padding-top:6px;padding-bottom:6px}
+ .tryon-page.finished-mode.finished-mode:not(.complete-mode) .question-copy h1{font-size:30px}.tryon-page.finished-mode.finished-mode:not(.complete-mode) .question-copy .eyebrow{font-size:10px}
+ .finished-mode:not(.complete-mode) .finished-details{gap:6px;padding:8px}.finished-mode:not(.complete-mode) #finished-settings{gap:4px}.finished-mode:not(.complete-mode) .finished-setting-icon{width:26px;height:26px}.finished-mode:not(.complete-mode) .finished-setting{grid-template-columns:26px minmax(65px,.75fr) minmax(0,1.25fr)}.finished-mode:not(.complete-mode) .finished-setting dd small{font-size:9px;line-height:1.2}.finished-mode:not(.complete-mode) .finished-details h2{font-size:17px}
+}
+@media(max-width:800px){
+ body.client-home.tryon-page.finished-mode.finished-mode:not(.complete-mode) .quiz-panel{grid-template-columns:minmax(0,1fr);grid-template-rows:46px auto minmax(80px,.65fr) minmax(210px,1fr) 80px;padding:8px;gap:7px}
+ .finished-mode:not(.complete-mode) .quiz-steps{grid-row:1;min-height:0}.finished-mode:not(.complete-mode) .quiz-steps li{font-size:7px}.finished-mode:not(.complete-mode) .quiz-steps li>span{width:25px;height:25px;font-size:12px}.finished-mode:not(.complete-mode) .quiz-steps li:not(:last-child)::after{top:12px}
+ .finished-mode:not(.complete-mode) .question-copy{grid-column:1;grid-row:2}.tryon-page.finished-mode.finished-mode:not(.complete-mode) .question-copy h1{font-size:24px}.tryon-page.finished-mode.finished-mode:not(.complete-mode) .question-copy .eyebrow{font-size:9px}.tryon-page.finished-mode.finished-mode:not(.complete-mode) .question-copy>p:last-child{font-size:11px}
+ .finished-mode:not(.complete-mode) .finished-portrait{grid-column:1;grid-row:3}.finished-mode:not(.complete-mode) .finished-details{grid-column:1;grid-row:4;padding:7px;gap:4px}.finished-mode:not(.complete-mode) .finished-details h2{font-size:16px}
+ .finished-mode:not(.complete-mode) #finished-settings{gap:3px}.finished-mode:not(.complete-mode) .finished-setting{grid-template-columns:23px 70px minmax(0,1fr);gap:5px}.finished-mode:not(.complete-mode) .finished-setting-icon{width:23px;height:23px}.finished-mode:not(.complete-mode) .finished-setting-icon svg{width:17px;height:17px}.finished-mode:not(.complete-mode) .finished-setting dt,.finished-mode:not(.complete-mode) .finished-setting dd{font-size:10px}.finished-mode:not(.complete-mode) .finished-setting dd small{display:none}.finished-mode:not(.complete-mode) .finished-swatches span{width:17px;height:17px}.finished-mode:not(.complete-mode) .finished-closeup{grid-template-rows:14px minmax(0,1fr);gap:3px;padding-top:4px}.finished-mode:not(.complete-mode) .finished-closeup>p:first-child{font-size:11px}
+ .finished-mode:not(.complete-mode) .finished-actions{grid-column:1;grid-row:5;gap:5px}.finished-mode:not(.complete-mode) .finished-actions button{font-size:12px;padding:4px}.finished-mode:not(.complete-mode) .final-look-badge{padding:5px;gap:5px;max-width:75%;bottom:5px;left:5px}.finished-mode:not(.complete-mode) .final-look-badge small{display:none}.finished-mode:not(.complete-mode) .final-look-badge strong{font-size:10px}.finished-mode:not(.complete-mode) #finished-finish small{font-size:8px;margin-top:1px}
+}
+
+.finished-mode:not(.complete-mode) .finished-closeup{display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
+.finished-mode:not(.complete-mode) .finished-closeup>p:first-child{margin:0}
+
+@media(min-width:801px) and (max-width:1100px){
+ .finished-mode:not(.complete-mode) .finished-setting-icon{grid-row:auto}
+ .finished-mode:not(.complete-mode) .finished-setting dt,.finished-mode:not(.complete-mode) .finished-setting dd{grid-column:auto}
+ .finished-mode:not(.complete-mode) .finished-setting{grid-template-columns:26px 65px minmax(0,1fr)}
+ .finished-mode:not(.complete-mode) .finished-setting dd small{font-size:9px;line-height:1.2}
+ .finished-mode:not(.complete-mode) .finished-details h2{font-size:17px}
+}

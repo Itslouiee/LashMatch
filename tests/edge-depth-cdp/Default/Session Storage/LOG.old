@@ -1,0 +1,4 @@
+2026/09/26-06:28:44.052 b54 Reusing MANIFEST C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default\Session Storage/MANIFEST-000001
+2026/09/26-06:28:44.053 b54 Recovering log #3
+2026/09/26-06:28:44.053 b54 (ignoring error) C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default\Session Storage/000003.log: dropping 1668 bytes; Corruption: checksum mismatch
+2026/09/26-06:28:44.055 b54 Reusing old log C:\xampp\htdocs\Lash-Match-main-main\tests\edge-depth-cdp\Default\Session Storage/000003.log 

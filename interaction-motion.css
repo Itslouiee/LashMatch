@@ -1,0 +1,33 @@
+/* Shared micro-interactions for both client and administrator pages. */
+:root{--motion-ease:cubic-bezier(.22,.8,.25,1);--motion-rose:rgba(190,83,123,.28)}
+:where(button,a[href],[role="button"],summary,label.preference-option,[data-select]){
+ transition:scale 180ms var(--motion-ease),translate 220ms var(--motion-ease),box-shadow 220ms ease,background-color 180ms ease,color 180ms ease,border-color 180ms ease;
+ -webkit-tap-highlight-color:transparent;
+}
+:where(input,select,textarea,.input-wrap){transition:border-color 180ms ease,box-shadow 220ms ease,background-color 180ms ease}
+:where(input,select,textarea):focus-visible{outline:2px solid #b8537b;outline-offset:3px}
+@media(hover:hover) and (pointer:fine){
+ :where(button,a.button,a.live-button,.nav-item,.feature-card,.look-card,.studio-card,.preference-option,summary):not(:disabled):not([aria-disabled="true"]):hover{translate:0 -2px}
+ :where(.button,.submit,.live-button,.feature-card,.look-card,.studio-card,.preference-option):not(:disabled):hover{box-shadow:0 7px 20px rgba(158,68,103,.13)}
+ :where(.nav-item):hover{box-shadow:inset 3px 0 0 rgba(190,83,123,.5)}
+}
+:where(button,a.button,a.live-button,.nav-item,[role="button"],summary,.preference-option,[data-select]):not(:disabled):not([aria-disabled="true"]):active{scale:.965;translate:0 1px;transition-duration:85ms}
+:where(button,a.button,a.live-button,.nav-item,[role="button"],summary):focus-visible{box-shadow:0 0 0 5px rgba(190,83,123,.13)}
+:where(.favorite,.favorite-studio,.saved-heart,[data-role])[aria-pressed="true"]{transition:background-color 200ms ease,color 200ms ease,box-shadow 200ms ease,scale 180ms var(--motion-ease)}
+.lm-click-bloom{position:fixed;display:block;width:34px;height:34px;pointer-events:none!important;border:1px solid rgba(191,90,129,.4);border-radius:50%;background:radial-gradient(circle,rgba(255,239,247,.5),rgba(221,126,162,.17) 65%,transparent 70%);z-index:2147483647;margin:0;box-sizing:border-box}
+@media(prefers-reduced-motion:no-preference){
+ body{animation:lm-page-in 260ms ease-out both}
+ dialog[open]{animation:lm-dialog-in 250ms var(--motion-ease) both}
+ dialog[open]::backdrop{animation:lm-backdrop-in 220ms ease-out both}
+ .toast.visible,#toast.visible{animation:lm-notice-in 220ms var(--motion-ease)}
+ @keyframes lm-page-in{from{opacity:0}to{opacity:1}}
+ @keyframes lm-dialog-in{from{opacity:0;scale:.965;translate:0 10px}to{opacity:1;scale:1;translate:0 0}}
+ @keyframes lm-backdrop-in{from{opacity:0}to{opacity:1}}
+ @keyframes lm-notice-in{from{opacity:0;scale:.97}to{opacity:1;scale:1}}
+}
+@media(prefers-reduced-motion:reduce){
+ :where(button,a[href],[role="button"],summary,label.preference-option,[data-select],input,select,textarea,.input-wrap){transition:none!important}
+ :where(button,a.button,a.live-button,.nav-item,.feature-card,.look-card,.studio-card,.preference-option,[role="button"],summary,[data-select]):hover,
+ :where(button,a.button,a.live-button,.nav-item,.preference-option,[role="button"],summary,[data-select]):active{scale:none;translate:none}
+ .lm-click-bloom{display:none}
+}

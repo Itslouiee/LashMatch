@@ -1,0 +1,6 @@
+2026/09/17-20:57:47.331 18e0 Reusing MANIFEST C:\xampp\htdocs\LashMatch\.edge-preview-check\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/09/17-20:57:47.333 18e0 Recovering log #7
+2026/09/17-20:57:47.334 18e0 Reusing old log C:\xampp\htdocs\LashMatch\.edge-preview-check\Default\EdgeCoupons/coupons_data.db/000007.log 
+2026/09/17-20:57:47.505 2064 Level-0 table #11: started
+2026/09/17-20:57:47.509 2064 Level-0 table #11: 683444 bytes OK
+2026/09/17-20:57:47.513 2064 Delete type=0 #7

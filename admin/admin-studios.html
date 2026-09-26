@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studios | LashMatch Admin</title>
+<link rel="stylesheet" href="admin.css"><link rel="stylesheet" href="admin-interactions.css"><link rel="stylesheet" href="admin-live.css"><link rel="stylesheet" href="../vendor/leaflet/leaflet.css"><script src="../vendor/leaflet/leaflet.js" defer></script><script src="admin-studio-map.js?v=leaflet-1" defer></script><script src="admin-live.js?v=leaflet-1" defer></script>
+<link rel="stylesheet" href="admin-preferences.css">
+<link rel="stylesheet" href="../interaction-motion.css?v=1"><script src="../interaction-motion.js?v=1" defer></script><link rel="stylesheet" href="admin-lash-styles.css?v=native1"><link rel="stylesheet" href="admin-studios.css?v=leaflet-1"></head>
+<body class="admin-page lash-styles-page studios-page">
+<div class="admin-shell">
+<aside class="sidebar">
+<a class="brand" href="admin.html" aria-label="LashMatch dashboard"><svg viewBox="25 20 250 65" role="img" aria-label="LashMatch — Beauty meets you"><image href="ref2.png" width="1833" height="1031"/></svg></a>
+<nav aria-label="Admin navigation">
+<a class="nav-item" href="admin.html" aria-label="Dashboard"><svg><use href="#home"/></svg><span>Dashboard</span></a>
+<a class="nav-item" href="admin-lash-styles.html" aria-label="Lash Styles"><svg><use href="#lashes"/></svg><span>Lash Styles</span></a>
+<a class="nav-item criteria-nav" href="admin-recommendation-criteria.html" aria-label="Recommendation Criteria"><svg><use href="#criteria"/></svg><span>Recommendation<br>Criteria</span></a>
+<a class="nav-item active" aria-current="page" href="admin-studios.html" aria-label="Studios"><svg><use href="#pin"/></svg><span>Studios</span></a>
+<a class="nav-item" href="admin-studio-capabilities.html" aria-label="Studio Capabilities"><svg><use href="#shop"/></svg><span>Studio Capabilities</span></a>
+<a class="nav-item" href="admin-users-results.html" aria-label="Users &amp; Results"><svg><use href="#users"/></svg><span>Users &amp; Results</span></a>
+<a class="nav-item" href="admin-settings.html" aria-label="Settings"><svg><use href="#settings"/></svg><span>Settings</span></a>
+</nav>
+<div class="logout-wrap"><a class="nav-item" href="login.html" aria-label="Logout"><svg><use href="#logout"/></svg><span>Logout</span></a></div>
+<div class="sidebar-art"><svg viewBox="166 778 250 259" role="img" aria-label="More than lashes, more confidence."><image href="studio.png" width="1920" height="1080"/></svg></div>
+</aside>
+<main class="workspace">
+<header class="topbar">
+<form id="admin-search-form" role="search"><svg><use href="#search"/></svg><input id="admin-search" type="search" placeholder="Search studios, locations, or keywords..." aria-label="Search studios, locations, or keywords"></form>
+<div class="top-actions"><button class="notification-button" id="notifications" aria-label="View notifications"><svg><use href="#bell"/></svg><span class="notification-dot"></span></button><button class="profile-button" id="profile"><span class="avatar">A</span><span class="profile-copy"><strong>Admin</strong><small>System Administrator</small></span><svg><use href="#chevron"/></svg></button></div>
+</header>
+
+
+<div class="studio-layout">
+<section class="studio-catalog">
+<header class="studio-heading"><div><h1>Manage Studios</h1><p>Add, edit, or remove lash studios that will appear in the studio locator.</p></div><button class="pink-button" id="add-studio"><span aria-hidden="true">＋</span> Add Studio</button></header>
+<form class="style-filters" id="studio-filters"><label class="style-search"><svg aria-hidden="true"><use href="#search"/></svg><input id="studio-search" type="search" placeholder="Search studios..." aria-label="Search studios"></label><select id="city-filter" aria-label="Filter by city"><option value="">All Cities</option></select><select id="status-filter" aria-label="Filter by status"><option value="">All Status</option><option>Active</option><option>Inactive</option></select><button type="reset" class="reset-button">Reset</button></form>
+<div class="styles-table-card"><div class="table-scroll" tabindex="0" role="region" aria-label="Studios table"><table class="styles-table studio-table"><thead><tr><th class="check-cell"><input id="select-all" type="checkbox" aria-label="Select all studios on this page"></th><th>Image</th><th>Studio Name</th><th>Location</th><th>Contact</th><th>Rating</th><th>Status</th><th>Actions</th></tr></thead><tbody id="studio-body"></tbody></table></div><footer class="table-footer"><span id="entry-count" role="status"></span><div class="pagination" aria-label="Table pagination"><button id="previous-page" aria-label="Previous page">‹</button><span id="current-page" aria-current="page">1</span><button id="next-page" aria-label="Next page">›</button></div></footer></div><p class="local-data-note">Preview catalog · Changes are saved in this browser only.</p>
+</section>
+<aside class="style-editor studio-editor" id="studio-editor" aria-labelledby="editor-title"><div class="editor-heading"><h2 id="editor-title">Add New Studio</h2><button id="close-editor" aria-label="Close studio form">×</button></div>
+<form id="studio-form">
+<label class="editor-field">Studio Name <span class="required">*</span><input id="studio-name" name="name" placeholder="e.g. ABG Studios" required maxlength="100"></label>
+<label class="editor-field">Address <span class="required">*</span><textarea id="studio-address" name="address" placeholder="e.g. 123 Beauty St., Quezon City" required maxlength="250"></textarea></label>
+<div class="studio-field-pair"><label class="editor-field">City/Municipality <span class="required">*</span><select id="studio-city" required><option value="">Select city</option></select></label><label class="editor-field">Province <span class="required">*</span><select id="studio-province" required><option value="">Select province</option><option>Metro Manila</option><option>Bulacan</option><option>Cavite</option><option>Laguna</option><option>Rizal</option><option value="__custom">Other province…</option></select></label></div>
+<div class="studio-field-pair"><label class="editor-field">Latitude (optional)<input id="studio-latitude" type="number" min="-85" max="85" step="any" placeholder="e.g. 14.4297" required></label><label class="editor-field">Longitude (optional)<input id="studio-longitude" type="number" min="-180" max="180" step="any" placeholder="e.g. 120.9367" required></label></div>
+<div class="studio-map-preview"><div id="studio-location-preview" aria-label="Selected studio location preview"></div><button type="button" class="pink-button" id="pick-location"><svg aria-hidden="true"><use href="#pin"/></svg>Pick Location on Map</button></div><p id="studio-location-status" role="status"></p>
+<label class="editor-field">Contact Number<input id="studio-phone" type="tel" placeholder="e.g. 0917 123 4567" maxlength="30"></label>
+<label class="editor-field">Facebook Page<span class="social-field"><svg aria-hidden="true"><use href="#facebook"/></svg><input id="studio-facebook" placeholder="e.g. https://facebook.com/yourstudio" maxlength="200"></span></label>
+<label class="editor-field">Instagram<span class="social-field"><svg aria-hidden="true"><use href="#instagram"/></svg><input id="studio-instagram" placeholder="e.g. @yourstudio" maxlength="100"></span></label>
+<label class="editor-field">Rating (Optional)<span class="rating-field"><input id="studio-rating" type="number" min="0" max="5" step="0.1" placeholder="4.8"><small>(e.g. 4.8)</small></span></label>
+<div class="editor-field studio-image-field"><label for="studio-image">Studio Image <span class="required">*</span></label><div class="upload-layout"><label class="upload-zone" id="upload-zone" for="studio-image"><svg aria-hidden="true"><use href="#upload"/></svg><span>Click to upload an image<small>or drag and drop<br>(PNG, JPG - Max 2MB)</small></span><input id="studio-image" type="file" accept="image/png,image/jpeg" aria-label="Upload studio image, PNG or JPG, maximum 2 MB"></label><div class="upload-preview" id="upload-preview"><svg viewBox="1617 848 118 101" role="img" aria-label="Example studio photo"><image href="studio.png" width="1920" height="1080"/></svg></div></div></div>
+<label class="editor-field studio-status">Status <span class="required">*</span><select id="studio-status"><option>Active</option><option>Inactive</option></select></label>
+<p id="form-message" role="alert"></p><div class="editor-buttons"><button type="button" class="cancel-button" id="cancel-studio">Cancel</button><button type="submit" class="pink-button" id="save-studio">Save</button></div>
+</form></aside>
+</div><div class="styles-toast" id="studio-toast" role="status" hidden></div>
+</main>
+</div>
+<dialog id="admin-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close dialog">×</button><h2 id="dialog-title"></h2><div id="dialog-content"></div></dialog>
+<svg class="icon-library" aria-hidden="true"><defs>
+<symbol id="home" viewBox="0 0 24 24"><path d="m2 10 10-8 10 8v12h-7v-8H9v8H2Z"/></symbol>
+<symbol id="lashes" viewBox="0 0 24 24"><path d="M2 7c4 7 16 7 20 0M3 9l-2 2m5 1-2 3m5-2-1 4m4-3v4m3-5 1 4m2-5 2 3m1-6 2 2"/></symbol>
+<symbol id="criteria" viewBox="0 0 24 24"><path d="m6 2 1.5 3L10 7 7.5 9 6 12 4.5 9 2 7l2.5-2ZM6 14l1 2 2 1-2 2-1 3-1-3-2-2 2-1ZM14 7h8m-8 10h8m-8-5h4"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="shop" viewBox="0 0 24 24"><path d="m3 3-2 7c0 4 5 4 5 0 0 4 6 4 6 0 0 4 6 4 6 0 0 4 5 4 5 0l-2-7ZM3 13v9h7v-7h5v7h6v-9M7 3l-1 7m12 0-1-7"/></symbol>
+<symbol id="users" viewBox="0 0 24 24"><circle cx="9" cy="6" r="4"/><path d="M2 22v-3a7 7 0 0 1 14 0v3Zm15-7a6 6 0 0 1 6 6v1M17 3a4 4 0 0 1 0 8"/></symbol>
+<symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="6" r="4"/><path d="M3 22v-3a9 9 0 0 1 18 0v3Z"/></symbol>
+<symbol id="settings" viewBox="0 0 24 24"><path d="m9 2-1 3-3-1-2 3 2 3-3 1v3l3 1-1 3 3 2 3-2 1 4h3l1-3 3 1 2-3-2-3 3-1v-3l-3-1 1-3-3-2-3 2-1-4Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="logout" viewBox="0 0 24 24"><path d="M14 3H3v18h11m-5-9h14m-5-5 5 5-5 5"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="7"/><path d="m15 15 7 7"/></symbol>
+<symbol id="bell" viewBox="0 0 24 24"><path d="M3 18h18l-3-5V8A6 6 0 0 0 6 8v5Zm6 3a3 3 0 0 0 6 0M12 2V0"/></symbol>
+<symbol id="chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+<symbol id="document" viewBox="0 0 24 24"><path d="M3 2h12l6 6v14H3Zm12 0v7h6M7 7h3m-3 6h10M7 17h10m-10 3h6"/></symbol>
+<symbol id="edit" viewBox="0 0 24 24"><path d="m15 3 5 5M4 16 17 3a2 2 0 0 1 3 3L7 19l-4 1Zm-1 6h18"/></symbol><symbol id="trash" viewBox="0 0 24 24"><path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/></symbol><symbol id="upload" viewBox="0 0 24 24"><path d="M12 16V2m-6 6 6-6 6 6M3 15v7h18v-7"/></symbol><symbol id="phone" viewBox="0 0 24 24"><path d="m6 2 4 5-3 3c2 4 3 5 7 7l3-3 5 4c-1 5-5 5-8 3C7 18 2 12 2 6c0-2 1-4 4-4Z"/></symbol><symbol id="instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".7"/></symbol><symbol id="facebook" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor" stroke="none"/><path d="M14 5h-2c-2 0-3 1-3 3v14m-3-11h9" stroke="white" stroke-width="2"/></symbol><symbol id="rating-star" viewBox="0 0 24 24"><path d="m12 1 3.4 7 7.6 1-5.5 5.5 1.3 7.5-6.8-3.6L5.2 22l1.3-7.5L1 9l7.6-1Z"/></symbol></defs></svg>
+</body></html>
