@@ -81,3 +81,17 @@ function renderQuizProgress(activeStep, completedThrough=activeStep-1){
  const labels=["Preferences","Volume","Occasion","Match","Preview","Search","Studios"];
  progress.innerHTML=labels.map((label,index)=>'<li'+(index===activeStep?' aria-current="step"':index<=completedThrough?' class="done"':'')+'><span>'+(index+1)+'</span>'+label+'</li>').join('');
 }
+
+$$('[data-sidebar-logout]').forEach(button=>button.addEventListener('click',async()=>{
+ if(button.disabled)return;
+ button.disabled=true;button.setAttribute('aria-busy','true');
+ const label=button.querySelector('span');label.textContent='Logging out...';
+ try{
+  await api('logout',{});
+  if(typeof stopCamera==='function')stopCamera();
+  location.replace('login.html');
+ }catch(error){
+  toast(error.message||'Unable to log out. Please try again.');
+  button.disabled=false;button.removeAttribute('aria-busy');label.textContent='Logout';
+ }
+}));

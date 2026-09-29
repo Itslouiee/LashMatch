@@ -40,7 +40,7 @@ function saveQuizScores(PDO $db,string $key,array $scores): void {
         $allowed=$db->query('SELECT id FROM lash_styles WHERE is_active=1 AND is_archived=0 FOR UPDATE')->fetchAll(PDO::FETCH_COLUMN);
         $clean=[];
         foreach($scores as $id=>$points){
-            if(!ctype_digit((string)$id)||!in_array((int)$id,array_map('intval',$allowed),true)||!is_int($points)||$points<0||$points>100)throw new InvalidArgumentException('Use active lash styles and whole-number points from 0 to 100.');
+            if(!ctype_digit((string)$id)||!in_array((int)$id,array_map('intval',$allowed),true)||!is_int($points)||$points<0||$points>3)throw new InvalidArgumentException('Use active lash styles and whole-number points from 0 to 3.');
             $clean[(int)$id]=$points;
         }
         if(!array_filter($clean))throw new InvalidArgumentException('Give at least one lash style points.');

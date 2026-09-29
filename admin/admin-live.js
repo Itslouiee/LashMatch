@@ -132,20 +132,20 @@ function editRule(volume){
  editing=volume;const r=data.rules.find(r=>r.volume===volume);$('#criteria-editor').hidden=false;$('.styles-layout').classList.remove('editor-closed');$('#editor-title').textContent='Edit Recommendation';
  $('#criteria-name').value=r.label;$('#criteria-name').readOnly=true;$('#criteria-category').innerHTML='<option>'+esc(r.category)+'</option>';$('#criteria-category').disabled=true;$('#criteria-description').value='Lash style points for '+r.label+'.';$('#criteria-description').readOnly=true;$('#criteria-status').value=r.style_ids.length?'Active':'Inactive';$('#criteria-status').disabled=true;
  $('#option-list').textContent=r.label;const active=data.styles.filter(s=>Number(s.is_active)&&!Number(s.is_archived));
- $('#linked-options').innerHTML=active.map(s=>'<label class="quiz-score-row"><span>'+esc(s.name)+'</span><input type="number" data-style-score="'+s.id+'" aria-label="'+esc(s.name)+' points" min="0" max="100" step="1" required value="'+(r.scores[s.id]||0)+'"><span>pts</span></label>').join('');$('#linked-summary').textContent='Lash Style Points';$('#linked-picker').open=true;$('#form-message').textContent='';
+ $('#linked-options').innerHTML=active.map(s=>'<label class="quiz-score-row"><span>'+esc(s.name)+'</span><input type="number" data-style-score="'+s.id+'" aria-label="'+esc(s.name)+' points" min="0" max="3" step="1" required value="'+(r.scores[s.id]||0)+'"><span>pts</span></label>').join('');$('#linked-summary').textContent='Lash Style Points';$('#linked-picker').open=true;$('#form-message').textContent='';
 
 }
 function initCriteria(){
  $('#category-filter').innerHTML='<option value="">All Categories</option><option>Preference</option><option>Lifestyle</option>';$('#add-criteria').hidden=true;$('#add-option').hidden=true;
  bindFilters('#criteria-search','#criteria-filters');$('#close-editor').onclick=$('#cancel-criteria').onclick=()=>{$('#criteria-editor').hidden=true;$('.styles-layout').classList.add('editor-closed');};
- $('#criteria-form').onsubmit=e=>{e.preventDefault();if(!e.target.reportValidity())return;const scores=Object.fromEntries($$('[data-style-score]').map(input=>[input.dataset.styleScore,Number(input.value)]));if(!Object.values(scores).some(n=>n>0)){$('#form-message').textContent='Give at least one lash style points.';return;}save(e.target,'admin_quiz_scores_save',{key:editing,scores},()=>editRule(editing));};editRule(data.rules.find(r=>r.volume==='experience:first-time')?.volume||data.rules[0].volume);
+ $('#criteria-form').onsubmit=e=>{e.preventDefault();if(!e.target.reportValidity())return;const scores=Object.fromEntries($$('[data-style-score]').map(input=>[input.dataset.styleScore,Number(input.value)]));if(Object.values(scores).some(n=>!Number.isInteger(n)||n<0||n>3)){$('#form-message').textContent='Use whole-number points from 0 to 3 per lash style.';return;}if(!Object.values(scores).some(n=>n>0)){$('#form-message').textContent='Give at least one lash style points.';return;}save(e.target,'admin_quiz_scores_save',{key:editing,scores},()=>editRule(editing));};editRule(data.rules.find(r=>r.volume==='experience:first-time')?.volume||data.rules[0].volume);
 }
 function clientRows(){return data.users.filter(u=>u.role==='user');}
-function userStatus(u){return !Number(u.is_active)?'Inactive':u.quiz_count?'Completed':'Registered';}
+function userStatus(u){return Number(u.is_active)?'Active':'Inactive';}
 function users(){
  const clients=clientRows(),q=$('#users-search').value.toLowerCase(),state=$('#status-filter').value,style=$('#lash-filter').value;
  $('#total-users').textContent=clients.length;$('#completed-users').textContent=data.summary.completed_quizzes;$('#generated-users').textContent=data.summary.completed_tryons;$('#saved-users').textContent=data.saved.filter(s=>s.kind==='looks'&&clients.some(u=>Number(u.id)===Number(s.user_id))).length;
- $$('.users-stats .stat-card p').forEach(p=>p.textContent='From registered client accounts');
+ const descriptions=['Registered client accounts','Total submissions, including retakes','Completed client try-on sessions','Lash styles saved by clients'];$$('.users-stats .stat-card p').forEach((p,i)=>p.textContent=descriptions[i]);
  const rows=clients.filter(u=>{const m=data.matches.find(m=>Number(m.user_id)===Number(u.id)),day=(m?.created_at||u.created_at).slice(0,10);return (u.name+' '+u.email).toLowerCase().includes(q)&&(!state||userStatus(u)===state)&&(!style||m?.style===style)&&(!$('#date-from').value||day>=$('#date-from').value)&&(!$('#date-to').value||day<=$('#date-to').value);});
  const list=countRows(rows,7);
  $('#users-body').innerHTML=list.map(u=>{const m=data.matches.find(m=>Number(m.user_id)===Number(u.id)),saved=data.saved.filter(s=>Number(s.user_id)===Number(u.id)&&s.kind==='studios'&&s.available);return '<tr>'+check(u.id)+'<td><strong>'+esc(u.name)+'</strong><small>'+esc(u.email)+'</small></td><td>'+esc(m?.style||'No quiz yet')+'</td><td>'+Number(u.tryon_count)+' completed try-ons</td><td>'+saved.length+' saved studios</td><td>'+esc(m?.created_at||u.created_at)+'</td><td>'+pill(userStatus(u),Number(u.is_active))+'</td><td><div class="row-actions"><button data-user="'+u.id+'" aria-label="View '+esc(u.name)+'">'+icon('edit')+'</button><button data-user-status="'+u.id+'" aria-label="'+(Number(u.is_active)?'Deactivate':'Activate')+'">'+icon('settings')+'</button></div></td></tr>';}).join('')||'<tr><td colspan="8" class="empty-row">No matching users.</td></tr>';
@@ -159,14 +159,14 @@ function userDetail(id,tab='quiz'){
  return matches.map(m=>'<article><h3>'+esc(m.style)+'</h3><p>'+esc([m.volume,m.occasion,m.experience].filter(Boolean).join(' / '))+'</p><small>'+esc(m.created_at)+'</small></article>').join('')||'<p>No quiz results yet.</p>';
 }
 function showUser(id){
- editing=id;const u=data.users.find(u=>Number(u.id)===id);$('#user-details').hidden=false;$('#user-profile').innerHTML='<h3>'+esc(u.name)+'</h3><p>'+esc(u.email)+'</p>';$('#user-tab-panel').innerHTML=userDetail(id);
+ editing=id;const u=data.users.find(u=>Number(u.id)===id);$('#user-details').hidden=false;$('.users-layout').classList.remove('details-closed');$('#user-profile').innerHTML='<h3>'+esc(u.name)+'</h3><p>'+esc(u.email)+'</p>';$('#user-tab-panel').innerHTML=userDetail(id);
  $$('[data-tab]').forEach(b=>b.onclick=()=>{$$('[data-tab]').forEach(t=>t.setAttribute('aria-selected',String(t===b)));$('#user-tab-panel').innerHTML=userDetail(id,b.dataset.tab);});
  $('#full-result').onclick=()=>open(u.name,userDetail(id)+userDetail(id,'look')+userDetail(id,'studios'));
 }
 function initUsers(){
  $('#lash-filter').innerHTML='<option value="">All Lash Styles</option>'+data.styles.map(s=>'<option>'+esc(s.name)+'</option>').join('');bindFilters('#users-search','#users-filters');
  $('#apply-dates').onclick=()=>{if($('#date-from').value&&$('#date-to').value&&$('#date-from').value>$('#date-to').value){$('#date-error').textContent='Choose a valid date range.';return;}$('#date-error').textContent='';$('#date-filter').open=false;gridPage=1;users();};
- $('#clear-dates').onclick=()=>{$('#date-from').value=$('#date-to').value='';users();};$('#close-details').onclick=()=>{$('#user-details').hidden=true;};$('#user-details').hidden=true;
+ $('#clear-dates').onclick=()=>{$('#date-from').value=$('#date-to').value='';users();};$('#close-details').onclick=()=>{$('#user-details').hidden=true;$('.users-layout').classList.add('details-closed');};$('#user-details').hidden=true;$('.users-layout').classList.add('details-closed');
 }
 function dashboard(){
  const s=data.summary,stats=[s.clients,s.lash_styles,s.active_studios,s.completed_quizzes];
@@ -233,7 +233,6 @@ $('.logout-wrap a').onclick=e=>{e.preventDefault();logout();};
  try{const p=JSON.parse(localStorage.getItem('lashmatch-admin-display-'+data.user.id)||'{}');document.body.dataset.adminTheme=p.theme==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):(p.theme||'light');document.body.dataset.adminDensity=p.compact?'compact':'comfortable';}catch{}
  ({'admin-lash-styles.html':initStyles,'admin-studios.html':initStudios,'admin-studio-capabilities.html':initCapabilities,'admin-users-results.html':initUsers,'admin-recommendation-criteria.html':initCriteria,'admin-settings.html':initSettings}[page]||initDashboard)();
  $$('.local-data-note').forEach(p=>p.textContent='Saved to your LashMatch database.');
- const link=document.createElement('a');link.href='../home.html';link.className='nav-item';link.textContent='Open client side';$('.logout-wrap').prepend(link);
  await refresh();status.hidden=true;document.body.classList.add('live-ready');
 }catch(e){status.textContent=e.message+' Refresh this page to retry.';}})();
 addEventListener('pageshow',e=>{if(e.persisted)location.reload();});

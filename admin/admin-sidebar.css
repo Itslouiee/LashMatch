@@ -1,0 +1,16 @@
+/* Shared client-style navigation for all admin pages. */
+.admin-page .admin-shell{max-width:none;width:100%;margin:0;grid-template-columns:230px minmax(0,1fr)}
+.admin-page .sidebar{position:sticky;top:0;height:100dvh;overflow-y:auto;align-self:start;padding:24px 15px 0;background:#fdf0f3}
+.admin-page .sidebar .brand{margin:0;text-align:center;font:700 34px/1.1 Georgia,serif;letter-spacing:-1px;color:#242630}
+.admin-page .sidebar .brand span{color:#c84973}.admin-page .sidebar .brand small{display:block;margin-top:7px;font:600 7px/1.4 Arial,sans-serif;letter-spacing:2px;color:#242630}
+.admin-page .sidebar nav{display:grid;gap:8px;margin-top:32px;overflow:visible;flex-shrink:0}
+.admin-page .sidebar .nav-item{display:flex;align-items:center;gap:14px;min-height:44px;padding:12px 15px;border:0;border-radius:17px;background:transparent;color:#333e4a;font:400 14px/1.4 Arial,sans-serif;letter-spacing:0;text-align:left}
+.admin-page .sidebar .nav-item svg{width:23px;height:23px;flex-shrink:0}
+.admin-page .sidebar .nav-item.active{background:#fadce5;color:#bd4e70;font-weight:400}
+.admin-page .sidebar .nav-item:hover{background:#fadce5;color:#a13659}
+.admin-page .sidebar .criteria-nav{margin:0;min-height:44px}
+.admin-page .sidebar .logout-wrap{margin:8px 0 0;padding:0;border:0;flex-shrink:0}
+.admin-page .sidebar .sidebar-logout{color:#b54869;margin-top:6px;border-top:1px solid #efd4de;border-radius:0;padding-top:15px}
+.admin-page .sidebar .sidebar-logout:hover{border-radius:12px}
+.admin-page .sidebar .sidebar-art{margin-top:auto;padding-top:24px;min-height:0}
+@media(max-width:800px){.admin-page .admin-shell{grid-template-columns:65px minmax(0,1fr)}.admin-page .sidebar{padding:18px 8px 0}.admin-page .sidebar .brand{font-size:18px;overflow-wrap:anywhere}.admin-page .sidebar .brand small,.admin-page .sidebar .nav-item span,.admin-page .sidebar .sidebar-art{display:none}.admin-page .sidebar .brand span{display:inline}.admin-page .sidebar nav{margin-top:22px;gap:8px}.admin-page .sidebar .nav-item{justify-content:center;padding:10px;min-height:44px}.admin-page .sidebar .sidebar-logout{padding-top:15px}}

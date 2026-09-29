@@ -35,12 +35,18 @@ foreach(['light','medium','full','mega'] as $volume)foreach(array_keys(quizConte
     if(count($match['recommended_styles'])<1||count($match['recommended_styles'])>4||array_diff(array_values($match['style_scores']),[3,6,9]))throw new RuntimeException('Invalid combined scores');
 }
 echo "PASS: all 64 answer combinations.\n";
-saveQuizScores($db,'experience:first-time',[$classic=>8,$fox=>1]);
+saveQuizScores($db,'experience:first-time',[$classic=>2,$fox=>1]);
 $rules=array_column(recommendationRules($db),null,'volume');
-scoreCheck($rules['experience:first-time']['scores'][$classic]===8,'Custom points survive a settings reload');
-$match=resolveRecommendation($db,'light','first-time','night');
-scoreCheck($match['style']==='Classic'&&$match['style_scores']['Classic']===8&&$match['style_scores']['Fox Eye']===7,'Custom points are added exactly and change the winner');
-saveQuizScores($db,'experience:first-time',[$classic=>0,$fox=>100]);
-$match=resolveRecommendation($db,'light','first-time','night');
-scoreCheck($match['style_scores']['Fox Eye']===106&&!isset($match['style_scores']['Classic']),'Zero excludes a style and 100 points are supported');
+scoreCheck($rules['experience:first-time']['scores'][$classic]===2,'Custom points within 0 to 3 survive a reload');
+foreach ([4,100,-1,1.5] as $invalid) {
+    $rejected=false;
+    try { saveQuizScores($db,'experience:first-time',[$classic=>$invalid]); }
+    catch (InvalidArgumentException $e) { $rejected=true; }
+    scoreCheck($rejected,'Invalid points rejected: '.$invalid);
+}
+$rules=array_column(recommendationRules($db),null,'volume');
+scoreCheck($rules['experience:first-time']['scores'][$classic]===2,'Rejected saves preserve existing scores');
+saveQuizScores($db,'experience:first-time',[$classic=>0,$fox=>3]);
+$rules=array_column(recommendationRules($db),null,'volume');
+scoreCheck($rules['experience:first-time']['scores'][$classic]===0&&$rules['experience:first-time']['scores'][$fox]===3,'Both boundary values 0 and 3 are accepted');
 echo "Live settings unchanged.\n";
